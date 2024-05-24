@@ -1,0 +1,1035 @@
+﻿#Is fxDreema for me?
+fxDreema is a software tool that helps you to create programs (Expert Advisors and Scripts) for MetaTrader 4 and MetaTrader 5 (by MetaQuotes Software Corp).
+The normal way of creating such programs is to manually code them using special programming languages, such as MQL4 or MQL5. Of course, not everyone is a programmer, so if you only want to try some trading strategies without coding them from scratch, you are in the right place.
+More than that, fxDreema is also suitable for programmers, because it's so easy to make small or big changes in the program.
+#How does it work?
+fxDreema allows you to connect blocks in a logical tree. Each block does some complex action and you can fine-tune it by editing its parameters. The end goal is to generate a program - the output product of fxDreema.
+Here is how fxDreema looks like (without the list of available blocks):
+You can imagine that every block is a module, a black box designed to do something - either to check certain conditions or do some actions. Each block has one input and at least one output. When the block does what it has to do, it activates its output, which means that if there are other blocks connected to it, they will be the next to run. There are 3 types of outputs:
+*  becomes active when the block succeed to do what it is designed to do
+*  is normally active when  is not, but there are some exceptions
+*  is used in trading (action) blocks and it becomes active when there was an error happened inside the block
+By selecting the proper blocks and connecting their outputs with the inputs of other blocks, you can create many different trading structures.
+When you are done, you can export/save the actual program and use it in your trading terminal. It is strongly recommended to backtest it first!
+
+
+Overall features
+* fxDreema has been online since November 2011
+* fxDreema uses graphical blocks to build a strategy. Each block has input parameters to change its behaviour
+* The output product of fxDreema is a file with one of the following extensions - .mq4, .ex4, .mq5 or .ex5
+* Compatible with MetaTrader 4 and MetaTrader 5
+* No, it cannot be used to build custom indicators (... for now)
+* It can be used for free. It stops exporting files when certain number of connections between blocks is reached
+* It's a Web application, but it's also available as a Windows program and in this case it can work offline
+* Support - by now, almost all questions got an answer. You can ask something on e-mail or in the Forum (preferable, because the information stays there and other people can use it)
+Main features of the builder
+* Work with events like - Init, Timer, Tick, Trade, Chart or Deinit
+* Trailing Stop - you can also trail take-profit, pending orders or group of trades (in MT4)
+* Global Constants (inputs of the project) and Variables can be used
+* Break Even
+* Money managements - Risk %, Fibonacci, fully customizable Martingale, Custom sequence and more...
+* Check dynamic values easily (from indicators, for example)
+* Draw and control graphical objects on the main chart window or in a subwindow - arrows, lines, text, fibonacci and others
+* Send messages to e-mail, website or smartphone
+* Write data to file
+* Terminal Variables
+* Custom blocks can be created and used within projects
+* Cut, Copy, Paste
+* History of actions, so you can undo few actions at any time
+* No need to save a project, just mark the current point in the actions History and it will not be deleted
+* A copy of the project is stored in the source code files that you export
+* Source code files (built with fxDreema) can be imported back into fxDreema, which creates a new project
+Technical specifications
+* fxDreema works best with Chrome and there is a plugin for easy downloads for Chrome as well. Firefox and Opera are also ok, only God knows about Internet Explorer...
+* Almost all javaScript code for the browser is manually written. The connections between blocks are SVG (vector) elements
+* Cookies are used to store session information and localStorage is used to store JavaScript scripts and (not yet) HTML templates
+* The output code that the builder creates is hard to read and not so fast, but this is always the sacrifice when we make coding easy
+* nodeBB is used for the forum and also to manage user accounts
+* fxDreema is hosted on a VPS by Vultr
+* #Download and Install MetaTrader
+MetaTrader is developed by MetaQuotes and you probably already have it installed on your PC. If you don't have it, you should be able to download it from the website of your broker. Just in case, here is where you can also find it:
+* MetaTrader 4 (stopped development)
+* MetaTrader 5
+#MetaTrader - Data Folder
+Because the end product of fxDreema is a trading robot (Expert Advisor or a Script), which is a file, you need to know where to put it. Your trading robots, as well as other user files are located somewhere in your hard drive. To find out where, go to File -> Open Data Folder:
+ MetaTrader 5 - Open Data Folder 
+
+By default your Data Folder is separated from the installation folder of MetaTrader for security reasons and is located in a location that looks similar to this:
+C:\Users\JohnSmith\AppData\Roaming\MetaQuotes\Terminal\E6E3D0917DD641581E4779524EB3B1AA
+Inside this folder you have another folder - \MQL5 (or \MQL4, depending on the MetaTrader version) - in which you will find the most important folders that you will use:
+ Data Files vs Navigator 
+
+* \Experts is where your Expert Advisors are located
+* \Indicators is where your Custom Indicators are located
+* \Scripts is where your Scripts are located
+You can put your robots in these folders. When you do that while MetaTrader is running, you should also Refresh the list in the Navigator, as shown in the picture below. The other way is of course to restart MetaTrader.
+ MetaTrader - Expert Advisors Refresh 
+
+#MetaTrader - Portable Mode
+If you prefer your MetaTrader to be outside \Program Files with all robots located in its main folder, then you can force it to run in portble mode. To do this, edit the properties of your shortcut like in the picture below. Add /portable (forward slash followed by the word "portable") at the end of the Target property. Don't forget to rename your shortcut as well.
+ MetaTrader 5 - Portable Mode Shortcut 
+
+Now the Open Data Folder option will send you to D:\MetaTrader 5, where you can find your \MQL5 folder with all the important subfolders.
+#Create a Demo account
+Now you can create a new Demo account in MetaTrader. It's a very good idea to always test your robots on a Demo account first, because you don't want to accidentally lose money in your Real account. Mistakes happen all the time while developing a program.
+ MetaTrader 5 - Open an Account... 
+
+#Test in Visual Mode
+In MetaTrader 5 you will find this checkbox called Visualization. In MetaTrader 4 the same option is called Visual mode, it's the same thing.
+ MetaTrader - Visualization Option 
+
+In this mode you can backtest your strategy while watching it evolving on a separate chart. The speed is faster than realtime, but slow enough to see any detail of the strategy you are trying.
+#Easily Download Files
+There is a special extension for Chrome, designed to automatically download and write the output files in the target local folder.
+* Get fxDreema: Download Files from Chrome Web Store
+Here is how it works. When you download a file for the first time, the browser uses Save As to download it. Once the file is downloaded, the extension remembers its name and destination. After that, every time you try to download a file with the same name, the extension will automatically put it into the target destination and you will not be asked to download it again.
+But first, in fxDreema you need to set up the data folders, as shown on the picture below:
+ MetaTrader Data Folder 
+
+Get these paths from File -> Open Data Folder in MetaTrader:
+ MetaTrader 5 - Open Data Folder 
+
+Now the extension will remember and automatically download/rewrite each file that you initially download in the Data Folder. If you download a file in other folder, for example on the Desktop, it will not be remembered. This also means that if you change the Data Folder, you will have to Save As each file once again.
+If the extension stops working, reinstall it. This will reset its memory. This problem is very rare, but it happens.
+
+
+#Create a New Project
+In the Builder, go to File -> New project, select the type and programming language of the project, give it a name and click Create.
+ Create a New Project 
+
+#Create New Blocks
+In the Builder, there is a list of blocks that you can create and a big empty field. Pick a block from the list, drag it and drop it somewhere over the empty field.
+ Create a New Block 
+
+#Connecting Blocks
+If you have a block that is not connected to another block, it is not included in the final strategy! Leave blocks alone only if you want to keep them for later use, but don't forget that they are not used in the strategy.
+Each block has one input and one or two outputs. The input is the white semi-circle at the top, and the outputs are at the bottom.
+ Block Input and Outputs 
+
+The meaning of the outputs is as follows:
+*  Normal Output - becomes active after the block runs and does its job successfully.
+*  Inverted Output - it's active when  is not, but there are exceptions.
+*  Error Output - used in trading and action blocks where the outcome is either success or failure. This output becomes active when there is an error and the block fails to do its job properly.
+To connect one block with another, drag the output of the first block and drop it over the input of the other:
+ Connecting Blocks 
+
+Now when the first block runs and does its job, through the connection it will make the other block run.
+#Disconnected Blocks Do Not Work
+If you want a block to do something, it must be connected to another block. Disconnected blocks do not participate in the final strategy. You can have them around in case you want to connect and use them later, but otherwise, they are useless.
+ fxDreema - Pass Block 
+
+If you still want to run only one block, connect it with a Pass block. Pass is just an empty block and does not have side effects.
+#You can Right-Click and Double-Click
+* Right-click on a block to open a context menu with options.
+* Double-click on a block to open the window with its specific properties.
+ fxDreema - Right & Double Click 
+
+#You Can Have Multiple Branches Of Blocks
+It's not mandatory to start with a single block and connect everything else below that block. You can have multiple branches of blocks and each one of them would work its job. In the picture below you see two branches ob blocks - one that starts with block #1 and another one that starts with block #4. Because both branches are in the on Tick event, both of them would be executed on every tick. Just imagine that the on Tick button is a block and is connected to blocks #1 and #4.
+ fxDreema - Branches of Blocks 
+
+#Block Numbers - When They Matter?
+When you have two or more blocks parallel to each other (not visually, but logically), there is an order in which they run. The rule is that the block with a lower number runs first.
+ fxDreema - Branches of Blocks 
+
+#Block Numbers Could Be Text
+You can replace any block's number with text and use it as a label.
+ fxDreema - Block Numbers are Text 
+
+Note: Better use only latin characters and numbers.
+#Copy/Cut Blocks
+You can cut or copy one or more blocks within the same project or from one project to another. Select the blocks with the mouse, right-click on any of them, click Copy (or Cut), right-click on an empty space where you want to place them, and click Paste. For a single block, you can just right-click on it without selecting it.
+Note: Avoid having the same group of blocks copied many times in the same project. When possible, try to reuse one group.
+
+
+#What is an Expert Advisor?
+An Expert Advisor (EA) is a small program that contains set of trading instructions for MetaTrader. You can also call it a Robot, because it does something instead of you. Expert Advisors can be put to work in real time or they can be back-tested over past periods of time.
+Expert Advisors (EAs) are written in MQL4 (for MetaTrader 4) or MQL5 (for MetaTrader 5) programming language, and none of them can work on its own as a standalone program. To run any EA you need MetaTrader. MetaTrader loads your EA and feeds it with data, contros its events and executes all instructions inside.
+Expert Advisors are files and you can find them at these locations:
+* For MetaTrader 4: "%Data Folder%/MQL4/Experts/"
+* For MetaTrader 5: "%Data Folder%/MQL5/Experts/"
+ Add Expert Advisor to the Chart 
+
+You can run as many EAs as you want at the same time, but you can only have 1 EA per chart.
+Always backtest your EAs first, then try them on a live DEMO account. Then, and only if you are sure that your EA works properly and is not dangerous, allow it to wotk on a REAL account.
+#What you can do with an Exper Advisor?
+An Expert Advisor can...
+* Read your account information - Balance, Equity, Margin, Leverage, Server name, Account name and more
+* Communicate with you using different kind of messages - Alert message, Print message (Experts/Journal tabs), Message box, Write comment on the chart (upper left corner), Play sound, Send mail and more
+* Read OHLC (Open, High, Low, Close) data of any bar that you can see on the chart.
+* Read indicators data for each bar
+* Read files and write files
+* Send/Read data to other EAs using Global Variables (hit F3 on MetaTrader to see the list of Global Variables)
+* Create different objects on the chart (arrows, lines...) / Read attributes of created objects on chart / Modify their attributes
+* Create trades and pending orders / Access to all the current trades and orders and those from the history / Modify their parameters (stop-loss, take-profit, volume size...)
+* Do any mathematical and logical stuff like any other program
+* ... and more
+#How does the Exper Advisor work?
+In short, every EA works like this: Event => Checks and Calculations => Trading Actions
+In general, your EA should get some data from MetaTrader, make some checks and calculations with that data and then tell MetaTrader what trading action to make - Buy, Sell or whatever.
+Below you can see one very basic EA. You see that the blocks are put under the on Tick event, which means that the No trade block runs on every tick. When there is no trade, the Buy now block runs and creates a new trade:
+For this example we have the following structure:
+Event (on Tick) => Checks and Calculations (No trade) => Trading Actions (Buy now)
+#Events
+When an Event is detected by MetaTrader, it executes certain part of the EA code. The most important event is when you receive a new Tick and there are few other events:
+It's very important to understand that every EA works because of few basic Events. Read about them below.
+* Tick - fired when a new tick comes. Normally the biggest portion of your EA works on every tick
+* Init - fired once when the EA starts
+* Deinit - fired once when the EA is stopped
+* Trade - fired every time you open, close or modify trades or orders
+* Timer - fired on certain period of time, for example every 60 seconds
+* Chart - fired when you create, modify, delete or click on objects on the chart
+#What is a Script?
+Scripts are similar to Expert Advisors, but they do something once. You can run a Script by double-click on it in the Navigator. When the Script does all its work, which normally happens in less than a second, it automatically exits. Scripts does not work on every tick, they just do whatever they are supposed to do once, as fast as possible, and then they immediately exit.
+Scripts are suitable when you want to create simple trading actions like closing all your trades with a single (actually double) click. In a sense, scripts extend the interface of the terminal by adding more quick actions to it.
+Here is where Scripts are located:
+* For MetaTrader 4: "%Data Folder%/MQL4/Scripts/"
+* For MetaTrader 5: "%Data Folder%/MQL5/Scripts/"
+Put your .mq4/.ex4 or .mq5/.ex5 files in these folders.
+In MetaTrader you can find your Script under Scripts in the Navigator panel.
+ fxDreema - Scripts 
+
+#Events
+There is only one event:
+* Start - fired once when the Script starts
+#Indicators, What Are They?
+The purpose of the Indicators is to give you visual information that might help you while trading. This information could look like lines, histograms, arrows or any other kind of visual information that you can see with your eyes and decide how to trade.
+Indicators can also give that information to other programs - Expert Advisors or Scripts. But in this case the information is not visual, it's just numbers, because computer programs understand numbers.
+Technically, all indicators work in the same way - they fill some arrays with numeric data. These arrays are called output buffers (or simply buffers). MetaTrader reads that information and prints it in on the chart.
+#Find Your Custom Indicators
+There is a term Custom Indicators - these are the indicators that you can write for MetaTrader. MetaTrader itself has a list of built-in indicators that you can use, but you can't modify. You can find your Custom Indicators in the following folders:
+* For MetaTrader 4: %Data Folder%/MQL4/Indicators/
+* For MetaTrader 5: %Data Folder%/MQL5/Indicators/
+This is how to find your Data Folder
+ MetaTrader 5 - Open Data Folder 
+
+#How Indicators Communicate With Other Programs?
+We already know that indicators put their numeric data into something called buffers, so other robots can read that data. A buffer is one-dimentional array filled with numeric data. The total number of elements in that array is the same as the number of candles on the chart, which means that for each candle there is one value. Each value of the buffer is mapped with one particular candle. Let's take the well known Moving Average for example:
+  
+
+Each candle has an ID number, or shift. The number of the newest candle is 0. The number of the previous candle is 1. Then we have 2, 3, 4 and so on. For each candle we have a numeric value:
+* The value for candle 0 is 1.3667
+* The value for candle 1 is 1.3658
+* The value for candle 2 is 1.3641
+* ...
+Basically, this is our array of data, the output buffer. When these number are plotted on the chart by MetaTrader, we see a line.
+We can have multiple buffers and each of them has its own number. Similar to the candles, the first buffer is 0, the second is 1, then 2 and so on.
+Now let's say we want to get a value from an indicator in our Expert Advisor. We need to point to the indicator (by file name), to the output buffer (0, 1, 2, 3...) and to the candle ID (0, 1, 2, 3...).
+Click here to find more information about the output buffers.
+  
+
+#How To Tell What Buffers Do Your Custom Indicator Have?
+When you add a custom indicator to a chart, you are able to see its parameters. Go to the Colors tab and you will see something like this:
+  
+
+Obviously, there are 3 output buffers and you can even see their numbers - 0, 1 and 2. You can also guess what each of them represent:
+* Buffer 0 is for the center line
+* Buffer 1 is for the upper line
+* buffer 2 is for the lower line
+#Arrows In Indicators (Interrupted Signals)
+Some indicators don't print continuous lines. You have probably seen indicators with arrows placed here and there. How do they do that?
+In the indicator's code there are instructions of how MetaTrader should draw the data from the buffers on the chart. Whether that data will look like a line, or like a histogram, or some kind of arrows or dots. Here are the possible drawing styles:
+* Drawing Styles for MetaTrader 4
+* Drawing Styles for MetaTrader 5
+But we already know that each output buffer has as many elements (values) as many candles exist on the chart, and this is always true. So how do we show something only on certain candles? It's pretty simple, there is a special value that we can put in the buffer and when MetaTrader sees that value, it doesn't show anything on the chart for that candle. This value it called EMPTY_VALUE. This is a predefined constant and its actual value is the biggest possible integer value:
+* 32 bit (MetaTrader 4): EMPTY_VALUE is equal to 2,147,483,647
+* 64 bit (MetaTrader 5): EMPTY_VALUE is equal to 9,223,372,036,854,775,807
+You can now imagine that if the output buffer is filled with EMPTY_VALUE all the way, you will not see anything on the chart.
+Hint 1: In fxDreema, the Condition block would not pass if one of its operands equals to EMPTY_VALUE. This is because EMPTY_VALUE should be treated as something that does not exists, its name contains the word "empty" after all.
+Hint 2: If you expect signals from an indicator who draws arrows and you don't have any, try to set Candle ID parameter to something bigger than 0. These indicators are normally giving you signals on an older candle, not in the current one. Try with Candle ID = 1.
+#Arrows And Lines On The Chart, But Nothing In The Buffers?
+Yes, it's possible. Some indicators are drawing their objects directly on the chart. This is mostly true for indicators who draw trend-lines or arrows. In this case you can't use the output buffers to extract the values, but you can get the information from the objects. Although this is often not an easy task.
+Also note that if this is the case, if the indicator that you are using is drawing only objects and in your Expert Advisor you managed to wirk with them somehow, the strategy might not work when you do Optimization, because of some limitations in MetaTrader.
+Click Here For More Information About Chart Objects
+#Check Out The Buffer Contents
+When you first try a new custom indicator, you probably don't have a clue what's inside its buffers and how to use them in your strategies. But you can easily check them with the Trace block. Take a look at the following example (this is not a screenshot):
+.
+When backtested, the result looks like this:
+  
+
+What you want to see is various values. If you only see one value that is the same for all candles, then you can't use this buffer with this configuration.
+#When Do Indicators Show On The Chart Automatically?
+You will notice that all indicators automatically appear after a back-test, but not in forward-test. Isn't that strange?
+When an Expert Advisor or a Script is using an indicator in its code, that indicator is loaded in background and you don't see it on the chart, ever. That's why if you want to see the indicator, you need to manually add it on the chart. But when you do this, you are actually creating another instance of the indicator and you still don't see the one that is working in the background. You may even try to modify its input parameters, this will not change the parameters of the indicator that is loaded by the robot in background.
+#Not Enough Information?
+For more detailed information, go and read this article.
+#How To Use Custom Indicators In FxDreema?
+In fxDreema you can add custom indicators into the database so you can then use them easily in your projects. First, go to My Indicators. To add a new indicator, you need its source code file, which has extension .mq4 or .mq5. You can also manually fill all the necessary information if you don't have the source code.
+In fact, the process of adding new indicator from a source code file does not involve uploading the whole file to the server. All the necessary information is read locally by the browser and then only this is sent to the server. For a custom indicator you only need the following information:
+* Indicator Name - This MUST be the same as the filename of your custom indicator (without the extension). If the file name is "Custom ATR.mq5", then write "Custom ATR".
+* Input Parameters - Their count and order MUST be correct, otherwise the custom indicator won't be load successfully. The names should also be the same, but this is not mandatory. Their data types should be at least similar.
+* Output Buffers - You can give them any name that you will better understand.
+  
+
+Now you can use your custom indicator in the blocks of fxDreema, for example in Condition.
+  
+
+#How To Manually Add A Custom Indicator?
+You have 2 options - to get the information from the source code or from MetaTrader.
+
+
+________________
+
+
+Option 1: Get the information from the source code
+You can open the source code file and get the information from there. All the necessary information is located somewhere on the top. This is part of a custom indicator:
+//+------------------------------------------------------------------+
+//|                                                    Alligator.mq5 |
+//|                   Copyright 2009-2017, MetaQuotes Software Corp. |
+//|                                              http://www.mql5.com |
+//+------------------------------------------------------------------+
+#property copyright "2009-2017, MetaQuotes Software Corp."
+#property link      "http://www.mql5.com"
+
+
+//---- indicator settings
+#property indicator_chart_window
+#property indicator_buffers 3
+#property indicator_plots   3
+#property indicator_type1   DRAW_LINE
+#property indicator_type2   DRAW_LINE
+#property indicator_type3   DRAW_LINE
+#property indicator_color1  Blue
+#property indicator_color2  Red
+#property indicator_color3  Lime
+#property indicator_width1  1
+#property indicator_width2  1
+#property indicator_width3  1
+#property indicator_label1  "Jaws"
+#property indicator_label2  "Teeth"
+#property indicator_label3  "Lips"
+//---- input parameters
+input int                InpJawsPeriod=13;               // Jaws period
+input int                InpJawsShift=8;                 // Jaws shift
+input int                InpTeethPeriod=8;               // Teeth period
+input int                InpTeethShift=5;                // Teeth shift
+input int                InpLipsPeriod=5;                // Lips period
+input int                InpLipsShift=3;                 // Lips shift
+input ENUM_MA_METHOD     InpMAMethod=MODE_SMMA;          // Moving average method
+input ENUM_APPLIED_PRICE InpAppliedPrice=PRICE_MEDIAN;   // Applied price
+//---- indicator buffers
+double ExtJaws[];
+double ExtTeeth[];
+double ExtLips[];
+//---- handles for moving averages
+int    ExtJawsHandle;
+int    ExtTeethHandle;
+int    ExtLipsHandle;
+//--- bars minimum for calculation
+int    ExtBarsMinimum;
+
+
+
+
+You can see where the input parameters are defined:
+input int                InpJawsPeriod=13;               // Jaws period
+input int                InpJawsShift=8;                 // Jaws shift
+input int                InpTeethPeriod=8;               // Teeth period
+input int                InpTeethShift=5;                // Teeth shift
+input int                InpLipsPeriod=5;                // Lips period
+input int                InpLipsShift=3;                 // Lips shift
+input ENUM_MA_METHOD     InpMAMethod=MODE_SMMA;          // Moving average method
+input ENUM_APPLIED_PRICE InpAppliedPrice=PRICE_MEDIAN;   // Applied price
+
+
+
+
+The keyword input is what turns these global variables into input parameters. The second word is the data type (int, ENUM_MA_METHOD, ENUM_APPLIED_PRICE). Then we see the name of the parameter (InpJawsPeriod, InpJawsShift...). After that we have the default values (13, 8...). At the end we have the description for each parameter.
+This is where we can see the number of output buffers and we obviously have 3 buffers:
+#property indicator_buffers 3
+#property indicator_plots 3
+
+
+
+
+
+
+________________
+
+
+Option 2: Get the information from MetaTrader
+Open the parameters of your indicator. The Input Parameters are listed under the Inputs tab and the Output Buffers are under the Colors tab:
+  
+
+  
+
+The data type of the each input parameters is presented as an icon. Here is what the icon means:
+  
+
+* int - Numeric type, whole integer numbers, for example 3
+* double - Numeric type, floating point numbers, for example 3.654
+* bool - Boolean type, either true or false
+* string - A text, for example "Hello, World"
+* datetime - Numeric type, it is in fact an integer value, but it is accepted to use this data type for time parameters
+* color - Numeric type, also an integer value, but designed to describe colors
+Click here for more information about data types
+
+
+#Types Of Objects
+Use the scroller in the following field to see all types of objects:
+Vertical Line
+ Vertical Line 
+
+________________
+
+
+Horizontal Line
+ Horizontal Line 
+
+________________
+
+
+Trend Line
+ Trend Line 
+
+________________
+
+
+Trend Line By Angle
+ Trend Line By Angle 
+
+________________
+
+
+Cycle Lines
+ Cycle Lines 
+
+________________
+
+
+Equidistant Channel
+ Equidistant Channel 
+
+________________
+
+
+Standard Deviation Channel
+ Standard Deviation Channel 
+
+________________
+
+
+Linear Regression Channel
+Definition in Investopedia Linear Regression Channel 
+________________
+
+
+Andrew's Pitchfork
+Definition in Investopedia Andrews Pitchfork 
+________________
+
+
+Gann Line
+ Gann Line 
+
+________________
+
+
+Gann Fan
+ Gann Fan 
+
+________________
+
+
+Gann Grid
+ Gann Grid 
+
+________________
+
+
+Fibonacci Retracement
+ Fibonacci Retracement 
+
+________________
+
+
+Fibonacci Time Zones
+ Fibonacci Time Zones 
+
+________________
+
+
+Fibonacci Fan
+ Fibonacci Fan 
+
+________________
+
+
+Fibonacci Arcs
+ Fibonacci Arcs 
+
+________________
+
+
+Fibonacci Channel
+ Fibonacci Channel 
+
+________________
+
+
+Fibonacci Expansion
+ Fibonacci Expansion 
+
+________________
+
+
+Rectangle
+ Rectangle 
+
+________________
+
+
+Triangle
+ Triangle 
+
+________________
+
+
+Ellipse
+ Ellipse 
+
+________________
+
+
+Thumbs Up sign
+ Thumbs Up sign 
+
+________________
+
+
+Thumbs Down sign
+ Thumbs Down sign 
+
+________________
+
+
+Arrow Up sign
+ Arrow Up sign 
+
+________________
+
+
+Arrow Down sign
+ Arrow Down sign 
+
+________________
+
+
+Stop sign
+ Stop sign 
+
+________________
+
+
+Check sign
+ Check sign 
+
+________________
+
+
+Left Price Label
+ Left Price Label 
+
+________________
+
+
+Right Price Label
+ Right Price Label 
+
+________________
+
+
+Buy sign
+ Buy sign 
+
+________________
+
+
+Sell sign
+ Sell sign 
+
+________________
+
+
+Custom Arrow object
+Draw fancy looking objects by using the font called Wingdings. You can see the numeric code for each wingding below.
+ objarrow 
+ Wingdings 
+
+________________
+
+
+Text object
+ Text object 
+
+________________
+
+
+Label object
+This object is static, it doesn't move when you move the candles in the chart
+ Label object 
+
+________________
+
+
+Button object
+This is interactive object and it has two states - pressed and depressed.
+ Button object 
+
+________________
+
+
+Bitmap object
+ Bitmap object 
+
+________________
+
+
+Bitmap Label object
+ Bitmap Label object 
+
+________________
+
+
+Edit field
+In this interactive object you can write something and then read it in your program.
+ Edit object 
+
+________________
+
+
+Event object
+ Event object 
+
+________________
+
+
+Rectangle Label
+This object is static, it doesn't move when you move the candles in the chart
+ Rectangle Label 
+
+See the object types from the official documentation here for MetaTrader 4 and here for MetaTrader 5
+#Object Properties
+You can draw objects on the chart not only manually, but also automatically with your trading robots - Expert Advisors, Scripts and Indicators. There are few things to consider:
+* Unique names - each object has unique name on the chart, you can't put two or more objects with the same name on the same chart.
+* Create, Read, Update, Delete - you can do any of these in your program, but first you must select the object you want to manipulate by name.
+* Select by name - in your programs, when you want to work with one particular object, you can select it directly by its name.
+* Search for an object - or, when you don't know the name of the object you want to select, you have to search for it by other signs - type, color, some text in its name...
+* Indicator lines cannot be selected (most of the time) - although indicator lines and histograms are also some kind of graphical objects that you can see with your eyes, you can't treat them as a regular objects in your program. Instead, you shoud work with with the output buffers of your indicators. It's also true that some indicators are drawing regular objects on the chart and in this case you can select and manipulate each individual object. With a little experience you will be able to distinguish the types of objects coming from your indicators.
+This is how to see the list of objects in MetaTrader (right-click and then Object List):
+ Object List in MetaTrader 5 
+
+Below you can see some of the object properties, but note that not all properties belong to all objects:
+* Time coordinate 1, 2 and 3 - depending on the type of object, it can have 1, 2 or 3 points and each point has Time coordinate.
+* Price coordinates 1, 2 and 3 - the same as above, but for the Price coordinate.
+* X (left) and Y (top) offsets - for objects with static position on the chart, this is the offset from the top and the left side of the chart window, measured in pixels.
+* Color - for most objects this is their color.
+* Font, Font size - for text objects.
+* Line Style - lines can have solid, dashed, dotted, dash-dot or dash-dot-dot style.
+* Width - the thickness of the object.
+* Angle - some objects can be rotated.
+* Corner - in which corner to put the static object - upper left or right, or lower left or right.
+* Anchor - location of the anchor point of a graphical object.
+* Background flag - whether or not the object appears behind the candles.
+* Ray (right) - for some lines, whether or not to draw the line until the end of the chart.
+* Selectable - allow or disallow selection of the object when you double-click.
+* Selected - the initial state of the object, it can be selected or not.
+* Visibility - to see or not to see the object in the list of objects.
+* Z-Order - used when you want to position one object over another. The object with bigger Z-Order appears on top of other objects.
+* Sub-Window - the ID or the Name of the window where you want to put or you have the object you want to work with. The ID of the main window is 0 and if you have sub-windows, their IDs are like 1, 2, 3 and so on.
+See the object properties from the official documentation here for MetaTrader 4 and here for MetaTrader 5.
+#In fxDreema
+Create / Update Object On The Chart
+There are certain blocks in fxDreema designed to create and/or update objects on the chart. The name of each of these blocks starts with Draw.... When such block runs, it will either create a new object or update existing object. This depends on the 2 parameters on the top, named A and B for short:
+  
+
+So, every time that Draw Arrow runs, one of the following will happen:
+* If A is Yes and B is Yes - If no arrow was created for the current bar, a new arrow will be created. If there is an arrow for the current candle alredy, it will be updated.
+* If A is Yes and B is No - If no arrow was created for the current bar, a new arrow will be created. That's all.
+* If A is No and B is Yes - When the block runs for the first time, a new arrow is created. Then the same arrow is only gonna be updated.
+* If A is No and B is No - A new arrow is created every time the block runs.
+In the first two cases the same block controls multiple arrows. Because object names are unique, we can't have multiple arrows with the same name. That's why the 3rd parameter is the prefix of the name of each object. After the prefix, some numbering will be appended.
+In the last two cases, because only one arrow is ever created by the block, you can give a name of that arrow object.
+________________
+
+
+Read Object Properties
+Each object has an unique name in the chart, so in order to read the properties of a particular object, we first need to select it by name. If we know the name, it's easy:
+  
+
+What if we don't know or don't care aboud the name of the object? Then we can search for an object, or even multiple objects with certain properties - type, color and so on. This is how to do it:
+  
+
+The For each Object block is scanning through the available objects on the chart and picks only those who meet the criteria in the filters of this block. For each object that meets all the criteria, the block's output becomes active and the Condition block runs. You can see that in we have selected Picked in loop there, so in Condition we are working with objects selected in For each Trade.
+________________
+
+
+Examples
+Click here to check some examples
+#Data Types?
+We create programs by writing source code and in this source code we use many variables. Variables are human readable names and each of them links to certain data with certain type.
+Here you can see all data types that can be used in MQL4 and MQL5 programs:
+* http://docs.mql4.com/basis/types
+* https://www.mql5.com/en/docs/basis/types
+These are the most basic data types:
+* int - whole numbers. For example 1 or 2, or 34, or 875
+* double - floating numbers. For example 1.2345
+* bool - boolean, there are two possible values - true or false. True is like 1 and False is like 0
+These are often compatible with each other, because they are all numeric by nature. The difference is only in the minimum and maximum value that a variable with such data type can take. But there is one data type that is kind a different:
+* string - text. In the code we always use double quotes like this: "This is my string"
+#In The Source Code
+Examples of how variables are defined in the source code:
+* int MyNumericVariable = 1;
+* double MyFloatingNumber = 1.2345;
+* bool MyBool = true;
+* string MyText = "Hello, World!";
+#Enumerations
+These are more complex data types and you can read about them here:
+* https://docs.mql4.com/basis/types/integer/enumeration
+* https://www.mql5.com/en/docs/basis/types/integer/enumeration
+What you should know is that you can use Enumerations to define better looking input parameters of your robots. Let's take the Moving Average indicator as an example. This indicator has few input parameters - Period, Shift, Method and Apply to.
+ MetaTrader - Moving Average Inputs 
+
+The data type of the first two parameters is int - whole numbers. The last two parameters, however, have more interesting data types. Let's take Method for example, look at how many values it can take:
+ MetaTrader - Moving Average Inputs (Method) 
+
+That's because the type of the Method parameter is ENUM_MA_METHOD, which is a predefined enumeration. Predefined means that it exists in MQL4/MQL5, someone already defined it. This enumeration have 4 possible values:
+* Simple averaging, written in the code as the predefined variable MODE_SMA, which has a value of 0
+* Exponential averaging, written in the code as the predefined variable MODE_EMA, which has a value of 1
+* Smoothed averaging, written in the code as the predefined variable MODE_SMMA, which has a value of 2
+* Linear-weighted averaging, written in the code as the predefined variable MODE_LWMA, which has a value of 3
+By now you should understand, that enumerations are just a way to define few possible integer values in the code. Or, a way to make drop-down menus in the input parameters of our robots. Sure, for the Method parameter we can simply use integer values from 0 to 3, but it's much easier if we know all the possible values and they are written in human readable format.
+#In fxDreema
+* In Blocks - All input parameters in the settings window of each block are variables and they have certain data types
+* In Custom Indicators - All input parameters are global variables (in the indicator itself) and they have certain data types
+* Constants and Variables - All of them are global variables with certain data type
+#Constants and Variables?
+If you are a programmer, you know what constants and variables are in the code. In the Builder these words mean something a little bit different:
+* Variables - For the fxDreema project, these are global variables, accessible from all blocks. In the output code they are not exactly global variables.
+* Constants - Similar to the Variables, but the idea is that they should not be modified. These are also input parameters of the robot. In the output code they are not really constants.
+* Terminal Variables - Another kind of variables. These are global variables for the terminal (MetaTrader) and they are actually called Global Variables there. They are used to pass information between robots, or to store information for few days.
+#Project Constants (Input Properties)
+In fxDreema you can define a single Constant and use it in multiple blocks. In addition, this Constant is also an input parameter for the robot and you will be able to also use it for optimizations.
+Click on Constants (Inputs) to create a new Constant or edit already created Constants.
+ fxDreema Constants (Inputs) 
+
+Once defined, Constants can be rearranged.
+Then, in any block you can select a Constant to replace a parameter. Just right-click on the input field you want to replace:
+ fxDreema Constants (Inputs) 
+
+Here is an example that shows how Constants can be used:
+Single Constant can be used in more than one blocks at once - Constants are global. That's why when changing the Constant's value (from the robot's input parameters), this affects all blocks where it is used.
+Don't try to modify a Constant in the project. The very word suggests that it should remain unchanged. If you want to do this, use Variables.
+#Project Variables
+Variables are similar, but slightly different than Constants. Project Variables are also global and they can be used the same way as Constants, but in addition their values can be modified. So, use Variables when you want to use a value which can be modified in any block.
+Here is how to define Variables. Click on Variables to open this window:
+ fxDreema Variables 
+
+In the blocks you can read and modify Variables in various ways. Check out the next example:
+#Terminal Variables
+ Using Global Variables 
+
+In MetaTrader you have Global Variables, which are called Terminal Variables in fxDreema only to lower the confusion with the other types of variables. These global variables are used to transfer information between robots or as a persistent memory, due to the fact that they are stored on the file system for 4 weeks.
+You should only use these variables to store numeric values. Strings doesn't work here. Here is more information from the official documentation:
+* In MetaTrader 4
+* In MetaTrader 5
+You can set these variables in Terminal variables and get them in Condition (or other blocks), as it's shown in the picture below:
+ Using Global Variables 
+
+And of course you can see the current values and also modify them in MetaTrader when you go to Tools -> Global Variables:
+ Using Global Variables 
+
+
+
+#Overview
+The next information applies mostly to the Condition block and it's crossover abilities ×< and ×>. First let's see how bars (candles) are indexed on the chart. We need to know this, because we are going to detect crossovers between indicator lines, and those lines are closely related to the bars.
+  
+
+Each bar from the chart has its own index (number, address, shift or ID - name it as you like it). The newest bar on the chart (the current one) has index 0 and the index increases as we are going into the history. Basically, the number tells us how far from the current candle is each other candle. What is now candle with index 5 will be candle 6 when a new candle is created.
+Fact: Negative values (from the future) are in fact also possible and this can be seen in the built-in indicator Ichimoku Kinko Hyo.
+Note: In "Condition" block there is a parameter named "Candle ID" (first click on "More settings") that represents the bar's index.
+Now let's see how we can detect crossover in few different ways.
+#Crossover Between Two Indicator Lines
+If Indicator A and Indicator B are like Moving Average, then here is how they are crossing:
+  
+
+Both indicator lines are made out of many points, one for each bar on the chart. All points are visually connected to form those lines. If you zoom in your chart enough, you will see these points very clearly.
+Crossover happens when for a given bar line A is above line B and for it's neighbour bar line A is below line B. Or vice versa.
+* Line A crosses Line B below when: A[bar] < B[bar] and A[old bar] > B[old bar]
+* Line A crosses Line B above when: A[bar] > B[bar] and A[old bar] < B[old bar]
+This is how it the Condition block looks like:
+  
+
+Candle ID is where we specify the candle index. But while we can only see 2 indicators, 4 different values are used to detect the crossover. It looks like this:
+* Line A crosses Line B below when: A[Candle ID] < B[Candle ID] and A[Candle ID + Cross width] > B[Candle ID + Cross width]
+* Line A crosses Line B above when: A[Candle ID] > B[Candle ID] and A[Candle ID + Cross width] < B[Candle ID + Cross width]
+As you can see, there is additional Cross width parameter which tells you what is the relative index of the oldest candle that is used. This value is by default 1.
+#Crossover between indicator line and a value
+It is possible if the value doesn't change very much over the time!
+  
+
+* Line crosses 1.066 below: Line[bar] < 1.066 and Line[previous bar] > 1.066
+* Line crosses 1.066 above: Line[bar] > 1.066 and Line[previous bar] < 1.066
+#Price vs Indicator Crossover - how NOT to do it
+Now this is tricky, because the current price (Ask or Bid) is a value that changes over time and it does than in irregular steps. More than that, indicator values also change because of the price. Let's see an example:
+  
+
+We want to detect the moment when the Bid price crosses below the Moving Average line. We have two indicator values - the current one and the previous one (look at the red dots). The Bid price is obviously falling down. Now imagine that Bid jumped from 1.06577 to 1.06569 directly, with no ticks in between. This movement is less than a pip and it happens very often. In the previous moment Bid was above both indicator dots and at the current moment it is below both of them. Crossover was not detected and cannot be detected now. Only if the price jumped somewhere in between both indicator values, we could detect a crossover, but there is no guarantee that this will always happen.
+#Price vs Indicator Crossover - Different ways to do it
+Candles capture price movements in some way, so they contain information where was the price before and where it is now. Also, indicators calculate their data by using information from the candles, so it's very natural to detect crossover between a candle and an indicator line. The right conditions to check here can be like this:
+* Price crosses Indicator line below: Candle Close[bar] < Indicator Line[bar] and Candle Open[bar] > Indicator Line[bar]
+* Price crosses Indicator line above: Candle Close[bar] > Indicator Line[bar] and Candle Open[bar] < Indicator Line[bar]
+  
+
+#"Price ×< Indicator" and "Price ×> Indicator" blocks
+Yet another way to detect crossovers. These blocks monitor the Bid price and can detect when on the previous tick the price was on the other side of the value in question. Very similar to the crossover above (with the Open and Close prices), but instead of Open and Close we have the previous and the current Bid price, so we are working on a "microscopic" level.
+Note that when this happens, it is more like an event, not a state like in the crossover methods explained above. For the other crossovers we have something like a state when Candle Close and Candle Open are above and below from some value for example, and this state could be true for tens of ticks ahead. While here because we are looking at the previous tick and the current tick, we can say that this crossover is an event.
+#Examples
+Crossover: Indicator vs Indicator
+Crossover: Price vs Indicator
+Crossover: Price vs Indicator - alternative method
+As you know, you can have multiple trades (or positions in MT5) and/or pending orders at a time. So, if you want to operate with specific one, you have to point at it. Manually you can do this by clicking on it, you just know where to put your cursor and click on the mouse, but your program picks trades and orders in a slightly different way.
+Imagine that you have 10 pending orders, what if you want your robot to delete 5 of them, the older ones that were created? Note that the robot can operate with a single order at a time. These are the logical steps to do it:
+* 1. Check how many orders exists - If none, there is nothing else to do, but let's say we have 10 orders, so we continue to step 2.
+* 2. Sort - We know we have 10 orders, and we know their parameters - open time, lot size, trading type and many more. We want to sort our orders by age.
+* 3. Close 5 trades - we sorted out trades by age, so starting from the oldest one we close the first 5 that we have one after another.
+Additionaly, while going from order to order we canfilter them, so if for example we don't want to close Sells, we have to skip any order that is Sell and close only the one that is Buy.
+The next example shows how to work with trades in MetaTrader 4:
+Check other examples to see how to deal with loops in fxDreema: /examples
+
+
+#What is Magic Number?
+In MetaTrader the term Magic Number is just a property of each trade and pending order. The magic number is 0 by default, but it can be set to any numeric value by your Expert Advisors. The idea is that every Expert Advisor can recognize its own trades and orders only by looking at their Magic Numbers. This is sometimes necessary, because you could have 2 or more Expert Advisors making trades with the same Symbol name, and you don't want one Expert Advisor to mess with the trades from another.
+For example, you can have Expert Advisor A who creates EURUSD trades with Magic Number 123 and another Expert Advisor B who creates EURUSD trades with Magic Number 456. When you look at the list of trades in MetaTrader you will not be able to recognize which trade is created by which Expert Advisor, because magic numbers are not listed, but Expert Advisors can and they should do it.
+Sometimes you don't need to care what the magic number is. If Expert Advisor A is working on EURUSD and Expert Advisor B is put on GBPUSD, then the Symbol name itself is enough to separate the trades. Both Expert Advisors will work fine and not mess with each other.
+#Group Numbers In fxDreema?
+We already know that we can use multiple Expert Advisors to work with different trading strategies under the same MetaTrader. But we can also apply different strategies inside the same Expert Advisor, because it can operate with trades with different Magic Numbers. There is no requirement for our Expert Advisor to use only one Magic Number, it can use many.
+So, the Group number is just an extension of the Magic Number. Each Expert Advisor created with fxDreema has one input parameter called MagicStart, which is the base magic number for all trades. The Group number is by default 0 (empty value) everywhere, so each trade/order would have Magic Number that is equal to the MagicStart input parameter.
+This is the relationship between all these numbers:
+Magic Number = MagicStart + Group
+Now, let's imagine that we have MagicStart set as 1000. Then...
+* If Group is 0, then the Magic Number will be 1000
+* If Group is 1, then the Magic Number will be 1001
+* If Group is 2, then the Magic Number will be 1002
+* ... and so on
+If you don't really need to use different Group numbers in your project, don't change it in the blocks. Because if you set it to let's say 1 in the Buy now block, then you must set it to the same value in all of the other blocks involved with the trades made by that Buy now.
+Money Management in fxDreema
+In blocks designed to trade you can specify how the lot size can change over time. So, you can have order (running or pending) with different volume (lot size) each time these blocks run.
+Here are few notes:
+* If lot size lower than the minimum allowed is desired, the minimum will be taken
+* If lot size bigger than the possible is desired, the biggest possible lot size will be taken
+* There is a minimum step of lot sizes, often 0.01 or 0.1 and you can't use lot sizes outside this step. For example, if the step is 0.1, you can only open orders with lots such as 0.1, 0.2 or 0.3, but not like 0.143. This step depends n your broker.
+Fixed volume
+This is the default setting. The lot size is as it is written by you. Although the default value is a fixed number, you can also use variable or mathematical formula here.
+% of Equity => Lots
+Using this setting you will get a lot sizes depending on your current Equity.
+If you currently have equity of $1000, then with setting of 100% you will get a lot size of 0.01 lots when 1 lot equals to $100,000.
+Freeze % of Equity (Balance, Free Margin)
+Using this setting you can have a lot size that will lower the Free Margin with certain amount. Use 40% and if you have Equity of $1000 your Free Margin will lower with roughly $400.
+Note that because of the minimum step in lot sizes, the amount that is actually lowered is not exactly the same as the amount you specify.
+Risk % of Equity (Balance, Free Margin)
+The lot size here depends on the size of Stop Loss. The idea is that if the trade hits Stop Loss, the loss will be roughly the % of Equity (Balance, Free Margin) you have specified.
+Risk fixed amount of money
+The lot size here depends on the size of Stop Loss. If the trade hits Stop Loss, the loss will be roughly the same as the value you have entered.
+Fixed Ratio by Ryan Jones
+With this MM you need to gain certain amount of profit in order to increase the lot size. Delta is the amount of profit per Unit Size to increase the lot size with one Unit Size.
+As a result there are distinctive layers of equity in which your trades would be opened with certain lot size. If you started with $1000 dollars, Unit Size = 0.1 lot and Delta = $100
+Units
+	Equity
+	Lot Size  
+	-
+	$0 - $1000
+	0.1
+	1
+	$1000 - $1100
+	0.1
+	2
+	$1100 - $1300
+	0.2
+	3
+	$1300 - $1600
+	0.3
+	4
+	$1600 - $2000
+	0.4
+	Obviously each level is bigger than the previous, as well as the lot size. The next layer is $500 wide, starts from $2000 and ends up at $2500. It is $500 wide because 5 units are $500 (5 x $100).
+Lot sizes would only increase if your equity is above the initial balance you had. Below that all lot sizes are one Unit Size.
+This money management method is global for all blocks! Once Delta and Unit Size are set, they will stay the same.
+Betting System 1-3-2-6
+The 1-3-2-6 system is a positive progression betting system. Your initial lot size is 1 unit and if you win, the next lot size will be 3 units. If you win again - 2 units. If you win again - 6 units. After that the system restarts. After each lose the lot size is 1 unit and the system starts again.
+You can also reverse that system, which means than you would move one step forward when you lose and reset the system when you win.
+This money management method allows you to restart your expert advisor without losing information about its current state.
+Betting System D’Alembert
+It’s a positive progression betting system. After win the lot size is increased with 1 unit and after loss is decreased with 1 unit. Pretty simple.
+You can also reverse that system, so the lot size would increase after loss and decrease it after win. This is also known as Contra D’Alembert.
+This money management method allows you to restart your expert advisor without losing information about its current state.
+Betting System: Fibonacci
+This is negative progression system and the lot size increases after loss in a way that follows the Fibonacci sequence: 1, 2, 3, 5, 8, 13, 21 etc. Each number of the sequence is the sum of the previous two. For example, 5 follows after 2 and 3, because 5 = 2 + 3.
+After win
+Fibonacci
+	Lots
+	Win/Loss
+	Profit
+	Cumulative Profit
+	Note
+	1
+	0.01
+	Loss
+	-10
+	-10
+	
+
+	2
+	0.02
+	Loss
+	-20
+	-30
+	
+
+	3
+	0.03
+	Loss
+	-30
+	-60
+	
+
+	5
+	0.05
+	Loss
+	-50
+	-110
+	
+
+	8
+	0.08
+	Win
+	+80
+	-30
+	At this point the last two losses are recovered
+	3 (back 2 steps)
+	0.03
+	Win
+	+30
+	0
+	Break even
+	1 (back 2 steps)
+	0.01
+	Win
+	+10
+	10
+	
+
+	Note: Actually the Fibonacci sequense starts like 0, 1, 1, 2, 3... but the initial 0, 1 are omitted.
+This money management method allows you to restart your expert advisor without losing information about its current state.
+Betting System: Labouchère (Cancellation System)
+First you'll need to set a goal for how much money you'd like to win. It's usually simplest to express this in a certain number of units – where the unit value can be any amount you like. For instance, if you'd like to win $100 you could set the unit value at $10, meaning your goal is to win 10 units.
+Once you know how many units you want to win, you'll want to break that down into some smaller numbers and write those numbers down in a line. Let's take the following sequence for example (all numbers add up to 10):
+1 2 3 2 2
+The first bet will be the sum of the first and the last unit, or 3 units. If the bet wins, we get to cross out both numbers we used to make that bet. Now the like would look like this:
+2 3 2
+The next bet would be for $40 (because 2 + 2 = 4 units). Let’s say we lose this bet. Now, the number of units we just lost goes to the end of our line, making it look like this:
+2 3 4 2
+Our next bet would now be for six units, or $60.
+In order to see this system all the way through, you'll need to continue making bets until you've completely wiped out the line. At that point you'll have completed the Labouchere system, and you'll have reached the goal you set before you started.
+Note that if you restart an expert advisor working with this system, the list of numbers will be reset.
+Betting: Martingale / Paroli
+The Martingale system is well known and it's doubling the bet (lot size) on loss. The goal is to win the amount of money of the initial bet:
+Bet
+	Win/Loss
+	Profit
+	Cumulative Profit
+	1
+	Loss
+	-10
+	-10
+	2
+	Loss
+	-20
+	-30
+	4
+	Loss
+	-40
+	-70
+	8
+	Loss
+	-80
+	-150
+	16
+	Loss
+	-160
+	-310
+	32
+	Win
+	+320
+	+10
+	As you can see, the size of the bets increases exponentionally with each loss.
+The opposite of Martingale is Anti-Martingale, aka Paroli. In this case you would double the lot size when you win and reset it when you lose. You also need to reset the system after certain amount of wins, otherwise you would only lose.
+You hame multiple options, so you can set up different variety of systems similar to Martingale or Paroli.
+This money management method allows you to restart your expert advisor without losing information about its current state.
+Betting: Custom Sequence
+You can define custom sequences of units to bet - for loss and for bet.
+This money management method allows you to restart your expert advisor without losing information about its current state.
+#Important
+Trailing Stop is something that happens locally, it is controlled by your Expert Advisor, not on the server automatically. You must keep your Expert Advisor running for this functionality to work.
+In fxDreema block you have different kinds of Trailing Stop, but one thing is in common - you should place your Trailing Stop block somwehere, so it can run on every incoming tick.
+#How Trailing Stop Works
+The basic idea is to keep stop-loss of the trade at certain distance from the current price when the price is moving in our favor. When the price is moving backwards, stop-loss does not change. There are 2 main parameters - Trailing Stop and Trailing Step:
+* Trailing Stop - This is the target stop-loss size that we want to maintain, for example 40 pips.
+* Trailing Step - This tells us how often stop-loss is modified. If Step is small (and it could be even 0), then we have more frequent stop-loss modificacions. With bigger Step our stop-loss becomes more "lazy", but there are fewer requests to the server as well.
+Now let's see how Trailing Stop, Trailing Step and the Current Price (either Ask or Bid) are related. This is the main logic that happens for Buy trade:
+If (Current Price - Stop Loss) >= (Stop + Step), then move Stop Loss to (Current Price - Stop)
+This pseudo-formula is not mathematically accurate, because some values are absolute and others are relative, but you should get it. Here is the meaning of its parameters anyway:
+* Current Price - Either Ask or Bid. By default it's Ask for Buy trades and Bid for Sell trades, but it can be changed.
+* Stop Loss - The stop-loss level of the trade. Not the relative size to the current price, but the actual level where the stop-loss line is.
+* Stop - The relative Trailing Stop size, for example 40 pips.
+* Step - The relative Trailing Step size, for example 1 pip.
+In other words, the distance between the current price and the stop-loss line must be at least (Stop + Step) wide, so then stop-loss can be placed at Stop distance from the current price.
+#Trailing Start
+In fxDreema there is one extra parameter called Trailing Start. This creates a level of profit that must be realized first, and only then the stop-loss line can be modified by the block. You can imagine this treshold level like this:
+* Above the Trailing Start level evrything works
+* Below the Trailing Start level nothing works
+#Trail What?
+Imagine that the word "Stop" in Trailing Stop means either stop-loss or take-profit, because both are levels where the trade is stopped. In fxDreema you can trail not only stop-loss, but also take-profit, and there is parameter in the Trailing Stop block that can switch this behaviour.
+#Examples
+#Testing Features and Limits in MetaTrader 4
+Here is a link where you can see features and limits while testing and optimizing: https://www.mql5.com/en/articles/1512
+Special Features of Testing Strategies on History Data
+* Some functions are processed/passed without output. These are Sleep(), Alert(), SendMail(), PlaySound(), MessageBox(), WindowFind(), WindowHandle(), WindowIsVisible()
+* Trading is permitted for the symbol under test only, no portfolio testing. Attempts to trade using another symbol will return error
+* Lot sizes including initial size and increment step, commissions and swaps should be taken from the active account settings. Before testing, it is necessary to make sure that there is at least one activated account in the list in "Navigator" window of the terminal.
+* All swaps, margin requirements, expirations, GTC-orders are modeled. Testing is performed maximally closely to trading server conditions. But the can occur some inaccuracies in estimation of margin requirements on cross currencies because of lack of precise information about conversion prices at each moment
+* Zero bar of another timeframe for the same symbol under test is modeled approximately. Open = correct Open, Close = correct Close, Low = min (Open,Close), High = max (Open,Close), Volume = final Volume (false)
+* Instant Execution mode is assumed to be used in trades, being processed without slippage
+* Processing orders, Open/Close without slippages
+* Testing stops after StopOut
+* Weekly, monthly, and irregular timeframes are not tested
+* The deposit currency can be changed, but conversion prices are set, and the current available ones are used
+* There are still no delays in execution of trade operations
+* A setup delay is planned to be introduced in processing of transactions
+* Account History is fully available, and it does not depend on settings
+* If other symbols and periods are actively used, it is desirable to download them to all possible depth
+* At every-tick modeling, tester pumps all necessary timeframes for the symbol under test independently
+* Using of MarketInfo function generates error ERR_FUNCTION_NOT_ALLOWED_IN_TESTING_MODE(4059), however, correct information about current prices for the symbol under test, about stop level dimensions, about point size, about spread size of any symbol being present in the quotes window is provided.
+Special Features of Optimization Process
+* Nothing is output in the journal (either Print() function). This was done in order to accelerate the testing and save disk space. If complete logs are output the journal files will need hundreds of MByte
+* Draw objects are not really set. The objects are disabled in order to accelerate the testing
+* "Skip useless results" function is used. In order not to garble the table and chart with testing results, the possibility to skip very bad results is used. This function can be enabled in context menu of "Optimization Results" -> "Skip useless results" tab
+#I want to detect when the candle closes...
+The problem here is that we don't know when the current candle will be closed. Yes, we can guess - in the last second, just before the period of time ends. But the thing is that our Expert Advisors are driven by ticks and we don't know when the last tick will come. It may come not 1, but 2 seconds before the end of the period. So, if no tick comes in the last second, what will we detect?
+Yes, we have the Timer event and we can set it up for 1 second and do what we want on the last second of the period each time. But there is an issue - the Timer event is not very accurate in the Strategy Tester. See, the Tester actually doesn't have such event, because it doesn't work in real time. The Tester generates fake ticks and drives the Expert Advisor this way. There is no guarantee that in every candle the last tick will come at the last second. So we are asking for problems and very inconsisten results in the Tester and in the live trading.
+How to do it? Better use that Once per bar block under the on Tick event to detect the beginning of every new candle.
+#Thinking that you need to connect the blocks in one row
+Take a look at this project and guess what is wrong with it:
+The connection between blocks 3 and 4 should not be there. You might think that each block waits until is passes, but this is not the case, blocks doesn't wait for each other. Instead, blocks (at least those on top level) run on every tick because of the on Tick event.
+Well, there is actually a way to make certain blocks to "wait", take a look at the example below. To force a block to wait, right-click on it and select "Wait to Pass". But you might find this way of working confusing and not very intuitive, contrary to your initial expectations.
+#Don't forget the "For each..." block
+Click here if you don't know what "For each..." means.
+So, the category with the pink blocks is a little bit different. "For each..." blocks are designed to create a loop of trades or pending orders and the rest of the pink blocks are designed to manipulate one trade or pending order at a time.
+People tend to forget that in MetaTrader 4, and now also in MetaTrader 5 we can have multiple trades at a time. Given that fact, you can't just use let's say the pink check profit block without any context. This block is there to check the profit of a particular trade (or pending order), but it can't magically choose which one is the right one when you have 2 or more trades (or orders) at the same time.
+#Don't put blue blocks in a "For each..." loop
+This is not mandatory, but be careful and make sure you know what you are doing.
+Again, a "For each..." block creates a loop and below this block you should put other pink blocks, specifically designed to work in that context. To work with a single trade (or pending order) at a time.
+There is no need to connect let's say For each Trade -> Close trades or maybe For each Trade -> Trailing stop, because those blocks (Close trades and Trailing stop) are blocks who already have loops in them. In other words, they are already designed to find all available trades and do the same for each one of them, they can work alone. While the pink close block for example can only close a trade (or pending order) that was previously selected in a loop made with one of the For each... blocks.
+#Watch out for the "Close Trades" block
+When you have blocks like Buy now and Close trades under the Tick event, be very careful to not allow Close trades to run under the same conditions as Buy now. Otherwise what happens is that after a trade us created, it is immediately closed and you wonder why you see so many trades opening and closing.
+The example below is correct and shows how Close trades can be used in a safe way. You may want to do something different, but in any case, be careful when you are using this block and make sure that it runs only when it's needed. You should always put blocks like No trade (with certain settings) above it or other blocks for checking and filtering, to limit the chance for the block to run at inappropriate times.

@@ -1,0 +1,2190 @@
+﻿FxDreema Blocks Explanation by Jobot Invest
+FxDreema Blocks Explanation" by Jobot Invest is a comprehensive guide designed for traders and developers looking to master the art of building and optimizing trading bots using the FxDreema platform. This book breaks down the complexities of FxDreema's blocks, providing clear, step-by-step explanations and practical examples. Whether you're a novice or an experienced trader, this book will equip you with the knowledge and skills needed to create sophisticated and effective trading bots, enhance your trading strategies, and achieve consistent results in the financial markets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table of contents
+
+
+Block Name Modify Variables        6
+OverviewUse this block to modify project Variables (defined in the Variables section).        6
+Simply right-click on the input field and select a Variable from the list or write its name in the same field.        6
+Project Variables are value-holders who store information and they can be used everywhere in the project, they are global. They can be read or modified.        6
+Outputs (in what case are they active?)  Once when the work is done.        6
+Block Name Condition        6
+Block Name Condition        7
+Block Name Formula        7
+Block Name Indicator is visible        7
+Block Name Indicator is invisible        8
+Block Name Indicator appear        9
+Block Name Indicator disappear        9
+Block Name Indicator rise        10
+Block Name Indicator fall        10
+Block Name Indicator moves within limits        10
+Block Name Price ×> Indicator        10
+Block Name Price ×< Indicator        11
+Block Name Time filter        11
+Block Name Months filter        11
+Block Name Weekday filter        11
+Block Name Hours filter        12
+Block Name Minutes filter        12
+Block Name Seconds filter        12
+Block Name Seconds filter        12
+Block Name Once per tick        12
+Block Name Once per bar        13
+Block Name Once a day        13
+Block Name Once an hour        13
+Block NameOnce per minutes        14
+Block NameOnce per seconds        14
+Block NameOnce per positions        15
+Block NameEvery "n" ticks        15
+Block NameEvery "n" bars        16
+Block NameSpread Filter        16
+Block NameCheck positions count        16
+Block NameCheck pending orders count        16
+Block NameIf position        16
+Block NameIf position/order        17
+Block NameIf pending order        17
+Block NameNo position        17
+Block NameNo position/order        18
+Block NameNo pending order        18
+Block NameNo position nearby        18
+Block NameNo pending order nearby        18
+Block NameBuy now        18
+Block NameBuy pending order        19
+Block NameBuy pending orders in grid        20
+Block NameSell now        20
+Block NameSell pending order        21
+Block NameSell pending orders in grid        21
+Block NameBucket of Positions        22
+Block NameBucket of Pending Orders        23
+Block NameBucket of Closed Positions        23
+Block NameFor each Position        23
+Block NameFor each Pending Order        24
+Block NameFor each Closed Position        25
+Block Nameonce per position/order        25
+Block Namecheck stop-loss        26
+Block Namecheck take-profit        26
+Block Namecheck type        26
+Block Namecheck age        27
+Block Namecheck group number        27
+Block Namecheck how it was closed        27
+Block Namecheck loss        28
+Block Namecheck profit        28
+Block Namepips away from open-price        28
+Block Namepips away from stop-loss        29
+Block Namepips away from take-profit        29
+Block Namemodify stops        29
+Block Namemodify expiration        30
+Block Nameslide order        30
+Block Nameshrink stops        31
+Block Nameextend stops        31
+Block Nameadd to volume        31
+Block Nameclose (partially)        31
+Block Nameclose        32
+Block Name(loop) break        32
+Block Name(loop) next        32
+Block NameBreak even point        33
+Block NameTrailing stop        33
+Block NameTrailing stop (group of trades)        34
+Block NameTrailing money loss (group of trades)        34
+Block NameTrailing pending orders        34
+Block NameModify stops of positions        35
+Block NameClose positions        35
+Block NameClose losable positions        35
+Block NameClose profitable positions        36
+Block NameClose least profitable position        36
+Block NameClose most profitable position        36
+Block NameApply Template        36
+Block NameModify chart properties        37
+Block NameModify chart colors        37
+Block NameDelete objects        37
+Block NameDelete objects by type        37
+Block NameChart screen shot        37
+Block NameDraw Arrow        38
+Block NameDraw Button        38
+Block NameDraw Channel        38
+Block NameDraw Edit Field        39
+Block NameDraw Event        39
+Block NameDraw Fibonacci        39
+Block NameDraw Gann        40
+Block NameDraw Line        40
+Block NameDraw Shape        41
+Block NameDraw Text        41
+Block NameFor each Object        41
+Block NameSelect Object by Name        42
+Block Nameonce per object        42
+Block Namecheck button state        42
+Block Namecheck color        42
+Block Namecheck price coordinates        43
+Block Namecheck trendline price level        44
+Block Namemodify color        44
+Block Namemodify properties        44
+Block Namemodify text (description)        44
+Block Namemove        44
+Block Namedelete        44
+Block NameAlert message        45
+Block NameBlink the chart        45
+Block NameComment (ugly)        45
+Block NameComment        45
+Block NameLog message        46
+Block NamePhone Notification        46
+Block NamePlay sound        46
+Block NamePrompt        46
+Block NameSend e-mail        46
+Block NameSend file to FTP        47
+Block NameSend HTTP request        47
+Block NameTerminal variables        47
+Block NameTrace        48
+Block NameTrace Activity        48
+Block NameWrite to file        48
+Block NameBull candle        48
+Block NameBear candle        49
+Block NameBulls in a row        49
+Block NameBears in a row        49
+Block NameSingle candle template        49
+Block NameMACD Divergence (Bearish)        50
+Block NameMACD Divergence (Bullish)        50
+Block NameImpulse Up        50
+Block NameImpulse Down        50
+Block NameTime Bomb Up        50
+Block NameTime Bomb Down        51
+Block NameNew top in trend        51
+Block NameNew bottom in trend        52
+Block NameRound numbers detector        52
+Block NameAND        52
+Block NameOR        53
+Block NameRun blocks        53
+Block NameTurn ON blocks        53
+Block NameTurn OFF blocks        54
+Block NameToggle blocks        54
+Block NameSet "Current Market" for next blocks        54
+Block NameSet "Current Timeframe" for next blocks        55
+Block NameSkip Ticks        55
+Block NameSet Flag (textual)        56
+Block NameCheck Flag (textual)        56
+Block NameSet Flag (numeric)        56
+Block NameCheck Flag (numeric)        56
+Block NameSet Flag (true-false)        57
+Block NameCheck Flag (true-false)        57
+Block NameCounter: Pass once        57
+Block NameCounter: Pass "n" times        57
+Block NameCounter: Count "n", then pass        58
+Block NameCounter: Reset        58
+Block NameLoop (pass "n" times)        58
+Block NamePass        58
+Block NameRandom outputs        58
+Block NameDelay        58
+Block NameTerminate        59
+Block NameIf Contest account        59
+Block NameIf Demo account        59
+Block NameIf Real account        59
+Block NameIf Testing        59
+Block NameTerminal Connected        59
+Block NameWithdrawal        60
+Block NameCustom MQL code        60
+Block NamePosition created        60
+Block NamePosition stops modified        61
+Block NamePosition incremented        61
+Block NamePosition decremented        61
+Block NamePosition reversed        62
+Block NamePosition closed        62
+Block NameOrder created        62
+Block NameOrder moved        63
+Block NameOrder stops modified        63
+Block NameOrder deleted        63
+Block NameChart modified        64
+Block NameEdit Field modified        64
+Block NameKeyboard Pressed        64
+Block NameMouse clicked        65
+Block NameMouse clicked on object        65
+Block NameMouse moved        65
+Block NameObject created        65
+Block NameObject modified        66
+Block NameObject deleted        66
+Block NameObject dragged        66
+Block Name Modify Variables
+OverviewUse this block to modify project Variables (defined in the Variables section).
+Simply right-click on the input field and select a Variable from the list or write its name in the same field.
+Project Variables are value-holders who store information and they can be used everywhere in the project, they are global. They can be read or modified.
+Outputs (in what case are they active?)  Once when the work is done.
+Block Name Condition
+OverviewThis block compares two operands - Left Operand and Right Operand - using various comparison methods, such as +, -, *, /, ==, != or crossovers.
+Outputs (in what case are they active?)If you are trying to compare attributes of a chart object and the object does not exists on the chart, none of the outputs will be active!
+
+
+If the absolute value of one of the operands equals to EMPTY_VALUE, none of the outputs will be active!
+
+
+  Active when the comparison is valid.
+  When the opposite comparison is valid.
+ExamplesClick on "More settings" to see additional parameters to set up.
+"Adjust" fields are used to adjust operands. For example:
+*2 - this will double the operand value
+-0.01 - this will subtract 0.01 from the operand value
+*(33/100) - this will convert the operand value to 33% of its own value
+*33% - the same. "%" sign is actually converted to "/100"
++15pips - this will add 15 pips to the operand
+
+
+
+
+Block Name Condition
+OverviewThis block allows you to write low level conditions. This block does simple IF - THEN - ELSE logic. You can write any condition that you would write between the brackets in a normal if () code in MQL4/MQL5. If the condition results to true, the block will pass.
+
+
+You can use these symbols
+&& -
+
+
+  Active when the condition results to true.
+  The opposite, when the condition results to false.
+
+
+
+
+Block Name Formula
+OverviewThis block makes a simple mathematical operation over two operands - Left Operand and Right Operand - and puts the result into a previously defined Variable. You need to first define that Variable in Variables and then put it (right-click and select) into the corresponding input field.
+
+
+You can also adjust the output value by using the other input field. Here are some examples of what you can write in this field:
+
+
+*2 - this will double the output value
+-0.01 - this will subtract 0.01 from the output value
+*(33/100) - this will convert the output value to 33% of its own value
+*33% - the same. "%" sign is actually converted to "/100"
++15pips - this will add 15 pips to the output value
+
+
+
+
+Block Name Indicator is visible
+OverviewChecks whether the selected indicator is visible on the chart at a certain candle or multiple candles.
+
+
+The word Visible here means that the value in the output buffer is different than 0, EMPTY_VALUE and -EMPTY_VALUE.
+
+
+EMPTY_VALUE is a predefined constant in MQL4 and its value is the biggest integer value. This value is used to tell MetaTrader (or your program that uses the indicator in MetaTrader) that there is no usable value calculated from the indicator for the given candle. It means that the value is empty, doesn't exist, nothing to be used.
+
+
+Normally the custom indicator provides its output buffers (filled with values) and some instructions, so MetaTrader uses that information to turn the digital values into graphical representation - lines, histograms and so on. But some custom indicators create graphical objects directly on the chart, not via their output buffers. In this case you can see that there is something visible on the chart, but this block will not detect it. This block works only with the values in the output buffers of your indicator.
+Outputs (in what case are they active?)  When the indicator is visible under the conditions of this block.
+  Otherwise.
+
+
+Block Name Indicator is invisible
+OverviewChecks whether the selected indicator is invisible on the chart at a certain candle or multiple candles.
+
+
+The word Invisible here means that the value in the output buffer is 0, EMPTY_VALUE or -EMPTY_VALUE.
+
+
+EMPTY_VALUE is a predefined constant in MQL4 and its value is the biggest integer value. This value is used to tell MetaTrader (or your program that uses the indicator in MetaTrader) that there is no usable value calculated from the indicator for the given candle. It means that the value is empty, doesn't exist, nothing to be used.
+
+
+Normally the custom indicator provides its output buffers (filled with values) and some instructions, so MetaTrader uses that information to turn the digital values into graphical representation - lines, histograms and so on. But some custom indicators create graphical objects directly on the chart, not via their output buffers. In this case you can see that there is something visible on the chart, but this block will not detect it. This block works only with the values in the output buffers of your indicator.
+Outputs (in what case are they active?)  When the indicator is visible under the conditions of this block.
+  Otherwise.
+
+
+Block Name Indicator appear
+OverviewUse this block to detect when the selected indicator becomes visible (turns from invisible to visible).
+
+
+Every time this block runs, it reads the value provided by the indicator. When the previous read value can be described as Invisible and the currently read value can be described as Visible, then the block passes.
+
+
+The word Visible here means that the value in the output buffer is different than 0, EMPTY_VALUE and -EMPTY_VALUE. The word Invisible is the opposite.
+
+
+EMPTY_VALUE is a predefined constant in MQL4 and its value is the biggest integer value. This value is used to tell MetaTrader (or your program that uses the indicator in MetaTrader) that there is no usable value calculated from the indicator for the given candle. It means that the value is empty, doesn't exist, nothing to be used.
+Outputs (in what case are they active?)  When the indicator is now visible and in the last execution of the block it was invisible.
+  When the indicator is invisible or it is still visible.
+
+
+Block Name Indicator disappear
+OverviewUse this block to detect when the selected indicator becomes invisible (turns from visible to invisible).
+
+
+Every time this block runs, it reads the value provided by the indicator. When the previous read value can be described as Visible and the currently read value can be described as Invisible, then the block passes.
+
+
+The word Visible here means that the value in the output buffer is different than 0, EMPTY_VALUE and -EMPTY_VALUE. The word Invisible is the opposite.
+
+
+EMPTY_VALUE is a predefined constant in MQL4 and its value is the biggest integer value. This value is used to tell MetaTrader (or your program that uses the indicator in MetaTrader) that there is no usable value calculated from the indicator for the given candle. It means that the value is empty, doesn't exist, nothing to be used.
+Outputs (in what case are they active?)  When the indicator is now invisible and in the last execution of the block it was visible.
+  When the indicator is visible or it is still invisible.
+
+
+Block Name Indicator rise
+OverviewDetects whether the indicator values are rising in a certain period of candles. This means that the value of the indicator for each candle after the oldest candle is bigger than the value in the previous candle.
+Outputs (in what case are they active?)  Depending on the "Pass mode" settings of the block.
+  Otherwise.
+
+
+Block Name Indicator fall
+OverviewDetects whether the indicator values are falling in a certain period of candles. This means that the value of the indicator for each candle after the oldest candle is lower than the value in the previous candle.
+Outputs (in what case are they active?)  Depending on the "Pass mode" settings of the block.
+  Otherwise.
+
+
+Block Name Indicator moves within limits
+OverviewDetects whether the indicator values stays within upper and/or lower limits in a certain candles period. Other options are available.
+Outputs (in what case are they active?)  When conditions in this block are valid.
+  Otherwise.
+
+
+Block Name Price ×> Indicator
+OverviewThis block detects when the current BID price crosses your indicator line above (from below) and passes once (single time) when that happen.
+
+
+This block is not suitable for oscillators, it is designed for indicators similar to Moving Average!
+
+
+There is an option to define minimum turnover - that is, if after crossover the price goes back (downwards) and tries another fast crossover (upwards), it will not be detected. Unless the price goes at some minimum distance before hitting the indicator line again. In other words, crossover after crossover may happen after big enough turnover.
+Outputs (in what case are they active?)  Once when crossover is detected.
+  Otherwise.
+Block Name Price ×< Indicator
+OverviewThis block detects when the current BID price crosses your indicator line below (from above) and passes once (single time) when that happen.
+
+
+This block is not suitable for oscillators, it is designed for indicators similar to Moving Average!
+
+
+There is an option to define minimum turnover - that is, if after crossover the price goes back (upwards) and tries another fast crossover (downwards), it will not be detected. Unless the price goes at some minimum distance before hitting the indicator line again. In other words, crossover after crossover may happen after big enough turnover.
+Outputs (in what case are they active?)  Once when crossover is detected.
+  Otherwise.
+
+
+Block Name Time filter
+OverviewThis block passes when the current time is between the two specified times - start time and end time.
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block Name Months filter
+OverviewThis block passes when the current month is one of the allowed.
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block Name Weekday filter
+OverviewThis block passes when the current weekday (Monday, Tuesday...) is one of the allowed.
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block Name Hours filter
+OverviewYou can define up to 4 periods of hours in the day where this block is allowed to pass.
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block Name Minutes filter
+OverviewYou can define up to 4 periods of minutes within an hour where this block is allowed to pass.
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block Name Seconds filter
+OverviewYou can define up to 4 periods of seconds within a minute where this block is allowed to pass.
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block Name Seconds filter
+OverviewYou can define up to 4 periods of seconds within a minute where this block is allowed to pass.
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block Name Once per tick
+OverviewThis block can pass only once per tick.
+
+
+Note that whether the tick is new or not is detected by checking if Ask, Bid or the tick Time attribute for the selected market is different than in the previous execution of the same block.
+
+
+Also note that this block is a filter, not a driver, so it does not produce tick events.
+How It Works?1. For the given market (symbol) it gets the current Ask, Bid and Time.
+2. The block has internal memory and it knows Ask, Bid and Time from the previous time the block was executed.
+3. It checks the fresh parameters with the oldest known, and if one of them is different the block will pass through the   output.
+Outputs (in what case are they active?)  Once per tick detected
+  Otherwise - it the tick that is detected is the same as in the last execution of the same block.
+
+
+Block Name Once per bar
+OverviewFor the current timeframe and market this block can pass only once per bar (candle). Depending on the conditions above this block (if any), it can pass in the beginning of the new bar or somewhere in the middle.
+
+
+If you put more than one "Once per bar" block in your project, each of them works for it's own.
+How It Works?Bars (candles) has Time attribute which is different for all bars.
+
+
+1. The block has internal memory and remembers the last known Time attribute.
+2. The current Time attribute is compared with the last known Time attribute and if it is different, this means that a new bar was created. Then the block activates it's   output.   output is activeted otherwise.
+Outputs (in what case are they active?)  Once per bar.
+  Otherwise - if the bar that is detected is still the same as in the last block execution.
+
+
+Block Name Once a day
+OverviewThis block can pass only once a day. Additionally, you can set up a hours filter - part of the day where the block will be able to pass.
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block Name Once an hour
+OverviewThis block can pass only once an hour. Additionally, you can set up a minutes filter - part of the hour where the block will be able to pass.
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block NameOnce per minutes
+OverviewThis block can pass once in a certain period of minutes. It uses the server time and counting of minutes starts from 00:00 at the day when the program is started. The block passes initially.
+
+
+For example, if you have 20 minutes period, then the block can pass between:
+- 00:00 and 00:20
+- 00:20 and 00:40
+- 00:40 and 01:00
+- 01:00 and 01:20
+... and so on.
+
+
+But if you use period that can't fit into an hour, then you can get shifted signals. Let's say you use 7 minutes period, then the block can pass between:
+- 00:00 and 00:07
+- 00:07 and 00:14
+...
+- 00:49 and 00:56
+- 00:56 and 01:03
+
+
+So, it's better to use periods that follows the next condition:
+
+
+1440 / period = whole number
+
+
+(1440 is the number of minutes in 1 day)
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block NameOnce per seconds
+OverviewThis block can pass once in a certain period of seconds. It uses the server time and counting of seconds starts from 00:00 at the day when the program is started. The block passes initially.
+
+
+For example, if you have 20 seconds period, then the block can pass between:
+- 00:00:00 and 00:00:20
+- 00:00:20 and 00:00:40
+- 00:00:40 and 00:01:00
+- 00:01:00 and 00:01:20
+... and so on.
+
+
+But if you use period that can't fit into a minute, then you can get shifted signals. Let's say you use 7 seconds period, then the block can pass between:
+- 00:00:00 and 00:00:07
+- 00:00:07 and 00:00:14
+...
+- 00:00:49 and 00:00:56
+- 00:00:56 and 00:01:03
+
+
+So, it's better to use periods that follows the next condition:
+
+
+1440 / period = whole number
+
+
+(1440 is the number of minutes in 1 day)
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block NameOnce per positions
+OverviewThis block can pass once for certain number of trades created.
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block NameEvery "n" ticks
+OverviewThis block can pass once at every "n" ticks that it counted. It counts ticks only when it runs!
+
+
+Note that whether the tick is new or not is detected by checking if Ask, Bid or the tick Time attribute for the selected market is different than in the previous execution of the same block.
+Outputs (in what case are they active?)  Once when the block counted "n"-th tick.
+  Otherwise.
+
+
+Block NameEvery "n" bars
+OverviewThis block will pass once for every "n" bars that it counts. It counts bars when it is executed.
+Outputs (in what case are they active?)  Once when the block counted "n"-th bar.
+  Otherwise.
+
+
+Block NameSpread Filter
+OverviewThis block can be used to deny execution of next blocks if the current spread is bigger than a certain value.
+
+
+It also contains average spread collector, so you can check the relationship between the current spread and the average spread for a given amount of time (in seconds). To use that option properly, put this block on top level of your strategy, because in order to calculate the average spread, it needs to be able to collect spread's data from every tick that comes.
+Outputs (in what case are they active?)  When spread conditions are met.
+  Otherwise.
+
+
+Block NameCheck positions count
+OverviewThis block calculates the number of trades matching the filter settings, and compares that number with the requested one.
+Outputs (in what case are they active?)  In case the comparison is valid.
+  Otherwise.
+
+
+Block NameCheck pending orders count
+OverviewThis block calculates the number of pending orders matching the filter settings, and compares that number with the requested one.
+Outputs (in what case are they active?)  In case the comparison is valid.
+  Otherwise.
+
+
+Block NameIf position
+OverviewChecks whether there is any trade running at the moment. There are filter settings, so you can be very specific to which trades to look at.
+How It Works?1. The number of all the trades is already known.
+2. It starts to load them one after another and if any of them matches the filter settings, the   output is activated.
+3. If none of the available trades matches the filter settings, the   output becomes active.
+Outputs (in what case are they active?)  When at least one trade was detected.
+  Otherwise - when no trade was detected.
+
+
+Block NameIf position/order
+OverviewChecks whether there is any trade running or pending order placed at the moment. There are filter settings, so you can be very specific to which trades and orders to look at.
+How It Works?1. The number of all trades and orders is already known.
+2. It starts to load them one after another and if any of them matches the filter settings, the   output is activated.
+3. If none of the available trades/orders matches the filter settings, the   output becomes active.
+Outputs (in what case are they active?)  When at least one trade or pending order was detected.
+  Otherwise - when no trade and no pending order was detected.
+
+
+Block NameIf pending order
+OverviewChecks whether there is any pending order placed at the moment. There are filter settings, so you can be very specific to which pending orders to look at.
+How It Works?1. The number of all pending orders is already known.
+2. It starts to load them one after another and if any of them matches the filter settings, the   output is activated.
+3. If none of the available orders matches the filter settings, the   output becomes active.
+Outputs (in what case are they active?)  When at least one pending order was detected.
+  Otherwise - when no pending order was detected.
+
+
+Block NameNo position
+OverviewChecks whether there is no trade running at the moment. There are filter settings, so you can be very specific to which trades to look at.
+How It Works?1. The number of all the trades is already known.
+2. It starts to load them one after another and if none of them matches the filter settings, the   output is activated.
+3. If at least one trades matches the filter settings, the   output becomes active.
+Outputs (in what case are they active?)  When no trade was detected.
+  Otherwise - when at least one trade was detected.
+
+
+Block NameNo position/order
+OverviewChecks whether there is no trade running and no pending order placed at the moment. There are filter settings, so you can be very specific to which trades and orders to look at.
+How It Works?1. The number of all trades and orders is already known.
+2. It starts to load them one after another and if none of them matches the filter settings, the   output is activated.
+3. If at least one of the available trades/orders matches the filter settings, the   output becomes active.
+Outputs (in what case are they active?)  When no trade or pending order was detected.
+  Otherwise - when at least one trade or pending order was detected.
+
+
+Block NameNo pending order
+OverviewChecks whether there is no pending order placed. There are filter settings, so you can be very specific to which trades and orders to look at.
+How It Works?1. The number of all pending orders is already known.
+2. It starts to load them one after another and if none of them matches the filter settings, the   output is activated.
+3. If at least one order matches the filter settings, the   output becomes active.
+Outputs (in what case are they active?)  When no pending order was detected.
+  Otherwise - when at least one pending order was detected.
+
+
+Block NameNo position nearby
+Block NameNo pending order nearby
+Block NameBuy now
+OverviewCreate a new Buy trade using this block. Money management, stop-loss, take-profit and other options are available.
+How It Works?1. Parameters for the trade are calculated given the settings you provide.
+2. Parameters are then checked and corrected if needed.
+3. A request for a new trade is sent to your broker's server.
+4. If a new trade has been created successfully, the   output becomes active. If not, the behavior depends on the error response from the server. Either a new trade attempt is initiated or the   output becomes active, signaling for a fatal error.
+
+
+- If the requested lot size is lower than the minimum available, the minimum is taken. If it is greater than the maximum - the maximum is taken.
+Note that lot sizes are always rounded, because there is a minimum lot step required. For example, if the lot step is 0.01, then a lot size of 0.1 or 0.11 is valid, but 0.102 is not valid and it will be automatically corrected to the nearest valid, which is 0.10.
+
+
+- Open price is Ask price.
+- Stop-loss and take-profit are calculated in relation to Ask price!
+- If stop-loss or take-profit is too short, the minimum level is taken.
+- (MQL4) If the broker has stops distance limitation, you can't place stop-loss or take-profit too close to Bid price. The limits are X points below and above Bid price. Click here for more information.
+- (MQL5) If your account is in Netting mode, then you can only have 1 position per symbol. When buying and selling you either add volume to the position or remove volume from it.
+Outputs (in what case are they active?)  When a new Buy trade is successfully created.
+  In case of error.
+
+
+Block NameBuy pending order
+OverviewCreate a new Buy pending order using this block. Money management, stop-loss, take-profit, expiration and other options are available.
+How It Works?1. Parameters for the order are calculated given the settings you provide.
+2. Parameters are then checked and corrected if needed.
+3. A new pending order request is sent to the server.
+4. If everything is fine the   output becomes active. If not, depending on the error responce from the server a new order attempt is initiated or the block activates it's   output.
+
+
+- If the requested lot size is lower than the minimum available, the minimum is taken. If it is greater than the maximum - the maximum is taken.
+Note that lot sizes are always rounded, because there is a minimum lot step required. For example, if the lot step is 0.01, then a lot size of 0.1 or 0.11 is valid, but 0.102 is not valid and it will be automatically corrected to the nearest valid, which is 0.10.
+Outputs (in what case are they active?)  When a new Buy pending order is successfully created.
+  In case of error.
+
+
+Block NameBuy pending orders in grid
+OverviewCreate number of new Buy pending orders at some distance from each other using this block. Money management, stop-loss, take-profit, expiration, gradation and other options are available.
+
+
+Gradation means that the given parameter (for example stop-loss size) for the current pending order is X% from the same parameter for the previous pending order in the grid. The default gradation value for all parameters is 100%, which means that for each pending order parameters are equal.
+For example, If you select gradation of 200% - every next pending order will have this parameter 2 times bigger than the same parameter for the previous pending order in the grid.
+How It Works?1. Parameters for the first pending order are calculated given the settings you provide.
+2. Parameters are then checked and corrected if needed.
+3. The first pending order request is sent to the server.
+4. If there is an error, a new attempt is initiated. If the error is fatal this pending order is abandoned.
+5. If the pending order is placed successfully then 1-4 is repeated for the next pending order in the grid, until all pending orders are placed (if no fatal errors).
+
+
+- If the requested lot size is lower than the minimum available, the minimum is taken. If it is greater than the maximum - the maximum is taken.
+Note that lot sizes are always rounded, because there is a minimum lot step required. For example, if the lot step is 0.01, then a lot size of 0.1 or 0.11 is valid, but 0.102 is not valid and it will be automatically corrected to the nearest valid, which is 0.10.
+Outputs (in what case are they active?)  When the last pending order from the grid is successfully created.
+  In case of error while the last pending order from the grid attempted to be created.
+
+
+Block NameSell now
+OverviewCreate a new Sell trade using this block. Money management, stop-loss, take-profit and other options are available.
+How It Works?1. Parameters for the trade are calculated given the settings you provide.
+2. Parameters are then checked and corrected if needed.
+3. A request for a new trade is sent to your broker's server.
+4. If a new trade has been created successfully, the   output becomes active. If not, the behavior depends on the error response from the server. Either a new trade attempt is initiated or the   output becomes active, signaling for a fatal error.
+
+
+- If the requested lot size is lower than the minimum available, the minimum is taken. If it is greater than the maximum - the maximum is taken.
+Note that lot sizes are always rounded, because there is a minimum lot step required. For example, if the lot step is 0.01, then a lot size of 0.1 or 0.11 is valid, but 0.102 is not valid and it will be automatically corrected to the nearest valid, which is 0.10.
+
+
+- Open price is Bid price.
+- Stop-loss and take-profit are calculated in relation to Bid price!
+- If stop-loss or take-profit is too short, the minimum level is taken.
+- (MQL4) If the broker has stops distance limitation, you can't place stop-loss or take-profit too close to Ask price. The limits are X points below and above Ask price. Click here for more information.
+- (MQL5) If your account is in Netting mode, then you can only have 1 position per symbol. When buying and selling you either add volume to the position or remove volume from it.
+Outputs (in what case are they active?)  When a new Sell trade is successfully created.
+  In case of error.
+
+
+Block NameSell pending order
+OverviewCreate a new Sell pending order using this block. Money management, stop-loss, take-profit, expiration and other options are available.
+How It Works?1. Parameters for the order are calculated given the settings you provide.
+2. Parameters are then checked and corrected if needed.
+3. A new pending order request is sent to the server.
+4. If everything is fine the   output becomes active. If not, depending on the error responce from the server a new order attempt is initiated or the block activates it's   output.
+
+
+- If the requested lot size is lower than the minimum available, the minimum is taken. If it is greater than the maximum - the maximum is taken.
+Note that lot sizes are always rounded, because there is a minimum lot step required. For example, if the lot step is 0.01, then a lot size of 0.1 or 0.11 is valid, but 0.102 is not valid and it will be automatically corrected to the nearest valid, which is 0.10.
+Outputs (in what case are they active?)  When a new Sell pending order is successfully created.
+  In case of error.
+
+
+Block NameSell pending orders in grid
+OverviewCreate number of new Sell pending orders at some distance from each other using this block. Money management, stop-loss, take-profit, expiration, gradation and other options are available.
+
+
+Gradation means that the given parameter (for example stop-loss size) for the current pending order is X% from the same parameter for the previous pending order in the grid. The default gradation value for all parameters is 100%, which means that for each pending order parameters are equal.
+For example, If you select gradation of 200% - every next pending order will have this parameter 2 times bigger than the same parameter for the previous pending order in the grid.
+How It Works?1. Parameters for the first pending order are calculated given the settings you provide.
+2. Parameters are then checked and corrected if needed.
+3. The first pending order request is sent to the server.
+4. If there is an error, a new attempt is initiated. If the error is fatal this pending order is abandoned.
+5. If the pending order is placed successfully then 1-4 is repeated for the next pending order in the grid, until all pending orders are placed (if no fatal errors).
+
+
+- If the requested lot size is lower than the minimum available, the minimum is taken. If it is greater than the maximum - the maximum is taken.
+Note that lot sizes are always rounded, because there is a minimum lot step required. For example, if the lot step is 0.01, then a lot size of 0.1 or 0.11 is valid, but 0.102 is not valid and it will be automatically corrected to the nearest valid, which is 0.10.
+Outputs (in what case are they active?)  When the last pending order from the grid is successfully created.
+  In case of error while the last pending order from the grid attempted to be created.
+
+
+Block NameBucket of Positions
+OverviewUse this block when you want to get values from a group (bucket) of multiple trades. The block itself only loads the trades, then you can get and check the values for example by using the "Condition" block.
+
+
+The values you can get from a bucket of trades are like Minimum, Maximum or Average Profit, Lot size, Stop Loss, Take Profit and more.
+
+
+You can also associate the group of trades with a color (Bucket ID), which is similar to a number or a label. This allows you to load multiple groups at the same time and compare their values.
+Outputs (in what case are they active?)  When trades are loaded
+  If no trade was loaded
+
+
+Block NameBucket of Pending Orders
+OverviewUse this block when you want to get values from a group (bucket) of multiple pending orders. The block itself only loads the orders, then you can get and check the values for example by using the "Condition" block.
+
+
+The values you can get from a bucket of ordersare like Minimum, Maximum or Average Profit, Lot size, Stop Loss, Take Profit and more.
+
+
+You can also associate the group of orders with a color (Bucket ID), which is similar to a number or a label. This allows you to load multiple groups at the same time and compare their values.
+Outputs (in what case are they active?)  When pending orders are loaded
+  If no order was loaded
+
+
+Block NameBucket of Closed Positions
+OverviewUse this block when you want to get values from a group (bucket) of multiple closed trades. The block itself only loads the trades, then you can get and check the values for example by using the "Condition" block.
+
+
+The values you can get from a bucket of trades are like Minimum, Maximum or Average Profit, Lot size, Stop Loss, Take Profit and more.
+
+
+You can also associate the group of trades with a color (Bucket ID), which is similar to a number or a label. This allows you to load multiple groups at the same time and compare their values.
+Outputs (in what case are they active?)  When trades are loaded
+  If no trade was loaded
+
+
+Block NameFor each Position
+OverviewThis block loops through all trades that matches the filter settings. For each trade next blocks are executed, and they are supposed to be blocks (from the same category) that will check the trade's attributes (stop loss, take profit...) or modify/close the trade. You can also access the attributes using "Condition" block.
+
+
+Note that this block is a driver - when it is executed once it can pass many times, depending on how many trades are filtered.
+How It Works?1. It checks how many trades are running at the moment.
+2. Depending on the selected loop direction it starts to load all available trades one after another (loading a trade means that it's attributes (open price, volume size...) are ready to be checked and it is prepared to be modified or closed)
+3. If the currently loaded trade matches the filter settings, the   output is activated. Otherwise it skips the trade and it continues to the next one.
+4. The   output of this block can be activated as many times as many trades are passed the filter settings! When you have blocks connected after this block, they are executed immediately, so the next trade will be loaded after next blocks does their work.
+5. When all available trades are checked and the   output was activated as many times as needed, the block goes to it's   output. Or basically, it goes to the   output always after the work is finished.
+Outputs (in what case are they active?)  Once for each trade that is filtered with this block. It can be said that blocks connected to this output are executed "within" this block.
+  Once when the work is done.
+
+
+Block NameFor each Pending Order
+OverviewThis block loops through all orders that matches the filter settings. For each order next blocks are executed, and they are supposed to be blocks (from the same category) that will check the order's attributes (stop loss, take profit...) or modify/close the order. You can also access the attributes using "Condition" block.
+
+
+Note that this block is a driver - when it is executed once it can pass many times, depending on how many pending orders are filtered.
+How It Works?1. It checks how many orders are running at the moment.
+2. Depending on the selected loop direction it starts to load all available orders one after another (loading a order means that it's attributes (open price, volume size...) are ready to be checked and it is prepared to be modified or closed)
+3. If the currently loaded order matches the filter settings, the   output is activated. Otherwise it skips the order and it continues to the next one.
+4. The   output of this block can be activated as many times as many orders are passed the filter settings! When you have blocks connected after this block, they are executed immediately, so the next order will be loaded after next blocks does their work.
+5. When all available orders are checked and the   output was activated as many times as needed, the block goes to it's   output. Or basically, it goes to the   output always after the work is finished.
+Outputs (in what case are they active?)  Once for each pending order that is filtered with this block. It can be said that blocks connected to this output are executed "within" this block.
+  Once when the work is done.
+
+
+Block NameFor each Closed Position
+OverviewThis block works with already closed trades.
+
+
+This block loops through all trades that matches the filter settings. For each trade next blocks are executed, and they are supposed to be blocks (from the same category) that will check the trade's attributes (stop loss, take profit...) or modify/close the trade. You can also access the attributes using "Condition" block.
+
+
+Note that this block is a driver - when it is executed once it can pass many times, depending on how many trades are filtered. It's recommended to sort closed trades from the newest to the oldest and limit the number of trades that can be loaded, because normally there are too many trades in history and most of them are not currently needed.
+How It Works?1. It checks how many trades are running at the moment.
+2. Depending on the selected loop direction it starts to load all available trades one after another (loading a trade means that it's attributes (open price, volume size...) are ready to be checked and it is prepared to be modified or closed)
+3. If the currently loaded trade matches the filter settings, the   output is activated. Otherwise it skips the trade and it continues to the next one.
+4. The   output of this block can be activated as many times as many trades are passed the filter settings! When you have blocks connected after this block, they are executed immediately, so the next trade will be loaded after next blocks does their work.
+5. When all available trades are checked and the   output was activated as many times as needed, the block goes to it's   output. Or basically, it goes to the   output always after the work is finished.
+Outputs (in what case are they active?)  Once for each trade that is filtered with this block. It can be said that blocks connected to this output are executed "within" this block.
+  Once when the work is done, depending on the settings.
+
+
+Block Nameonce per position/order
+OverviewThis block can pass once for every unique* trade/order that is loaded.
+
+
+*Keep in mind that if a trade is created after partial close of other (parent) trade, the block will not pass for it if the parent trade was passed before. In other words, children trades does not pass if their parents are passed already. The same goes for trades created as added-to-volume.
+
+
+This block uses temporary memory to store ticket numbers of trades/orders and when the robot is restarted that memory is lost!
+How It Works?1. Each trade/order has unique id number called Ticket number and this block reads it.
+2. The block keeps private database with ticket numbers of trades/orders already passed through it. If the current ticket number is not inside the database, it is added there and the   output is activated. Otherwise, the   output is activated.
+Outputs (in what case are they active?)  If the block was not already passed for the currently loaded trade/order. Read the overview for more details.
+  Otherwise.
+
+
+Block Namecheck stop-loss
+OverviewUse this block to check stop-loss of the currently loaded trade/order.
+
+
+Note that stop-loss in pips is calculated as the difference between the open price and stop-loss level, so if your stop-loss on a profitable trade is modified and located on the opposite side of open price, the calculation will be incorrect.
+How It Works?1. It reads the stop-loss attribute of the currently loaded trade/order and (depending on the mode you selected) it compares it with the value provided.
+2. If the comparison is true it goes to the   output, otherwise it goes to the   output.
+Outputs (in what case are they active?)  If condition is met.
+  Otherwise.
+
+
+Block Namecheck take-profit
+OverviewUse this block to check take-profit of the currently loaded trade/order.
+
+
+Note that take-profit in pips is calculated as the difference between the open price and take-profit level, so if your take-profit on a profitable trade is modified and located on the opposite side of open price, the calculation will be incorrect.
+How It Works?1. It reads the take-profit attribute of the currently loaded trade/order and (depending on the mode you selected) it compares it with the value provided.
+2. If the comparison is true it goes to the   output, otherwise it goes to the   output.
+Outputs (in what case are they active?)  If condition is met.
+  Otherwise.
+
+
+Block Namecheck type
+OverviewUse this block to check the type of the currently loaded trade/order - is it Buy or Sell? Or is it Stop or Limit in case of pending order?
+Outputs (in what case are they active?)  If conditions are met.
+  Otherwise.
+
+
+Block Namecheck age
+OverviewUse this block to check the age of the currently loaded trade/order. This is the time elapsed since the trade/order was created.
+How It Works?The age of the currently loaded trade/order is compated with the value specified by you (depending on which mode is used).
+Outputs (in what case are they active?)  If condition is met.
+  Otherwise.
+
+
+Block Namecheck group number
+OverviewUse this block to check group number of the currently loaded trade/order. Group number refers to Magic number attribute that each trade/order has and it is used to distinguish trades/orders in a project, when needed.
+
+
+Magic number = MagicStart (see it in robot's input parameters) + Group number
+How It Works?The group number of the currently loaded trade/order is compated with the value specified by you.
+Outputs (in what case are they active?)  If condition is met.
+  Otherwise.
+
+
+Block Namecheck how it was closed
+OverviewChecks how the currently loaded trade was closed.
+
+
+IMPORTANT: The block doesn't work with Virtual Stops! These stops are horizontal lines and once the trade is closed, the lines are deleted and suddenly there is no real evidence that the trade was closed by SL or TP.
+How It Works?For each closed trade we know its Close Price (the price at which it was closed), SL and TP levels. The block simply checks whether the Close Price is the same as SL or TP.
+Outputs (in what case are they active?)  If condition is met.
+  Otherwise.
+
+
+Block Namecheck loss
+OverviewThis block checks the loss amount of the currently loaded trade. It doesn't work for pending orders, because they have no profit/loss.
+
+
+The word "loss" here describes the negative value of the profit - basically when the profit is negative, then it is loss, and if we call it "loss" then we can measure it with positive values. So, this block actually compares the negative value of the profit with positive values.
+
+
+For example, if you have a trade with profit -10$, then the loss is 10$. With this block you can check whether the loss is bigger than 10 (dollars).
+How It Works?The loss of the currently loaded trade/order is compated with the value specified by you (depending on which mode is used).
+Outputs (in what case are they active?)  If condition is met.
+  Otherwise.
+
+
+Block Namecheck profit
+OverviewThis block checks the profit amount of the currently loaded trade. It doesn't work for pending orders, because they have no profit.
+How It Works?The loss of the currently loaded trade/order is compated with the value specified by you (depending on which mode is used).
+Outputs (in what case are they active?)  If condition is met.
+  Otherwise.
+
+
+Block Namepips away from open-price
+OverviewUse this block to check how far from the open-price (of the currently loaded trade/order) the current market price is. It works with trades or orders.
+
+
+In case of Buy trade/order, the current market price is considered as Ask price. Otherwise in case of Sell - Bid price.
+Outputs (in what case are they active?)  If the distance between the current market price and open-price of the currently loaded trade/order is big enough.
+  Otherwise.
+
+
+Block Namepips away from stop-loss
+OverviewUse this block to check how far from the stop-loss (of the currently loaded trade/order) the current market price is. It works with trades or orders.
+
+
+In case of Buy trade/order, the current market price is considered as Ask price. Otherwise in case of Sell - Bid price.
+
+
+In case of Buy trade/order the distance is calculated as: Ask - StopLoss
+In case of Sell trade/order the distance is caldulated as: StopLoss-Bid
+Outputs (in what case are they active?)  If the distance between the current market price and stop-loss of the currently loaded trade/order is big enough.
+  Otherwise.
+
+
+Block Namepips away from take-profit
+OverviewUse this block to check how far from the take-profit (of the currently loaded trade/order) the current market price is. It works with trades or orders.
+
+
+In case of Buy trade/order, the current market price is considered as Ask price. Otherwise in case of Sell - Bid price.
+
+
+In case of Buy trade/order the distance is calculated as: TakeProfit - Ask
+In case of Sell trade/order the distance is caldulated as: Bid - TakeProfit
+Outputs (in what case are they active?)  If the distance between the current market price and take-profit of the currently loaded trade/order is big enough.
+  Otherwise.
+
+
+Block Namemodify stops
+OverviewUse it to modify stop-loss and/or take-profit levels of the currently loaded trade/order.
+How It Works?1. The new stop-loss and take-profit levels are calculated given the settings and values you provide.
+2. If new levels are wrong and can be fixed - they are fixed.
+3. Request to the server is sent to modify stops. An answer from the server is expected.
+4. If there is an error that is not fatal - a new attempt will be initiated. Otherwise, if there is a fatal error - no more attempts will be initiated.
+
+
+- When the current market price is used for calculations, for Buy trades/orders it is considered as Ask, and in Sell trades/orders - Bid..
+- Stop-loss and take-profit are calculated in relation to Ask price (for Buys) or Bid price (for Sells).
+- If the broker has stops distance limitation, you can't place stop-loss or take-profit too close to Bid price (for Buys) or Ask price (for Sells). The limits are X points below and above Bid price (for Buys) or Ask price (for Sells). Click here for more information.
+- If stop-loss or take-profit is too short, the minimum level is taken.
+Outputs (in what case are they active?)  If stops were modified successfully.
+  If fatal error happened.
+
+
+Block Namemodify expiration
+OverviewUse it to modify expiration time for the currently loaded pending order.
+Outputs (in what case are they active?)  If expiration time was modified successfully.
+  If fatal error happened.
+
+
+Block Nameslide order
+OverviewUse this block to slide (move) the currently loaded pending order relative to a certain price. That price could be its own Open Price, the current market price (Ask or Bid) or a custom price.
+
+
+This block works only for pending orders! Use "For each Pending Order" block somewhere above this block.
+
+
+If you are sliding relative to the current Open Price, you will see that the pending order is moving in the same direction every time the block runs. This speed of movement depends mostly on how often the block runs. If the block runs too often, the pending order looks like it tries to escape outside the chart or to crash into the market price.
+
+
+If you are sliding relative to the current market price, the pending order is kept at certain distance from that price. If the block runs too often, the pending order looks like pegged to the market price and it moves with it in both directions.
+Outputs (in what case are they active?)  If the order was moved successfully.
+  If error happened.
+
+
+Block Nameshrink stops
+OverviewUse it to shrink the size of stop-loss and/or take-profit for the currently loaded trade/order. To shrink them means that they are put closer to the Open price.
+Outputs (in what case are they active?)  If the trade/order was modified successfully.
+  If fatal error happened.
+
+
+Block Nameextend stops
+OverviewUse it to extend the size of stop-loss and/or take-profit for the currently loaded trade/order. To extend them means that they are put further away from the Open price.
+Outputs (in what case are they active?)  If the trade/order was modified successfully.
+  If fatal error happened.
+
+
+Block Nameadd to volume
+OverviewThis block works with trades only!
+
+
+Use it to create a new trade with the same type and volume size as big as % of the currently loaded trade. The new trade will have the same stop-loss and take-profit.
+
+
+Note that In MetaTrader 4 it's not possible to modify the lot size of trades, so the workaround is to create a new trade with similar attributes.
+
+
+In the "Comment" attribute of the new trade meta tag will be added to mark this trade as a child to another trade. This is how the tag looks like:
+[p=%ticket%]
+where %ticket% is the ticket number of the parent trade (the one that is currently loaded).
+Outputs (in what case are they active?)  If a new trade is created successfully.
+  If fatal error happened.
+
+
+Block Nameclose (partially)
+OverviewThis block works with trades only!
+
+
+Closes part of the volume of the currently loaded trade. This is done by closing the current trade and opening a new one with lot size equal to the difference.
+So, if you have a trade with volume size of 0.2 lot and you close 0.1 lots from it, first it will be closed fully and then will be reopened with volume size of 0.8 lots. The newly created trade will have all other attributes the same, only the ticket number and the volume size will be different.
+Outputs (in what case are they active?)  If the new trade was partially closed.
+  If fatal error happened.
+
+
+Block Nameclose
+OverviewUse it to close the currently loaded trade/order immediately.
+Outputs (in what case are they active?)  If the trade/order was closed.
+  If fatal error happened.
+
+
+Block Name(loop) break
+OverviewUse this block to stop the current loop immediately.
+
+
+A loop is what is created by using one of the "For each..." blocks that can be found in this category on the top. Each of these blocks is able to pass multiple times when it is executed once, but there are situations when you want to remotely stop them at certain point, and this block does exactly this.
+
+
+If you have other blocks from this category (but not "For each...") connected in parallel to this, they will be not be executed after this one is executed. In other words, this block stops everything below "For each..." and prevents it from later self-executions.
+
+
+If you have nested loops (one inside another, of "For each..." used after "For each..."), only the current loop is stopped.
+Outputs (in what case are they active?)  Never active.
+
+
+Block Name(loop) next
+OverviewUse this block to stop the current turn of the loop and continue with the next one immediately.
+
+
+A loop is what is created by using one of the "For each..." blocks that can be found in this category on the top. Each of these blocks is able to pass multiple times when it is executed once, but there are situations when you want to skip that turn at certain point and continue with the next one (where different trade/order will be used, if any).
+
+
+If you have other blocks from this category (but not "For each...") connected in parallel to this, they will be not be executed after this one is executed. In other words, this block stops everything below "For each..." at this turn and forces the "For each..." block to continue with the next turn in it's loop.
+
+
+If you have nested loops (one inside another, of "For each..." used after "For each..."), only the current loop is stopped and continued.
+Outputs (in what case are they active?)  Never active.
+
+
+Block NameBreak even point
+OverviewWhen a trade is "n" pips on profit, the stop loss is moved to break even point (trade's open price level).
+This block checks all available (or filtered) trades for break even conditions and moves their stop-loss levels when needed.
+
+
+Note: "Break even point" functionality is something that is working on your local computer. That's why this block should be placed at top level of "on Tick" event - it needs to be exposed to the ticks flow. Note that it's not really needed to check if there are trades available before putting this block, as this is already implemented inside, but as long as the block must be connected with another to work, it can be connected alone with "Pass" block or to the   output of "No trade/order exists" (or "No trade is running"), if already used in the project.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameTrailing stop
+OverviewThis block checks all available (or filtered) trades for trailng stop conditions and moves their stop-loss (or take-profit) levels when needed.
+
+
+The word "stop" here means "stop level" or the level where the trade will be stopped, which can be stop-loss or take-profit level. You will choose that in the parameters.
+
+
+Note: The trailing stop functionality is something that is working on your local computer. That's why this block should be placed at top level of "on Tick" event - it needs to be exposed to the ticks flow to be able to follow changes in price. Note that it's not really needed to check if there are trades available before putting this block, as this is already implemented inside, but because the block must be connected with another to work, it can be connected alone with "Pass" block or to the   output of "No trade/order exists" (or "No trade is running"), if already used in the project.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameTrailing stop (group of trades)
+OverviewThis block checks all available (or filtered) trades for trailng stop conditions (as a group) and moves their stop-loss (or take-profit) levels when needed. This type of trailing stop finds the average "open price level" of the whole group of trades and uses that price to set the same stop-loss (or take-profit) level for all trades in the group.
+
+
+The average level depends on the number of trades, the lot size of each one of them and their position on the chart. If you have for example 2 trades with the same lot size, then the average "open price level" is exactly in the middle between them. If one of them has bigger lot size than the other, then the average level is closer to that trade. In other words the average level is weighted.
+
+
+The word "stop" here means "stop level" or the level where the trade will be stopped, which can be stop-loss or take-profit level. You will choose that in the parameters.
+
+
+Note: Normally this block should be placed at top level of "on Tick" event - it needs to be exposed to the ticks flow. Note that it's not really needed to check if there are trades available before putting this block, as this is already implemented inside, but as long as the block must be connected with another to work, it can be connected alone with "Pass" block or to the   output of "No trade/order exists" (or "No trade is running"), if already used in the project.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameTrailing money loss (group of trades)
+OverviewThis block is kind of trailing stop for a group of trades, but it works with money amounts (in basic currency) instead of pips.
+
+
+Over a group of trades (one or more trades) this block monitors their collective profit, remembers the maximum profit reached, and closes them all when the difference between the maximum profit amount and the current profit amount equals, or is bigger than a certain amount of money.
+
+
+It is recommended to use this block at top level under "on Tick" workfield, where it can be executed on every tick that comes.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameTrailing pending orders
+OverviewThis block enables you to keep your pending orders at certain distance from the current price.
+
+
+The word "distance" means the absolute difference between the current price and the order's open price. You can type the distance as positive or negative value, it doesn't matter. If the pending order is above the current price (Buy Stop, Sell Limit) it stays there, and if the pending order is below the current price (Buy Limit, Sell Stop) - it stays below.
+
+
+Buys and sells, limits and stops can be moved using the same block. If you want to move only stops or only limits - use the included filter.
+Outputs (in what case are they active?)  Once when the work is done.
+Block NameModify stops of positions
+OverviewModify stop-loss and take-profit levels of each trade that this block can filter. It starts with the newest trade and ends with the oldest.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameClose positions
+OverviewThis block will try to close the running trades, one after another, starting from the newly created one. Additionally, you can filter only certain trades to be closed by using the filter settings.
+
+
+If a trade cannot be closed, few new attempts will be made until a fatal error is returned from the server. If one trade fails to close, this will not prevent the block to try to close the next trades in the list (if any).
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameClose losable positions
+OverviewThis block will try to close the running trades with negative profit, one after another, starting from the newly created one. Additionally, you can filter only certain trades to be closed by using the filter settings.
+
+
+If a trade cannot be closed, few new attempts will be made until a fatal error is returned from the server. If one trade fails to close, this will not prevent the block to try to close the next trades in the list (if any).
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameClose profitable positions
+OverviewThis block will try to close the running trades with positive profit, one after another, starting from the newly created one. Additionally, you can filter only certain trades to be closed by using the filter settings.
+
+
+If a trade cannot be closed, few new attempts will be made until a fatal error is returned from the server. If one trade fails to close, this will not prevent the block to try to close the next trades in the list (if any).
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameClose least profitable position
+OverviewThis block will try to close the least profitable trade from the basket of trades who pass the filter settings.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameClose most profitable position
+OverviewThis block will try to close the most profitable trade from the basket of trades who pass the filter settings.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameApply Template
+OverviewIn MetaTrader you can apply templates to the chart. They are files with .tpl extension that contain many chart properties and you can create your own templates.
+
+
+Using this block you can load an existing template to the chart at which the program is loaded. Because the templates are files, they can be located in different locations, depending on your needs. In the properties of the block you can define relative path to the file you want to load, then the file will be searched in these locations:
+
+
+1. 
+the same folder where the program file is
+2. 
+\templates in your Data Folder
+3. 
+\MQL4 in your Data Folder
+
+
+
+
+Optionally you can define the template file using it's extension (.tpl), but this is not mandatory.
+Outputs (in what case are they active?)  The template was loaded successfully
+  Loading failed
+
+
+Block NameModify chart properties
+OverviewUse this block to modify the look of the chart. You can make different details visible or hidden.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameModify chart colors
+OverviewUse this block to modify the chart colors.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameDelete objects
+OverviewUse this block to clear objects on the chart. By default all objects will be cleared, but you can optionally filter them by name (objects are associated by name, each object has unique name).
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameDelete objects by type
+OverviewClears certain objects selected by type from main window or sub-window.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameChart screen shot
+OverviewThis makes screenshot of the current chart and saves it as a .gif file. There are some options available.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameDraw Arrow
+OverviewDraws Arrow objects with given parameters on the current chart. You can:
+   * 
+Draw new object every time the block runs
+   * 
+Draw single object and update it's placement and properties
+   * 
+Draw one object per bar
+   * 
+Draw one object per bar and update it's placement and properties
+
+
+
+
+Also, you can use the Wingdings font to draw fancy looking arrows. Here are the codes you can use:
+
+
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameDraw Button
+OverviewDraws a Button object with given parameters on the current chart.
+You can:
+      * 
+Draw new object every time the block runs
+      * 
+Draw single object and update it's placement and properties
+      * 
+Draw one object per bar
+      * 
+Draw one object per bar and update it's placement and properties
+
+
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameDraw Channel
+OverviewDraws Channel objects with given parameters on the current chart. You can:
+         * 
+Draw new object every time the block runs
+         * 
+Draw single object and update it's placement and properties
+         * 
+Draw one object per bar
+         * 
+Draw one object per bar and update it's placement and properties
+
+
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameDraw Edit Field
+OverviewDraws an Edit Field object with given parameters on the current chart. This is a field where you can write something. The content of this field can be then read with your programs. You can:
+            * 
+Draw new object every time the block runs
+            * 
+Draw single object and update it's placement and properties
+            * 
+Draw one object per bar
+            * 
+Draw one object per bar and update it's placement and properties
+
+
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameDraw Event
+OverviewDraws Event objects with given parameters on the current chart. You can:
+               * 
+Draw new object every time the block runs
+               * 
+Draw single object and update it's placement and properties
+               * 
+Draw one object per bar
+               * 
+Draw one object per bar and update it's placement and properties
+
+
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameDraw Fibonacci
+OverviewDraws Fibonacci objects with given parameters on the current chart. You can:
+                  * 
+Draw new object every time the block runs
+                  * 
+Draw single object and update it's placement and properties
+                  * 
+Draw one object per bar
+                  * 
+Draw one object per bar and update it's placement and properties
+
+
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameDraw Gann
+OverviewDraws Gann objects with given parameters on the current chart. You can:
+                     * 
+Draw new object every time the block runs
+                     * 
+Draw single object and update it's placement and properties
+                     * 
+Draw one object per bar
+                     * 
+Draw one object per bar and update it's placement and properties
+
+
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameDraw Line
+OverviewDraws Line objects with given parameters on the current chart. You can:
+                        * 
+Draw new object every time the block runs
+                        * 
+Draw single object and update it's placement and properties
+                        * 
+Draw one object per bar
+                        * 
+Draw one object per bar and update it's placement and properties
+
+
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameDraw Shape
+OverviewDraws Shape (Rectangle, Triangle, Ellipse, Fixed rectangle) objects with given parameters on the current chart. You can:
+                           * 
+Draw new object every time the block runs
+                           * 
+Draw single object and update it's placement and properties
+                           * 
+Draw one object per bar
+                           * 
+Draw one object per bar and update it's placement and properties
+
+
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameDraw Text
+OverviewDraws Text (fixed to the bars or fixed to the main chart window) objects with given parameters on the current chart. You can:
+                              * 
+Draw new object every time the block runs
+                              * 
+Draw single object and update it's placement and properties
+                              * 
+Draw one object per bar
+                              * 
+Draw one object per bar and update it's placement and properties
+
+
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameFor each Object
+OverviewThis block loops through all objects existing on the chart (arrows, lines...) that match the filter settings. For each trade next blocks are executed, and they are supposed to be blocks (from the same category) that will check the object's attributes (price levels, color...) or modify/delete the trade. You can also access the attributes using "Condition" block.
+How It Works?Objects are referenced by name (each object has unique name) and that's why filters are designed to work with names.
+
+
+1. It checks how many objects are there on the chart.
+2. Depending on the loop direction it starts to load all available objects one after another. Loading an object means that it's attributes are ready to be checked and it is prepared to be modified or deleted.
+Outputs (in what case are they active?)  Once for each object on the chart that is filtered with this block. It can be said that blocks connected to this output are executed "within" this block.
+  Once when the work is done.
+
+
+Block NameSelect Object by Name
+OverviewUse this block to select object on the chart using it's unique name.
+Outputs (in what case are they active?)  If the object exists and it is properly selected.
+  If an object with such name was not found.
+
+
+Block Nameonce per object
+This block can pass once for each object that is loaded. Objects are identified by name, so this block is working with names.
+
+
+This block uses temporary memory to store names of objects and when the robot is restarted that memory is lost!
+How It Works?1. The block knows the name of the currently loaded object.
+2. The block keeps private database with names of objects already passed through it. If the current name is not inside the database, it is added there and the   output is activated. Otherwise, the   output is activated.
+Outputs (in what case are they active?)  If the block was not already passed for the currently loaded object. Read the overview for more details.
+  Otherwise.
+
+
+Block Namecheck button state
+OverviewUse this block to check whether the button is pressed or not.
+Outputs (in what case are they active?)  If the button is pressed.
+  If the button is Not pressed.
+
+
+Block Namecheck color
+OverviewUse this block to check the color of the currently loaded object.
+Outputs (in what case are they active?)  If the color is what is requested.
+  Otherwise.
+
+
+Block Namecheck price coordinates
+OverviewUse this block to check certain price coordinate of the loaded object from the chart. Different types of objects uses one, two or three price coordinates (or none). Here is the list of objects and how many price coordinates they use:
+
+
+Andrews pitchfork
+	Price 1, Price 2, Price 3
+	Arrow
+	Price 1
+	Channel
+	Price 1, Price 2, Price 3
+	Cycles
+	Price 1, Price 2
+	Ellipse
+	Price 1, Price 2
+	Fibonacci arcs
+	Price 1, Price 2
+	Fibonacci channel
+	Price 1, Price 2
+	Fibonacci expansions
+	Price 1, Price 2, Price 3
+	Fibonacci fan
+	Price 1, Price 2
+	Fibonacci retracement
+	Price 1, Price 2
+	Fibonacci time zones
+	Price 1, Price 2
+	Gann fan
+	Price 1, Price 2 (ignored)
+	Gann grid
+	Price 1, Price 2 (ignored)
+	Gann line
+	Price 1, Price 2 (ignored)
+	Horizontal line
+	Price 1
+	Label
+	Price 1 (in pixels)
+	Rectangle
+	Price 1, Price 2
+	Regression
+	N/A
+	Standard deviation
+	N/A
+	Text
+	Price 1
+	Trend line
+	Price 1, Price 2
+	Trend by angle
+	Price 1
+	Triangle
+	Price 1, Price 2, Price 3
+	Vertical line
+	N/A
+	
+
+Outputs (in what case are they active?)  If the condition is met.
+  Otherwise.
+
+
+Block Namecheck trendline price level
+Block Namemodify color
+OverviewUse it to modify the color of the currently loaded object.
+Outputs (in what case are they active?)  If color is modified.
+  If error happened.
+
+
+Block Namemodify properties
+OverviewUse it to modify the properties of the currently loaded object.
+Outputs (in what case are they active?)  If properties modified.
+
+
+Block Namemodify text (description)
+OverviewUse it to modify the text (description) contained in the currently loaded object.
+Outputs (in what case are they active?)  If success.
+
+
+Block Namemove
+OverviewUse it to modify the position of the currently loaded object. You can modify any of these - Time1, Price1, Time2, Price2, Time3, Price3
+Outputs (in what case are they active?)  always.
+
+
+Block Namedelete
+OverviewDeletes the currently loaded object from the chart.
+Outputs (in what case are they active?)  If object deleted successfully.
+  Otherwise.
+
+
+Block NameAlert message
+OverviewAlerts a message. Optionally you can plot up to 10 rows of data. Note that only rows with non-empty labels will be plotted.
+
+
+When backtesting, message is seen in the "Journal" tab and there is no pop-up.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameBlink the chart
+OverviewUse this block to make the main chart to blink by changing it's background color for a few times.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameComment (ugly)
+OverviewThis block plots message on the upper left corner of the chart. Optionally you can plot up to 20 rows of data. Note that only rows with non-empty labels will be plotted.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameComment
+OverviewUse this to print various data on the chart. You can print one main title and up to 8 rows of Label-Value pairs of data.
+
+
+When you use two or more blocks in your project, each block prints it's own message.
+
+
+You can move the comment message around. To do that, double-click on the title (to select it) and then move it somewhere else on the same chart. The rest will follow.
+
+
+Important notes:
+- When the Label for some row of data is empty, this row will not be printed.
+- Comments does not work when backtesting, because they can really slow it down for nothing.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameLog message
+OverviewBacktesting: Prints message into the "Journal" tab.
+Live testing: Prints message into the "Experts" tab.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NamePhone Notification
+OverviewUse this to send notifications to MetaTrader 4 installed on yout smartphone. In order to do this, first you need to set up "Notifications" in the options of your desktop version of MetaTrader 4.
+
+
+Limits: No more than 2 notifications per second and not more than 10 notifications per minute.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NamePlay sound
+OverviewIt plays sound on live only (it does not work on backtesting). You can choose from built-in sounds or a custom one (placed in "Sounds" folder).
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NamePrompt
+OverviewAlerts a prompt message that will wait for your manual confirmation. The behaviour when backtesting is as the prompt is always confirmed.
+Outputs (in what case are they active?)  If you confirm the prompt.
+  Otherwise, if you cancel the prompt.
+
+
+Block NameSend e-mail
+OverviewSends message to the e-mail set in "Tools->Options->Email" tab of MetaTrader.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameSend file to FTP
+OverviewTo use this, you must first set up your FTP server settings in Tools -> Options -> FTP.
+The file you want to send must be located in the \Files folder or its subfolders.
+Outputs (in what case are they active?)  On success.
+  On failure.
+
+
+Block NameSend HTTP request
+OverviewUse this block to send GET or POST request to a server. You can define few key-value pairs. The block will wait for response before pass.
+
+
+The server should respond with plain text message, where values are separated with delimiter. You can define this delimiter. If no delimiter is used, then it is assumed that the received text is the one and only value.
+
+
+To read the received data from the server, use the "Condition" block for example. You will easily find the option there. And you can select certain "Key" over there, which would be number of the value, if the first value is 0.
+
+
+For example, let's say you decided to use comma as a delimiter. Then, the expected response would look something like this:
+
+
+value1,value2,value3
+
+
+Then, to get the first value in "Condition" you should use "Key" of 0. To get the second value (value2) set "Key" to 1. Or for the third value, use 2 as a key.
+
+
+Again, if you never set a delimiter, the whole response message will the the value. So you don't have to set "Key" to anything else, leave it as it is by default.
+Outputs (in what case are they active?)  Once when response is received.
+  In case of error.
+
+
+Block NameTerminal variables
+OverviewGlobal variables of the client terminal are accessible simultaneously from all MQL4 programs launched in the client terminal.
+
+
+Global variables are kept in the client terminal within 4 weeks since the last access, then they will be deleted automatically.
+
+
+To see all Global Variables defined in MetaTrader, hit F3.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameTrace
+OverviewUse this block to print dynamically changing values as chart lines on the main chart. Each of these lines is built out of multiple separate small trend-lines. Don't use this block as an indicator, use it only for testing purposes.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameTrace Activity
+OverviewConnect this block after another block and you will see on the chart when and for how long this block is being active (tick after tick).
+
+
+What you will see on the chart are lines with the same color interrupted with blank space in between. The left endpoint of a line represents the time and place where the block passed for the first time, and the right endpoint is the time and place where it stopped.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameWrite to file
+OverviewWrite rows with data in table that can be read later with Excel. It can be used for statistics.
+
+
+This block creates a .csv file where the cells are separated with a ";" sign and rows are separated with a new line. First row is used for titles and first column is reserved for data time (automatically filled). You have 10 colums that can be filled with data.
+Outputs (in what case are they active?)  Once when the work is done.
+  Error happened - the file can't be open.
+
+
+Block NameBull candle
+OverviewThis block passes when the last candle candle is Bull and it's body it larger than 5 pips. This is by default, but you can select which candle to check and the minimum body size that it need to have.
+Outputs (in what case are they active?)  When the selected candle is what you want.
+
+
+Block NameBear candle
+OverviewThis block passes when the last candle candle is Bear and it's body it larger than 5 pips. This is by default, but you can select which candle to check and the minimum body size that it need to have.
+Outputs (in what case are they active?)  When the selected candle is what you want.
+
+
+Block NameBulls in a row
+OverviewUse this block to detect "x" bull candles one after another. Some options are available.
+Outputs (in what case are they active?)  When bull candles matching the specified template are found.
+  Otherwise.
+
+
+Block NameBears in a row
+OverviewUse this block to detect "x" bear candles one after another. Some options are available.
+Outputs (in what case are they active?)  When bear candles matching the specified template are found.
+  Otherwise.
+
+
+Block NameSingle candle template
+OverviewThis block is designed to give signals when a single candle looks in a desirable way. Candle proportions are matched to the template.
+
+
+Every candle has body and two wicks - upper and lower wick. If we consider the whole candle size as 100%, we can define certain proportions of both wicks as percentage from the whole candle size. In addition, we can set minimum and maximum candle size in order to filter too small or too big candles.
+Outputs (in what case are they active?)  The candle template is not matched.
+  Otherwise.
+
+
+Block NameMACD Divergence (Bearish)
+OverviewThis block passes once when bearish MACD divergence is detected.
+Outputs (in what case are they active?)  Once when new bearish MACD divergence is detected.
+  Otherwise, there is no divergence.
+
+
+Block NameMACD Divergence (Bullish)
+OverviewThis block passes once when bullish MACD divergence is detected.
+Outputs (in what case are they active?)  Once when new bullish MACD divergence is detected.
+  Otherwise, there is no divergence.
+
+
+Block NameImpulse Up
+OverviewImpulse Up is when there is a bull candle X times bigger than the biggest candle in the previous Y candles (called "Quiet").
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block NameImpulse Down
+OverviewImpulse Up is when there is a bear candle X times bigger than the biggest candle in the previous Y candles (called "Quiet").
+Outputs (in what case are they active?)  When conditions are met.
+  Otherwise.
+
+
+Block NameTime Bomb Up
+OverviewUse this block to detect when "x" pips distance is traveled in "y" seconds upwards. When seconds expire or a signal is detected, a new detection process starts. In other words, the block works on intervals.
+
+
+In order to detect this signal you must expose the block on the ticks flow - on top level under "on Tick".
+Also note that this block is not suitable for backtest, because the both - ticks and time - are not real. Even if you use real ticks data the block will probably give fake signals, because the time attribute is still unreal.
+So, use this block on live.
+
+
+Ask price is used for calculations.
+Outputs (in what case are they active?)  When signal is detected.
+  Otherwise.
+
+
+Block NameTime Bomb Down
+OverviewUse this block to detect when "x" pips distance is traveled in "y" seconds downwards. When seconds expire or a signal is detected, a new detection process starts. In other words, the block works on intervals.
+
+
+In order to detect this signal you must expose the block on the ticks flow - on top level under "on Tick".
+Also note that this block is not suitable for backtest, because the both - ticks and time - are not real. Even if you use real ticks data the block will probably give fake signals, because the time attribute is still unreal.
+So, use this block on live.
+
+
+Bid price is used for calculations.
+Outputs (in what case are they active?)  When signal is detected.
+  Otherwise.
+
+
+Block NameNew top in trend
+OverviewUsing this block you can create signals when the price is reaching new top when it moved upwards with "x" pips for "y" candles.
+
+
+You can also choose the trend quality. "Trend" here describes how these "y" candles loops like. The trend can be smooth or bouncy. When it looks straight and smooth - the trend is with higher quality, and when it looks more like range - the quality is low.
+Outputs (in what case are they active?)  On new top reached given the settings you provide.
+  Otherwise.
+
+
+Block NameNew bottom in trend
+OverviewUsing this block you can create signals when the price is reaching new bottom when it moved downwards with "x" pips for "y" candles.
+
+
+You can also choose the trend quality. "Trend" here describes how these "y" candles loops like. The trend can be smooth or bouncy. When it looks straight and smooth - the trend is with higher quality, and when it looks more like range - the quality is low.
+Outputs (in what case are they active?)  On new bottom reached given the settings you provide.
+  Otherwise.
+
+
+Block NameRound numbers detector
+OverviewUse this block to get signals when certain round number level is reached in a virtual grid of levels. The signal given when one of the round number level is reached is not continuous, it happens once for a level. The grid is created depending on the "Round number" parameter specified, for example it can looks like this:
+
+
+2.1000
+1.0900
+1.0800
+...
+1.0100
+1.0000
+...
+0.0300
+0.0200
+0.0100
+
+
+So, when the current price is between 1.0800 and 1.0900, the next signal will be given when the price reaches one of both levels. If it reach the upper level, the   output will be active. If the price reach the lower level, then the   output will become active.
+
+
+Use this block under "on Tick".
+Outputs (in what case are they active?)  Once when the upper grid level is reached.
+  Once when the lower grid level is reached.
+
+
+Block NameAND
+OverviewFor a given tick (under "on Tick"), this block requires to be reached from all the blocks connected to it. If nothing is connected to the input of this block, it will always pass.
+Outputs (in what case are they active?)  Once per tick - after this block was executed by all the blocks connected to it. The pass happens on the last execution. Then, it can reach this output again on the next tick.
+  Otherwise.
+
+
+Block NameOR
+If you have two or more blocks connected to this block, it will pass once when one of them reaches it. If reached again from the second block (if the current tick is not over) - it will not pass again.
+
+
+Practically this block does once-per-tick function.
+
+
+If nothing is connected to the input of this block, it will always pass.
+Outputs (in what case are they active?)  Once per tick.
+  Otherwise, if   was already active while in the same tick.
+
+
+Block NameRun blocks
+OverviewThis block causes other blocks to be executed, no matter where they are located. Just write their ID numbers/names separated with comma.
+
+
+Note that you can use name format for block IDs, not only numeric format. For example, if you have block with ID "15", you can rename it to "myname" and use that name in this block - it is more natural.
+Outputs (in what case are they active?)  Once after all the blocks in it's list were executed.
+
+
+Block NameTurn ON blocks
+OverviewUse this block to enable another blocks execution if they were previously disabled.
+
+
+Separate block IDs with comma, or if you want to work with a single block - just write it's ID as it is.
+
+
+Note that you can use name format for block IDs, not only numeric format. For example, if you have block with ID "15", you can rename it to "myname" and use that name in this block - it is more natural.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameTurn OFF blocks
+OverviewUse this block to disable another blocks execution. This is similar to how you can disable blocks in fxDreema (right-click on a block -> On/Off), but happens while the robot is running in the trading platform. Once blocks are disabled, they will not be executed until you re-enable them with "Turn ON blocks".
+
+
+Separate block IDs with comma, or if you want to work with a single block - just write it's ID as it is.
+
+
+Note that you can use name format for block IDs, not only numeric format. For example, if you have block with ID "15", you can rename it to "myname" and use that name in this block - it is more natural.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameToggle blocks
+OverviewUse this block to switch the behaviour of other blocks - disable their execution if they are currently enabled or enable their execution if they are currently disabled.
+
+
+Separate block IDs with comma, or if you want to work with a single block - just write it's ID as it is.
+
+
+Note that you can use name format for block IDs, not only numeric format. For example, if you have block with ID "15", you can rename it to "myname" and use that name in this block - it is more natural.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NameSet "Current Market" for next blocks
+OverviewThis block passes as many times as many markets are defined (separate them with ","), and on every turn it sets the default (current) market for all the blocks connected after.
+
+
+For example, if you use these markets:
+
+
+EURUSD,GBPUSD,AUDUSD
+
+
+... then that block will set up the default market to EURUSD and will execute next block(s) connected to it. Then it will set the default market to GBPUSD and will once again execute next block(s). It will repeat this once more with AUDUSD.
+
+
+At the end the current market is reset, so any blocks not connected below this one will not be affected.
+Outputs (in what case are they active?)  Once for every market while the block is running. This output is active as many times as many markets are defined, so before this block completes it' work, next blocks will be executed multiple times.
+  Once when the work is done.
+
+
+Block NameSet "Current Timeframe" for next blocks
+OverviewUse this block to modify the meaning of "Current" option of all "Timeframe" parameters in the blocks connected after this one.
+Optionally, you can cause this block to repeat itself more than once with different timeframes each time.
+
+
+At the end the current timeframe is reset, so any blocks not connected below this one will not be affected.
+Outputs (in what case are they active?)  Once for every timeframe while the block is running. This output is active as many times as many timeframes are defined, so before this block completes it' work, next blocks will be executed multiple times.
+  Once when the work is done.
+
+
+Block NameSkip Ticks
+OverviewThis block tells the program to skip ticks for certain time. This means that blocks under "on Tick" will not run for that period of time. Everything else remains fully functioning.
+
+
+The block works with the server time (the time on the chart), not with the local computer time.
+Outputs (in what case are they active?)  Always
+
+
+Block NameSet Flag (textual)
+OverviewFlags are used to control groups of blocks when needed. For example, you can assign value "ON" to flag named "MyFlag" somewhere in the project, and then check that value somewhere else by pointing to the same flag "MyFlag".
+
+
+This block assigns textual value to a textual flag.
+Outputs (in what case are they active?)  Once after the flag is set.
+
+
+Block NameCheck Flag (textual)
+OverviewFlags are used to control groups of blocks when needed. For example, you can assign value "ON" to flag named "MyFlag" somewhere in the project, and then check that value somewhere else by pointing to the same flag "MyFlag".
+
+
+This block checks what is the value of a certain textual flag.
+Outputs (in what case are they active?)  Once if the flag value is the same as the one you requested.
+
+
+Block NameSet Flag (numeric)
+OverviewFlags are used to control groups of blocks when needed. For example, you can assign value "2" to flag named "MyFlag" somewhere in the project, and then check that value somewhere else by pointing to the same flag "MyFlag".
+
+
+This block assigns textual value to a numeric flag.
+Outputs (in what case are they active?)  Once after the flag is set.
+
+
+
+
+Block NameCheck Flag (numeric)
+OverviewFlags are used to control groups of blocks when needed. For example, you can assign value "2" to flag named "MyFlag" somewhere in the project, and then check that value somewhere else by pointing to the same flag "MyFlag".
+
+
+This block checks what is the value of a certain numeric flag.
+Outputs (in what case are they active?)  Once if the flag value is the same as the one you requested.
+
+
+Block NameSet Flag (true-false)
+OverviewFlags are used to control groups of blocks when needed. For example, you can assign value "true" to flag named "MyFlag" somewhere in the project, and then check that value somewhere else by pointing to the same flag "MyFlag".
+
+
+This block checks what is the value of a certain boolean flag. Boolean means that there can be two values - "true" or "false" - which is the same as 1 and 0 in numeric format.
+Outputs (in what case are they active?)  Once after the flag is set.
+
+
+Block NameCheck Flag (true-false)
+OverviewFlags are used to control groups of blocks when needed. For example, you can assign value "true" to flag named "MyFlag" somewhere in the project, and then check that value somewhere else by pointing to the same flag "MyFlag".
+
+
+This block checks what is the value of a certain boolean flag. Boolean means that there can be two values - "true" or "false" - which is the same as 1 and 0 in numeric format.
+Outputs (in what case are they active?)  Once if the flag value is the same as the one you requested.
+
+
+Block NameCounter: Pass once
+OverviewThis block can pass once until the end of the program, but you can also reset it by using "Counter: Reset" block (using the same Counter ID that is used here).
+Outputs (in what case are they active?)  Once if it is executed for the first time or after it was reset.
+  Otherwise.
+
+
+Block NameCounter: Pass "n" times
+OverviewThis block can pass not more than "n" times until the end of the program, but you can also reset it by using "Counter: Reset" block (using the same Counter ID that is used here).
+Outputs (in what case are they active?)  Once if it was not executed "n" times yet.
+  It was executed and passed for "n" times, now this output remains active. Unless you reset it.
+
+
+Block NameCounter: Count "n", then pass
+OverviewThis first "n" times this block is executed - it will not pass. Then it is able to pass on every execution. You can also reset it by using "Counter: Reset" block (using the same Counter ID that is used here).
+Outputs (in what case are they active?)  It was executed and passed for "n" times, now this output remains active. Unless you reset it.
+  Once if it was not executed "n" times yet.
+Block NameCounter: Reset
+OverviewUse this block to reset Counter blocks (look at the blocks above this one in the list) with a given Counter ID.
+You can reset multiple Counter IDs at once, just list them separated with comma. For example, if you want to reset counters with IDs 1, 3, and 4, use this: 1,3,4
+Outputs (in what case are they active?)  Once after the counter(s) reset.
+
+
+Block NameLoop (pass "n" times)
+OverviewWhen executed, this block causes the next block(s) to be executed "n" times.
+Outputs (in what case are they active?)  Active for "n" times in a single execution of the block.
+  Active once after it passed for "n" times through it's   output.
+Block NamePass
+OverviewThis block does nothing inside, it just executes the next block(s) connected to it.
+Outputs (in what case are they active?)  Immediately.
+
+
+Block NameRandom outputs
+OverviewWhen executed, the   output of this block will be active or not on a random manner.
+Outputs (in what case are they active?)  Active or not on a random manner.
+  The opposite of  .
+
+
+Block NameDelay
+OverviewCreates time delay while the robot is running (in seconds). The robot will be stopped for a while, and then it will continue from the same point.
+Outputs (in what case are they active?)  Once the delay ends.
+
+
+Block NameTerminate
+OverviewTerminates the robot until it is restarted.
+Outputs (in what case are they active?)  Never active.
+
+
+Block NameIf Contest account
+
+
+Outputs (in what case are they active?)  Your trading account is used in trader's contest..
+  Otherwise.
+
+
+Block NameIf Demo account
+
+
+Outputs (in what case are they active?)  Your trading account is Demo (using virtual money).
+  Otherwise.
+
+
+Block NameIf Real account
+
+
+Outputs (in what case are they active?)  Your trading account is Real (using real money).
+  Otherwise.
+
+
+Block NameIf Testing
+
+
+Outputs (in what case are they active?)  You are using Strategy Tester to backtest.
+  Otherwise.
+
+
+Block NameTerminal Connected
+
+
+Outputs (in what case are they active?)  MetaTrader is connected.
+  MetaTrader is not connected.
+
+
+Block NameWithdrawal
+This emulates the operation of money withdrawal in the process of testing. Can be used in some asset management systems.
+Outputs (in what case are they active?)  On success.
+  On failure.
+
+
+Block NameCustom MQL code
+OverviewAllows you to run custom MQL code inside your robot.
+
+
+The code entered here will be placed into a generated function, which means that you can't define custom functions in it. You also can't define global variables or use #define, #import or #include.
+
+
+You can define local variables, have if, for, while or switch statements and use any of the native MQL functions.
+
+
+It is NOT recommended to use any functions that are generated by this software, because they are not officially documented and they could be modified or even deleted in the future without warning. Use only native MQL functions.
+Outputs (in what case are they active?)  Once when the work is done.
+
+
+Block NamePosition created
+Overview"on Trade" is an event triggered by different trading actions - create, modify or close a trade or a pending order. To detect only one of these trading events, you need a block like this one. This block only passes when particular trading event is detected. It should be placed only in "on Trade" and on the top of other blocks.
+
+
+Additionally, you can use the attributes (volume size, stop-loss, take-profit...) of the the trade/order that caused the event in the "Condition" block. Search for "on Trade" there.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NamePosition stops modified
+Overview"on Trade" is an event triggered by different trading actions - create, modify or close a trade or a pending order. To detect only one of these trading events, you need a block like this one. This block only passes when particular trading event is detected. It should be placed only in "on Trade" and on the top of other blocks.
+
+
+Additionally, you can use the attributes (volume size, stop-loss, take-profit...) of the the trade/order that caused the event in the "Condition" block. Search for "on Trade" there.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NamePosition incremented
+Overview"on Trade" is an event triggered by different trading actions - create, modify or close a trade or a pending order. To detect only one of these trading events, you need a block like this one. This block only passes when particular trading event is detected. It should be placed only in "on Trade" and on the top of other blocks.
+
+
+Additionally, you can use the attributes (volume size, stop-loss, take-profit...) of the the trade/order that caused the event in the "Condition" block. Search for "on Trade" there.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NamePosition decremented
+Overview"on Trade" is an event triggered by different trading actions - create, modify or close a trade or a pending order. To detect only one of these trading events, you need a block like this one. This block only passes when particular trading event is detected. It should be placed only in "on Trade" and on the top of other blocks.
+
+
+Additionally, you can use the attributes (volume size, stop-loss, take-profit...) of the the trade/order that caused the event in the "Condition" block. Search for "on Trade" there.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NamePosition reversed
+Overview"on Trade" is an event triggered by different trading actions - create, modify or close a trade or a pending order. To detect only one of these trading events, you need a block like this one. This block only passes when particular trading event is detected. It should be placed only in "on Trade" and on the top of other blocks.
+
+
+Additionally, you can use the attributes (volume size, stop-loss, take-profit...) of the the trade/order that caused the event in the "Condition" block. Search for "on Trade" there.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NamePosition closed
+Overview"on Trade" is an event triggered by different trading actions - create, modify or close a trade or a pending order. To detect only one of these trading events, you need a block like this one. This block only passes when particular trading event is detected. It should be placed only in "on Trade" and on the top of other blocks.
+
+
+Additionally, you can use the attributes (volume size, stop-loss, take-profit...) of the the trade/order that caused the event in the "Condition" block. Search for "on Trade" there.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NameOrder created
+Overview"on Trade" is an event triggered by different trading actions - create, modify or close a trade or a pending order. To detect only one of these trading events, you need a block like this one. This block only passes when particular trading event is detected. It should be placed only in "on Trade" and on the top of other blocks.
+
+
+Additionally, you can use the attributes (volume size, stop-loss, take-profit...) of the the trade/order that caused the event in the "Condition" block. Search for "on Trade" there.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NameOrder moved
+Overview"on Trade" is an event triggered by different trading actions - create, modify or close a trade or a pending order. To detect only one of these trading events, you need a block like this one. This block only passes when particular trading event is detected. It should be placed only in "on Trade" and on the top of other blocks.
+
+
+Additionally, you can use the attributes (volume size, stop-loss, take-profit...) of the the trade/order that caused the event in the "Condition" block. Search for "on Trade" there.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NameOrder stops modified
+Overview"on Trade" is an event triggered by different trading actions - create, modify or close a trade or a pending order. To detect only one of these trading events, you need a block like this one. This block only passes when particular trading event is detected. It should be placed only in "on Trade" and on the top of other blocks.
+
+
+Additionally, you can use the attributes (volume size, stop-loss, take-profit...) of the the trade/order that caused the event in the "Condition" block. Search for "on Trade" there.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NameOrder deleted
+Overview"on Trade" is an event triggered by different trading actions - create, modify or close a trade or a pending order. To detect only one of these trading events, you need a block like this one. This block only passes when particular trading event is detected. It should be placed only in "on Trade" and on the top of other blocks.
+
+
+Additionally, you can use the attributes (volume size, stop-loss, take-profit...) of the the trade/order that caused the event in the "Condition" block. Search for "on Trade" there.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NameChart modified
+OverviewChange of the chart size or modification of chart properties through the Properties dialog.
+
+
+"on Chart" event is a result of different chart actions - key down, mouse click, object manipulation and other actions. This block is used to filter the event and it should be placed on the top. When an event that meets the conditions in this block happens - the block passes.
+
+
+Additionally, you can use the attributes of the event in "Condition" block.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NameEdit Field modified
+OverviewEnd of text editing in the graphical object Edit.
+
+
+"on Chart" event is a result of different chart actions - key down, mouse click, object manipulation and other actions. This block is used to filter the event and it should be placed on the top. When an event that meets the conditions in this block happens - the block passes.
+
+
+Additionally, you can use the attributes of the event in "Condition" block.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NameKeyboard Pressed
+Overview"on Chart" event is a result of different chart actions - key down, mouse click, object manipulation and other actions. This block is used to filter the event and it should be placed on the top. When an event that meets the conditions in this block happens - the block passes.
+
+
+Additionally, you can use the attributes of the event in "Condition" block.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NameMouse clicked
+Overview"on Chart" event is a result of different chart actions - key down, mouse click, object manipulation and other actions. This block is used to filter the event and it should be placed on the top. When an event that meets the conditions in this block happens - the block passes.
+
+
+Additionally, you can use the attributes of the event in "Condition" block.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NameMouse clicked on object
+Overview"on Chart" event is a result of different chart actions - key down, mouse click, object manipulation and other actions. This block is used to filter the event and it should be placed on the top. When an event that meets the conditions in this block happens - the block passes.
+
+
+Additionally, you can use the attributes of the event in "Condition" block.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NameMouse moved
+Overview"on Chart" event is a result of different chart actions - key down, mouse click, object manipulation and other actions. This block is used to filter the event and it should be placed on the top. When an event that meets the conditions in this block happens - the block passes.
+
+
+Additionally, you can use the attributes of the event in "Condition" block.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NameObject created
+Overview"on Chart" event is a result of different chart actions - key down, mouse click, object manipulation and other actions. This block is used to filter the event and it should be placed on the top. When an event that meets the conditions in this block happens - the block passes.
+
+
+Additionally, you can use the attributes of the event in "Condition" block.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NameObject modified
+Overview"on Chart" event is a result of different chart actions - key down, mouse click, object manipulation and other actions. This block is used to filter the event and it should be placed on the top. When an event that meets the conditions in this block happens - the block passes.
+
+
+Additionally, you can use the attributes of the event in "Condition" block.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+Block NameObject deleted
+Overview"on Chart" event is a result of different chart actions - key down, mouse click, object manipulation and other actions. This block is used to filter the event and it should be placed on the top. When an event that meets the conditions in this block happens - the block passes.
+
+
+Additionally, you can use the attributes of the event in "Condition" block.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.
+
+
+Block NameObject dragged
+Overview"on Chart" event is a result of different chart actions - key down, mouse click, object manipulation and other actions. This block is used to filter the event and it should be placed on the top. When an event that meets the conditions in this block happens - the block passes.
+
+
+Additionally, you can use the attributes of the event in "Condition" block.
+Outputs (in what case are they active?)  The right event is filtered.
+  Otherwise.

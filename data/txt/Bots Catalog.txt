@@ -1,0 +1,3961 @@
+﻿BOTS CATALOG
+BOTS CATALOG        1
+AIGEN 2.1 Engulfing Loop Breakout        5
+Description (XUH7605)        5
+Setting Parameters (XUH7605)        5
+AIGEN 2.2 BS_stop MT5        6
+Description (RCJ1644)        6
+Setting Parameters (RCJ1644)        6
+AIGEN 2.3 3 EMA + RSI        7
+Description (KBU7409)        7
+Setting Parameters (KBU7409)        7
+AIGEN 2.4 RSI + Price Action Swing Trade        8
+Description (CMG9284)        8
+Setting Parameters (CMG9284)        8
+AIGEN 2.5 RSI Hedging Cutloss        9
+Description (WSD4279)        9
+AIGEN 2.6 STO + Price Action Swing v1        10
+Description (WHB8580)        10
+Setting Parameters (WHB8580)        10
+AIGEN 1.1 Basic MTG Dynamic steps m5v1.2        11
+Description (BDN6052)        11
+Setting Parameters (BDN6052)        11
+Description (FCS4146)        12
+Setting Parameters (FCS4146)        12
+AIGEN1.3 workshop3 RSI        13
+Description (NCT2026)        13
+Setting Parameters (NCT2026)        13
+AIGEN1.4 BBMA        14
+Description (MDG9038)        14
+Setting Parameters (MDG9038)        14
+AIGEN1.5 Volume SnR        15
+Description (MFT5903)        15
+
+BOT CATALOG
+Alpha V1.0.mq5        16
+Description (PST1234)        16
+Setting Parameters (PST1234)        16
+BEV V1.0.mq5        18
+Description (TER9759)        18
+Setting Parameters (TER9759)        18
+MN V1.0.mq5        20
+Description (AEB4082)        20
+Setting Parameters (AEB4082)        20
+No.10 2 Candle.mq5        22
+Description (NDD7113)        22
+Setting Parameters (NDD7113)        22
+No.11 RSI 30 70 Engulf.mq5        24
+Description (UDH7528)        24
+Setting Parameters (UDH7528)        24
+No.12 BBMA Time Filter Buy Sell.mq5        26
+Description (XMN6756)        26
+Setting Parameters (XMN6756)        26
+No.13 1 EMA.mq5        28
+Description (KPQ5080)        28
+Setting Parameters (KPQ5080)        28
+No.14 One Bull Can Reverse .mq5        30
+Description (JCH6425)        30
+Setting Parameters (JCH6425)        30
+No.15 One Bull Can EU Once Hour.mq5        32
+Description (MDH6745)        32
+Setting Parameters (MDH6745)        32
+No.16 Two Can EU Once Hour Reduce.mq5        34
+Description (DQX1573)        34
+Setting Parameters (DQX1573)        34
+No.17 Two Can XAUUSD Once Per bar.mq5        36
+Description (JKA2448)        36
+Setting Parameters (JKA2448)        36
+No.18 Three Candle XAUUSD Trend Following.mq5        38
+Description (QHS2348)        38
+Setting Parameters (QHS2348)        38
+
+BOT CATALOG
+No.19  ZigZag modify.mq5        40
+Description (WSX4563)        40
+Setting Parameters (WSX4563)        40
+No.20 ZigZag modify + Price action.mq5        42
+Description (HKG8932)        42
+Setting Parameters (HKG8932)        42
+No.21 ZigZag modify + Engulfing.mq5        44
+Description (AGQ5672)        44
+Setting Parameters (AGQ5672)        44
+No.22  ZigZag modify + Engulf Reverse Time fillter.mq5        46
+Setting Parameters (TBX5102)        46
+No.23  RSI + Filter Candle.mq5        48
+Description (AWN8248)        48
+Setting Parameters (AWN8248)        48
+No.24 RSI + Filter Candle + Confirm.mq5        50
+Description (XCU1541)        50
+Setting Parameters (XCU1541)        50
+No.25   RSI  + Confirm 2 Con Close.mq5        52
+Description (UCB1607)        52
+Setting Parameters (UCB1607)        52
+No.26  RSI  + Engulf Confirm 2 Con Close.mq5        54
+Description (PTG9843)        54
+Setting Parameters (PTG9843)        54
+No.27 MACD  + Engulf Confirm 2 Con Close.mq5        56
+Description (HST2430)        56
+Setting Parameters (HST2430)        56
+No.28 RSI  + Engulf (Price Diff) Confirm 2 Con Close.mq5        58
+Description (EPG1097)        58
+Setting Parameters (EPG1097)        58
+No.29 MACD  + Engulf (Price Diff) Confirm 2 Con Close.mq5        60
+Description (PRT1224)        60
+Setting Parameters (PRT1224)        60
+
+BOT CATALOG
+No.30 Price Action Confirm 2 Con Close.mq5        62
+Description (XUH7605)        62
+Setting Parameters (WSD4279)        62
+No.31 PA RSI 50.mq5        64
+Description (XUH7605)        64
+Setting Parameters (WSD4279)        64
+No.32 PA 2 ema .mq5        66
+Description (XUH7605)        66
+Setting Parameters (WSD4279)        66
+No.33  PA 2 MACD Opt.mq5        68
+Description (XUH7605)        68
+Setting Parameters (WSD4279)        68
+No.34 PA ADX.mq5        70
+Description (XUH7605)        70
+Setting Parameters (WSD4279)        70
+No.35 PA STO.mq5        72
+Description (XUH7605)        72
+Setting Parameters (WSD4279)        72
+No.36  PA BB.mq5        74
+Description (XUH7605)        74
+Setting Parameters (WSD4279)        74
+Profit Driver.mq5        76
+Description (XUH7605)        76
+Setting Parameters (WSD4279)        76
+Profit Trigger.mq5        78
+Description (XUH7605)        78
+Setting Parameters (WSD4279)        78
+SureFire V1.0.mq5        80
+Description (XUH7605)        80
+Setting Parameters (WSD4279)        80
+SurfGold V1.0.mq5        83
+Description (XUH7605)        83
+Setting Parameters (WSD4279)        83
+AIGEN 3.1 Reject BB.ex5        86
+Description (UUS8296)        86
+Setting Parameters (UUS8296)        86
+AIGEN 3.2 Demand Supply.ex5        87
+Description (DQX1947)        87
+Setting Parameters (DQX1947)        87
+AIGEN 3.3 Demand Supply 1 Order.ex5        88
+Description (EUR1668)        88
+Setting Parameters (EUR1668)        88
+AIGEN 3.4 Demand Supply RSI.ex5        89
+Description (UCB9627)        89
+Setting Parameters (UCB9627)        89
+AIGEN 3.5 Correlation V1.0.ex5        90
+Description (CEP4986)        90
+Setting Parameters (CEP4986)        90
+AIGEN 3.6 HedgeAdx V1.0.ex5        91
+Description (NRT1421)        91
+Setting Parameters (NRT1421)        91
+
+
+AIGEN 2.1 Engulfing Loop Breakout
+
+#property copyright   "World Bot Rank (XUH7605)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XUH7605)
+
+This EA uses a combination of technical indicators and price action analysis to identify potential trading opportunities. It may utilize moving averages, RSI, MACD, and other popular indicators to determine market trends and potential entry and exit points. The EA may also incorporate risk management techniques such as stop-loss and take-profit orders to protect against excessive losses. It may also have the ability to trade multiple currency pairs simultaneously, diversifying its trading portfolio. Additionally, the EA may be programmed to adapt to changing market conditions and adjust its trading strategy accordingly.
+
+
+Setting Parameters (XUH7605)
+
+
+This piece of code is setting input parameters for a trading strategy in MQL5 language. Here's a breakdown of what each parameter does:
+
+
+1. Period_Candle: This parameter sets the period for the candlestick chart. It is set to 58, but the optimal value for this parameter would depend on the specific trading strategy and the market conditions.
+
+
+ 2. LOT_Divided: This parameter is used to divide the lot size for trading. It is set to 100,000.0, but the optimal value for this parameter would depend on the account size and risk tolerance.
+
+
+3. TP_X_Candle: This parameter sets the take profit level as a multiple of the candle size. It is set to 17.0, but the optimal value for this parameter would depend on the specific trading strategy and the market conditions.
+
+
+4. SL_X_Candle: This parameter sets the stop loss level as a multiple of the candle size. It is set to 11.0, but the optimal value for this parameter would depend on the specific trading strategy and the market conditions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIGEN 2.2 BS_stop MT5
+#property copyright   "World Bot Rank (RCJ1644)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+Description (RCJ1644)
+
+The AIGEN 2.2 BS_stop MT5 is an Expert Advisor (EA) trading strategy written in MQL5 language. The EA is designed to automate trading in the MetaTrader 5 platform. The trading strategy of AIGEN 2.2 BS_stop MT5 is likely to be a trend-following or breakout strategy based on the name "BS_stop." This means that the EA may look for opportunities to enter trades when the market is trending or when there is a breakout from a significant price level. The entry point for trades is likely to be determined by specific technical indicators or price action patterns. The EA may use indicators such as moving averages, Bollinger Bands, or other trend-following tools to identify potential entry points.The exit point for trades is also determined by the EA based on its trading strategy. This could involve setting profit targets based on price levels or using trailing stops to capture as much profit as possible
+
+Setting Parameters (RCJ1644)
+
+
+This piece of code is setting input parameters for a trading algorithm in MQL5 language. Here is the meaning of each input parameter:
+
+
+1. Price_offset_PIP: This parameter represents the price offset in pips.
+2. LOT_Percent: This parameter represents the percentage of the lot size to be used for trading.
+3. Nearby_PIP: This parameter represents the nearby price in pips.
+4. Martingale_Plus: This parameter sets the martingale multiplier for increasing the lot size after a losing trade.
+5. Break_even_offset_PIP: This parameter represents the break-even offset in pips.
+6. Break_even: This parameter represents the break-even value.
+7. Trailing_More_PIP: This parameter represents the trailing more value in pips.
+8. Trailing_PIP: This parameter represents the trailing value in pips.
+9. Percent_TP: This parameter represents the percentage of the take profit value.
+10. Percent_Cutloss: This parameter represents the percentage of the cut loss
+
+
+
+
+
+
+
+AIGEN 2.3 3 EMA + RSI
+
+#property copyright   "World Bot Rank (KBU7409)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (KBU7409)
+
+
+This EA (Expert Advisor) trading strategy, AIGEN 2.3, uses a combination of three Exponential Moving Averages (EMA) and the Relative Strength Index (RSI) to make trading decisions. The entry point for this strategy is based on the crossover of the three EMAs, where the fastest EMA crosses both the middle and slowest EMA. This indicates a potential change in trend direction and signals a buy or sell opportunity. The exit point is determined by the RSI indicator, which measures the speed and change of price movements. When the RSI reaches overbought or oversold levels, the EA will close the trade to take profits or limit losses. Money management for this strategy involves setting stop-loss and take-profit levels based on the trader's risk tolerance and the market conditions. The EA may also use a trailing stop to lock in profits as the trade moves in the desired direction.Overall, AIGEN 2.3 aims to capture trends in trading.
+
+
+Setting Parameters (KBU7409)
+
+
+This piece of code is defining input parameters for a trading algorithm in MQL5 language. These input parameters are used to set the values for various indicators and trading settings. 
+
+
+1. EMA1, EMA2, and EMA3 are the periods for three Exponential Moving Averages (EMAs) used in the algorithm.
+2. RSI is the period for the Relative Strength Index (RSI) indicator.
+3. start_can_SL and end_can_SL are the start and end values for a trailing stop-loss feature in the algorithm.
+4. TP_Percent is the take-profit percentage used in the algorithm.
+5. Lot_Divided is a value used to divide the lot size in the algorithm.
+6. MagicStart is the magic number used to identify trades from this algorithm.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIGEN 2.4 RSI + Price Action Swing Trade
+
+
+#property copyright   "World Bot Rank (CMG9284)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+Description (CMG9284)
+
+This EA (Expert Advisor) trading strategy, AIGEN 2.4 RSI + Price Action Swing Trade, is designed to use a combination of RSI (Relative Strength Index) and price action to identify potential trading opportunities in the market. The entry point for this strategy is based on the RSI indicator and price action signals. When the RSI indicator shows oversold or overbought conditions and is confirmed by price action signals such as a swing high or swing low, the EA will enter a trade in the direction of the potential trend reversal. The exit point for this strategy is based on predefined take profit and stop loss levels. The EA will automatically close the trade when the price reaches the take profit or stop loss level, or when the RSI indicator and price action signals suggest a potential trend reversal.Money management for this strategy involves setting a risk-to-reward ratio for each trade, as well as using a trailing stop to lock in profits as the trade moves in the desired
+
+
+Setting Parameters (CMG9284)
+
+
+1. Lot_Devided: This input parameter represents the lot size divided by this value. The suggested range for this setting is between 1 and 100000.
+2. fillter_wick: This input parameter represents the filter for the wick of the candle. The suggested range for this setting is between 10 and 20.
+3. tp: This input parameter represents the take profit level. The suggested range for this setting is between 10 and 20.
+4. near: This input parameter represents the distance for placing pending orders. The suggested range for this setting is between 10 and 30.
+5. trade_count: This input parameter represents the maximum number of trades to be opened. The suggested range for this setting is between 1 and 10.
+6. Martingale: This input parameter represents the multiplier for the next trade in case of a loss. The suggested range for this setting is between 1 and 2.
+7. RSI_Buy_level: represents the oversold level for the Relative Strength Index (RSI) indicator.
+8. RSI_Sell_level" represents the overbought level for the RSI indicator. 
+Generally, the RSI_Buy_level is set below 30 to indicate oversold conditions, and the RSI_Sell_level is set above 70 to indicate overbought conditions. However, the exact values within these ranges would need to be determined based on backtesting and analysis of the specific market and trading strategy.
+
+
+
+
+AIGEN 2.5 RSI Hedging Cutloss
+#property copyright   "World Bot Rank (WSD4279)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+Description (WSD4279)
+
+This EA (Expert Advisor) trading strategy, AIGEN 2.5 RSI Hedging Cutloss, is designed to use the RSI (Relative Strength Index) indicator to identify overbought and oversold conditions in the market. The EA will enter trades based on these conditions and implement a hedging strategy to manage risk. The entry point for trades is based on the RSI indicator, with the EA looking for overbought conditions to sell and oversold conditions to buy. The RSI threshold for these conditions is determined by the settings of the EA. The exit point for trades is managed through a cutloss strategy, which is designed to limit losses in case the market moves against the trade. The cutloss level is also determined by the settings of the EA. Money management is an important aspect of this strategy, and the EA is designed to implement a hedging strategy to manage risk. This means that if a trade goes against the initial position, the EA will open a hedging.
+
+Setting Parameters (WSD4279)
+
+
+1. Martingale: This input parameter represents the multiplier used in a martingale strategy. The suggested range for this setting is typically between 1.5 to 3.5, with lower values being less aggressive and higher values being more aggressive.
+2. Lot_Start: This input parameter represents the initial lot size for trading. The suggested range for this setting is typically between 0.01 to 0.1, depending on the account size and risk tolerance.
+3. First_time_Add: This input parameter represents the additional lot size to be added on the first trade. The suggested range for this setting is typically between 0.01 to 0.1, depending on the account size and risk tolerance.
+4. TP_PIP: This input parameter represents the take profit level in pips. The suggested range for this setting is typically between 1000 to 1500 pips, depending on the trading strategy and market conditions.
+5. Nearby: This input parameter represents the distance in pips for placing pending orders. The suggested range for this setting is typically between 500 to 600 pips, 
+6. candle_id: This input parameter represents the number of candles to be used for analysis. The suggested range for this setting is typically between 1 to 5, depending on the time frame.
+7. RSI_Period: This input sets the period for the Relative Strength Index (RSI) indicator. The RSI is a momentum oscillator that measures the speed and change of price movements. The suggested range for this input is typically between 7 and 14, so a value of 11 is within that range.
+8. RSI_Break_BUY: This input sets the RSI level at which a buy signal is generated. When the RSI crosses above this level, it may indicate an overbought condition and a potential reversal. The suggested range for this input is typically between 70 and 30, so a value of 57.0 is within that range.
+9. RSI_Break_SELL = 49.0. Suggestion range number: The best setting for this variable would depend on the specific trading strategy and market conditions, but generally, RSI values below 30 indicate oversold conditions, so a value of 49.0 suggests a relatively neutral or slightly bearish stance.
+10. input int Cut_Loss_Order = 7; Unit: It is an integer data type, count trades to cut loss order.
+AIGEN 2.6 STO + Price Action Swing v1
+#property copyright   "World Bot Rank (WHB8580)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (WHB8580)
+
+This EA (Expert Advisor) trading strategy, AIGEN 2.6 STO + Price Action Swing v1, combines the use of the Stochastic Oscillator (STO) and Price Action Swing to make trading decisions. The entry point for this strategy is based on the signals generated by the Stochastic Oscillator and Price Action Swing. When the Stochastic Oscillator indicates an oversold or overbought condition and the Price Action Swing confirms a reversal pattern, the EA will enter a trade. The exit point for this strategy is determined by the Stochastic Oscillator and Price Action Swing as well. When the Stochastic Oscillator indicates a reversal in the overbought or oversold condition and the Price Action Swing confirms a change in trend, the EA will exit the trade. In terms of money management, the EA may use a variety of techniques such as setting stop-loss and take-profit levels based on the market conditions, as well as adjusting position sizes based on account equity and balance.
+
+
+Setting Parameters (WHB8580)
+
+1. Lot_Devided: This input parameter represents the lot size divided by this value. It is used to determine the lot size for each trade based on the account balance. Suggestion Range: Any positive numeric value, typically between 10,000 and 1,000,000.
+2. fillter_wick: This input parameter represents the filter for the wick of the candlestick. It is used to determine the maximum allowable wick size for a valid candlestick pattern.
+Suggestion Range: Any positive numeric value, typically between 10 and 100.
+3. tp_sto_adjust: This input parameter represents the take profit adjustment for the stochastic indicator. It is used to fine-tune the take profit level based on the stochastic indicator's signal.Suggestion Range: Any positive numeric value, typically between 1 and 5.
+4. near_sto_adjust: This parameter likely adjusts the sensitivity of the Stochastic Oscillator indicator. A value of 1.9 suggests that the indicator will be more sensitive to price movements.
+5. trade_count: This parameter likely determines the maximum number of trades that can be opened at a given time. A value of 8.0 suggests that the strategy can open up to 8 trades simultaneously.
+6. Martingale: This parameter likely relates to a Martingale money management strategy, where the size of the next trade is increased after a loss. A value of 1.4 suggests the multiplier for the Martingale.
+7. STO_Buy_level: This parameter likely sets the oversold level for the Stochastic Oscillator
+8. STO_Sell_level: This is the level at which the Stochastic Oscillator indicates that the market is overbought and a sell signal is generated. The suggested range is between 60.0 to 80.0.
+9. STO_K: This is the period used for the %K line calculation in the Stochastic Oscillator. The suggested range for this input could be between 5.0 to 50.0, depending on the desired sensitivity of the indicator.
+10. STO_D: This is the period used for the %D line calculation in the Stochastic Oscillator. The suggested range for this input could be between 3.0 to 10.0, depending on the desired smoothing of the indicator.
+11. STO_Slow: This is the slowing period calculation in the Stochastic Oscillator. The suggested range for this input could be between 3.0 to 10.0.
+AIGEN 1.1 Basic MTG Dynamic steps m5v1.2
+#property copyright   "World Bot Rank (BDN6052)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (BDN6052)
+
+
+The AIGEN1.1 Basic MTG Dynamic steps m5v1.2 is an Expert Advisor (EA) trading strategy written in MQL5 language. This EA is designed to be used on the MetaTrader 5 platform. The special feature of this trading strategy is its dynamic steps approach, which allows it to adapt to changing market conditions. This means that the EA can adjust its trading parameters based on the current market volatility and trends. The entry point for this EA is based on a combination of technical indicators and price action patterns. It looks for specific setups that indicate a high probability of a profitable trade. The exit point is determined by a combination of profit targets and stop-loss levels. The EA uses a dynamic approach to setting these levels, taking into account the current market conditions and the potential for price reversals.
+Money management is an important aspect of this trading strategy. The EA uses a risk-based approach to position sizing, ensuring that each trade is sized appropriately based on the account.
+
+
+Setting Parameters (BDN6052)
+
+
+1. LOT_Divided: This parameter likely represents the lot size divided by a certain value. Suggested range: 1000000.0 - 10000000.0
+2. TP_PIP: Take Profit in pips. Suggested range: 5.0 - 20.0
+3. Cutloss_percent: Percentage of the account balance to be used as the maximum loss. Suggested range: 50.0 - 100.0
+4. MAX_Order: Maximum number of orders to be opened at the same time. Suggested range: 10.0 - 30.0
+5. Bd: Bollinger Bands parameter. Suggested range: 10.0 - 30.0
+6. BB_step1_TF, BB_step2_TF, BB_step3_TF: These are input settings for the timeframes to be used in the algorithm. The suggested range for these settings would be to choose timeframes that provide a good balance between responsiveness and stability for the specific trading strategy being used.
+7. Multiple1, Multiple2, Multiple3: These are input settings for multiple values used in the algorithm. The suggested range for these settings would depend on the specific requirements of the trading strategy and the market conditions, but typically values between 1.5 to 3.0 are common.
+8. MAX_Spread_PIP: This is the maximum allowable spread in pips. The suggested range for this setting would depend on the specific requirements of the trading strategy and the market conditions, but typically values between 2.0 to 5.0 pips are common.
+9. MAX_Slippage_PIP: This input setting represents the maximum allowable slippage in pips when executing trades. A suggestion could be 0.1 to 5.0 pips, depending on the volatility of the market.
+10. Near_by_PIP: This input setting represents the distance in pips for placing pending orders near the current market price. A suggested range for this setting could be 10.0 to 30.0 pips, depending on the trading strategy and market conditions.
+11. Comment: This input setting allows the user to specify a comment that will be attached to the trades executed by the trading robot.
+
+
+AIGEN 1.2 Multi Indicators TPSL m5
+#property copyright   "World Bot Rank (FCS4146)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (FCS4146)
+
+
+The AIGEN1.2 Multi Indicators TPSL m5 EA is a trading robot that utilizes multiple indicators and a time-based strategy to make trading decisions on the M5 timeframe. The special feature of this EA is its use of multiple indicators to generate trading signals, which can help to filter out false signals and improve the accuracy of the trading strategy. The entry point for trades is determined by the combination of these indicators, which may include moving averages, oscillators, and other technical analysis tools. The exit point for trades is determined by a combination of take profit and stop loss levels, which are dynamically adjusted based on market conditions and the current price action. This helps to maximize profits and minimize losses. Money management is an important aspect of this EA, and it includes features such as position sizing, risk management, and the ability to set a maximum drawdown limit. This helps to protect the trading account from excessive losses and ensures that the EA trades within acceptable risk parameters.
+
+Setting Parameters (FCS4146)
+
+1. FastMA_Period: This input parameter sets the period for the fast moving average. Suggestion: Range from 5 to 200.
+2. SlowMA_Period: This input parameter sets the period for the slow moving average. Suggestion: Range from 5 to 200.
+3. CandleID: This input parameter sets the ID for the candle. Suggestion: Range from 1 to 5.
+4. ADX_Period: This input parameter sets the period for the Average Directional Index (ADX). Suggestion: Range from 5 to 30.
+5. LotStart: This input parameter sets the initial lot size for trading. Suggestion: Range from 0.01 to 1.0.
+6. TP: This input parameter sets the take profit level in pips.Suggestion: Range from 10.0 to 100.0.
+7. SL: This input parameter sets the stop loss level in pips. Suggestion: Range from 10.0 to 100.0.
+8. Martingale: A multiplier used in a trading strategy to increase the size of a trade after a loss. A value of 2.0 means the trade size will be doubled after a loss. Suggested range: 1.5 - 2.5
+9. TP_Day_range_buffer: A buffer used to set the take profit level based on the daily range of the market. A value of 0.9 means the take profit level will be set at 90% of the daily range. Suggested range: 0.8 - 1.0
+10. SL_ATR_period: The period used to calculate the average true range (ATR) for setting the stop loss level. A value of 20.0 means the ATR will be calculated over a 20-period period. Suggested range: 14 - 28
+11. SL_ATR_buffer: A buffer used to set the stop loss level based on the ATR. A value of 1 means the stop loss level will be set at 100% of the daily range. Suggested range: 0.8 - 1.0
+
+
+
+
+
+
+AIGEN1.3 workshop3 RSI
+
+#property copyright   "World Bot Rank (NCT2026)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (NCT2026)
+
+
+The AIGEN1.3 workshop3 RSI EA is a trading strategy that utilizes the Relative Strength Index (RSI) indicator to make trading decisions. The RSI is a momentum oscillator that measures the speed and change of price movements, and the EA uses this information to identify potential entry and exit points for trades.The special feature of this EA is its focus on the RSI indicator, which is a popular and widely used tool in technical analysis. The EA works by monitoring the RSI levels of a particular asset and executing trades based on overbought and oversold conditions. The entry point for trades is determined when the RSI indicator crosses certain threshold levels, indicating potential reversal or continuation of the trend. The exit point is determined based on the RSI levels reaching the opposite threshold, indicating a potential reversal in the trend. In terms of money management, the EA may incorporate features such as stop-loss and take-profit levels to manage risk and maximize potential profits. It may also include position
+
+
+Setting Parameters (NCT2026)
+
+1. RSI_Period: The period used to calculate the Relative Strength Index (RSI) indicator. Suggestion: Range from 10 to 20 for shorter-term trading and 20 to 30 for longer-term trading.
+2. TF: The timeframe for the indicator. Suggestion: Use the default value PERIOD_CURRENT unless specific timeframe is required.
+3. CandleId: The identifier for the candle. Suggestion: Range from 1 to 5 for different candle patterns.
+4. BuyLevel: The level at which a buy signal is generated by the RSI indicator.Suggestion: Range from 15 to 20 for conservative trading and 10 to 15 for aggressive trading.
+5. SellLevel: The level at which a sell signal is generated by the RSI indicator.Suggestion: Range from 70 to 75 for conservative trading and 75 to 80 for aggressive trading.
+6. Lot: The lot size for trading. Suggestion: Depends on the account balance and risk tolerance.
+7. TP stands for Take Profit and SL stands for Stop Loss. For the TP input, a suggestion range could be 50.0 to 100.0.For the SL input, a suggestion range could be 20.0 to 40.0. These ranges can be adjusted based on the specific trading strategy and risk tolerance of the trader.
+
+
+
+
+
+
+
+
+
+
+AIGEN1.4 BBMA
+#property copyright   "World Bot Rank (MDG9038)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (MDG9038)
+
+
+The AIGEN1.4 BBMA EA is a trading strategy that utilizes the MQL5 language to automate trading in the financial markets. This EA is special because it is based on the AIGEN1.4 BBMA trading strategy, which combines the use of Bollinger Bands and Moving Averages to identify potential entry and exit points in the market. The EA works by analyzing market data and identifying opportunities to enter trades based on the AIGEN1.4 BBMA strategy. It uses predefined parameters and rules to determine the entry point, which is typically when the price breaks out of the Bollinger Bands or when the moving averages cross over. The exit point is determined based on the AIGEN1.4 BBMA strategy, which may include taking profits when the price reaches a certain level or when the market conditions indicate a reversal. Money management is an important aspect of this EA, and it may include setting stop-loss and take-profit levels, as well as managing position
+
+
+Setting Parameters (MDG9038)
+
+
+1. Major: The time frame for the trading strategy, set to H4 (4-hour). Suggested range: Major: PERIOD_M1 to PERIOD_D1
+2. fillter_wick: The maximum allowable size of wicks on candlesticks, set to 30.0. Suggested range: fillter_wick: 10.0 to 50.0
+3. stop_hunt: The distance in pips for the stop loss, set to 200.0. Suggested range: stop_hunt: 100.0 to 300.0
+4. Lot: The initial trading lot size, set to 0.01. Suggested range: Lot: 0.01 to 0.1
+5. TP: The take profit level in pips, set to 200.0. Suggested range: TP: 100.0 to 300.0
+6. Martingale: The multiplier for the lot size in case of a losing trade, set to 2.0. Suggested range: The input "Martingale" is a parameter used in trading strategies to determine the multiplier for increasing the trade size after a losing trade. A value of 2.0 means that the trade size will be doubled after each losing trade. It is important to carefully consider the potential risks and rewards of using a Martingale strategy, and to set the input value based on your risk tolerance and trading goals. It is recommended to consult with a financial advisor or experienced trader to determine the best setting for this input.
+
+
+
+
+AIGEN1.5 Volume SnR
+#property copyright   "World Bot Rank (MFT5903)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (MFT5903)
+
+
+The AIGEN1.5 Volume SnR EA (Expert Advisor) is a trading strategy that utilizes volume analysis and support and resistance levels to make trading decisions. The EA works by analyzing the volume of trades in the market and identifying key support and resistance levels. It then uses this information to determine entry and exit points for trades. The entry point for trades is typically when the price breaks through a support or resistance level with a significant increase in volume, indicating a strong market movement. The exit point for trades is determined based on the same volume and support/resistance analysis, as well as potentially incorporating other technical indicators or price action signals. Money management is an important aspect of the AIGEN1.5 Volume SnR strategy, and the EA may incorporate features such as setting stop-loss and take-profit levels based on the support and resistance levels, as well as adjusting position sizes based on account balance and risk tolerance. Overall, the AIGEN1.5 Volume SnR EA is designed
+
+
+Setting Parameters (MFT5903)
+
+1. loop_candle: This input parameter represents the number of candles to be considered for analysis. Suggested range: 10-50
+2. buffer_vol_filter: This input parameter represents the buffer value for volume filtering. Suggested range: 5-20
+3. percent_wick: This input parameter represents the percentage of the wick to be considered for analysis. Suggested range: 20-40
+4. TP: This input parameter represents the take profit level for the trade. Suggested range: 50-150
+5. Lot: This input parameter represents the lot size for the trade. Suggested range: 0.01-0.1
+
+
+
+
+Alpha V1.0.mq5
+#property copyright   "World Bot Rank (PST1234)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (PST1234)
+
+
+This EA (Expert Advisor) trading strategy is special because it is designed to use the MQL5 language to automate trading decisions in the MetaTrader 5 platform. The EA uses a proprietary algorithm to identify entry and exit points for trades, as well as implement money management strategies. The trading strategy works by analyzing market data and using technical indicators to identify potential trading opportunities. It then executes trades based on predefined criteria and parameters set by the user. The entry point for trades is determined by the algorithm's analysis of market conditions, such as price movements, trend indicators, and other technical factors. The EA may use a combination of indicators and signals to identify optimal entry points. The exit point for trades is also determined by the algorithm, which may use a variety of criteria such as profit targets, stop-loss levels, or trailing stops to close out positions. Money management is an important aspect of this EA's trading strategy, and it may include features such as position sizing, risk management, and capital preservation techniques
+
+
+Setting Parameters (PST1234)
+
+
+The input parameters are settings for a trading algorithm in MQL5 language. Here are the brief meanings of the input parameters and suggested range numbers for the best settings:
+1. Use_Bonus: A boolean to indicate whether to use bonus in trading. Range: true or false.
+2. Lot_Div: The divisor for lot size calculation. Range: 1000000.0 or higher.
+3. Multiple: A multiplier for position sizing. Range: 1.25 or higher.
+4. TP_First_Order: Take profit for the first order. Range: 50.0 or higher.
+5. TP_All: Take profit for all orders. Range: 15.0 or higher.
+6. DNB_Period: Period for dynamic nearby setting. Range: 24 or higher.
+7. DNB_TF: Timeframe for dynamic nearby setting. Range: PERIOD_H1 or other ENUM_TIMEFRAMES.
+8. SB_Mode_On: A boolean to indicate whether safety break mode is on. Range: true or false.
+9. SB_Period: Period for safety break setting. Range: 20 or higher.
+10. SB_Applied_Price: Applied price for safety break setting. Range: PRICE_WEIGHTED or other ENUM_APPLIED_PRICE.
+11. SB_TF: Timeframe for safety break setting. Range: PERIOD_M15 or other ENUM_TIMEFRAMES.
+12. TL_Mode_On: A boolean to indicate whether trailing mode is on. Range: true or false.
+13. TL_Stop_Div: Divisor for trailing stop calculation. Range: 1.5 or higher.
+14. KLT_Start_Order_Count: Start order count for keep last trade setting. Range: 3 or higher.
+15. AC_All_Mode_On: A boolean to indicate whether anchor all mode is on. Range: true or false.
+16. AC_Split_Mode_On: A boolean to indicate whether anchor split mode is on. Range: true or false.
+17. AC_Start_Order_Count: Start order count for anchor setting. Range: 3 or higher.
+18. AC_Multiple: Multiplier for anchor setting. Range: 50.0 or higher.
+19. CA_Mode_On: A boolean to indicate whether close all mode is on. Range: true or false.
+20. CA_Profit_Percent: Profit percentage for close all setting. Range: 2.0 or higher.
+21. Start_Time: Start time for trading. Range: "00:01" or other valid time format.
+22. End_Time: End time for trading. Range: "23:59" or other valid time format.
+23. Allow_Monday to Allow_Sunday: Boolean to indicate whether trading is allowed on each day of the week. Range: true or false.
+24. Once_Per_Sec: Frequency for certain action. Range: 15.0 or higher.
+25. Max_Spread: Maximum allowed spread. Range: 5.0 or lower.
+26. Max_Slippage: Maximum allowed slippage. Range: 4.0 or lower.
+27. MagicStart: Magic number for the trading algorithm. Range: 6670 or any unique number.
+These suggested ranges are based on typical trading parameters and may need to be adjusted based on specific trading strategies and market conditions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BEV V1.0.mq5
+
+
+#property copyright   "World Bot Rank (TER9759)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (TER9759)
+
+
+This EA (Expert Advisor) trading strategy is special because it is designed to use the MQL5 language to automate trading decisions in the MetaTrader 5 platform. The strategy works by analyzing market conditions and making buy or sell decisions based on predefined rules and indicators.
+
+
+The entry point for trades is determined by the strategy's algorithm, which may consider factors such as moving averages, support and resistance levels, or other technical indicators. The exit point for trades is also determined by the algorithm, which may use profit targets, stop-loss orders, or other criteria to close out positions.
+
+
+Money management is an important aspect of this trading strategy, and the EA may use techniques such as position sizing, risk management, and trailing stops to protect capital and maximize returns.
+
+
+Overall, this EA trading strategy is designed to automate the trading process and execute trades based on predefined rules and conditions, with the goal of generating profits in the financial markets.
+
+
+Setting Parameters (TER9759)
+
+
+1. Lot_Setting: This section includes parameters related to lot size and balance management.
+   - Balance_Start: Initial balance for trading.
+   - Balance_Step: Increment in balance for lot size adjustment.
+   - Balance_Stop: Maximum balance allowed for trading.
+   - Lot_Start: Initial lot size for trading.
+   - Lot_Step: Increment in lot size for adjustment.
+
+
+2. MM_Setting: This section includes parameters related to money management.
+   - TP: Take profit level in pips.
+   - BEV_Range: Break-even range in pips.
+   - NearBy: Distance in pips for setting stop loss and take profit levels.
+   - Multiple: Multiplier for lot size adjustment.
+   - MaxLot: Maximum allowed lot size for trading.
+
+
+3. LR_Setting: This section includes parameters related to trade round limits and multipliers.
+   - LR_MaxRound: Maximum number of trade rounds allowed.
+   - LR_Multipler: Multiplier for lot size adjustment.
+
+
+4. Trailing_Setting: This section includes parameters related to trailing stop.
+   - TL_Start: Initial trailing stop value in pips.
+   - TL_Step: Increment in trailing stop value.
+   - TL_Stop: Minimum trailing stop value allowed.
+
+
+5. Anchor_Setting: This section includes parameters related to anchor points for trade management.
+   - An_StartCount: Number of anchor points to consider for trade management.
+   - An_Multiple: Multiplier for anchor point calculation.
+   - An_MinClose: Minimum close value for anchor points.
+
+
+6. BB_Setting: This section includes parameters related to Bollinger Bands indicator.
+   - BB_Period: Period for Bollinger Bands calculation.
+   - BB_Shift: Shift value for Bollinger Bands calculation.
+   - BB_Dev: Standard deviation for Bollinger Bands calculation.
+   - BB_Applied_Price: Applied price type for Bollinger Bands calculation.
+   - BB_TF: Timeframe for Bollinger Bands calculation.
+   - BB_CandleID: Candle ID for Bollinger Bands calculation.
+
+
+7. ETC: This section includes miscellaneous parameters.
+   - MaxSpread: Maximum allowed spread for trading.
+   - MaxSlippage: Maximum allowed slippage for trading.
+   - OPSec: Time interval for order processing in seconds.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MN V1.0.mq5
+
+
+#property copyright   "World Bot Rank (AEB4082)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (AEB4082)
+
+
+This EA (Expert Advisor) trading strategy is special because it is designed to trade in the MQL5 language, which is a high-performance programming language used for developing trading robots, technical indicators, scripts, and function libraries for the MetaTrader 5 trading platform.
+
+
+The EA works by implementing a specific trading strategy based on technical indicators, price action, or a combination of both. The entry point for trades is determined by the strategy's conditions, which could include indicators crossing over, breakouts, or other technical patterns. The exit point for trades is also determined by the strategy, which could be based on profit targets, stop-loss levels, or reversal signals.
+
+
+Money management is an important aspect of this EA, and it may include features such as position sizing, risk management, and trade diversification to optimize the risk-reward ratio and overall portfolio performance.
+
+
+Overall, this EA is designed to automate the trading process based on a specific strategy, allowing for consistent and disciplined execution of trades without emotional interference. It is important for traders to thoroughly backtest and optimize the EA's parameters before deploying it in live trading to ensure its effectiveness and suitability for their trading goals.
+
+
+Setting Parameters (AEB4082)
+
+
+1. Balance_Start, Balance_Step, Balance_Stop: These parameters likely represent the starting balance, step size for balance increase, and the maximum balance for the trading algorithm. Suggested range: Balance_Start: 1000-100000, Balance_Step: 1000-10000, Balance_Stop: 100000-1000000.
+
+
+2. Lot_Start, Lot_Step, MaxLot: These parameters likely represent the starting lot size, step size for lot increase, and the maximum lot size for the trading algorithm. Suggested range: Lot_Start: 0.01-1.0, Lot_Step: 0.01-0.1, MaxLot: 10.0-100.0.
+
+
+3. NearBy, Multiple, MinAge: These parameters are related to money management and trade entry conditions. Suggested range: NearBy: 10-30, Multiple: 1.0-2.0, MinAge: 50-200.
+
+
+4. An_StartCount, An_Multiple, An_MinClose: These parameters likely represent anchor point settings for trade management. Suggested range: An_StartCount: 3-10, An_Multiple: 10.0-50.0, An_MinClose: 0.0-10.0.
+
+
+5. Mn_OPSec, Mn_LossNewC, Mn_LossOldC, Mn_ProfitC, Mn_MulLotMy: These parameters are likely related to trade management and lot size calculation. Suggested range: Mn_OPSec: 10-30, Mn_LossNewC: 1-3, Mn_LossOldC: 1-2, Mn_ProfitC: 1-3, Mn_MulLotMy: 500-1500.
+
+
+6. BB_Period, BB_Shift, BB_Dev, BB_Applied_Price, BB_TF, BB_CandleID: These parameters likely represent settings for Bollinger Bands indicator. Suggested range: BB_Period: 10-30, BB_Shift: 0-5, BB_Dev: 1.5-3.0.
+
+
+7. LR_Distance, LR_MaxRound: These parameters likely represent settings for replacing lot size. Suggested range: LR_Distance: 20-60, LR_MaxRound: 3-7.
+
+
+8. CA_PipClose, CA_Percent: These parameters likely represent settings for closing all trades. Suggested range: CA_PipClose: 10-30, CA_Percent: 0.5-1.5.
+
+
+9. CL_ModeOn, CL_PercentDD: These parameters likely represent settings for cutting losses. Suggested range: CL_PercentDD: 20-40.
+
+
+10. OPB_TF, MaxSpread, MaxSlippage: These parameters likely represent other miscellaneous settings. Suggested range: MaxSpread: 2.0-6.0, MaxSlippage: 2.0-6.0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.10 2 Candle.mq5
+#property copyright   "World Bot Rank (NDD7113)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (NDD7113)
+
+
+This EA trading strategy, "No.10 2 Candle.mq5," is designed to identify and capitalize on specific patterns formed by two consecutive candlesticks. The EA uses a proprietary algorithm to analyze the price action and identify potential entry and exit points based on the formation of these candlestick patterns.
+
+
+The entry point for this strategy is based on the formation of a specific two-candle pattern, which is identified by the EA's algorithm. Once the pattern is confirmed, the EA will enter a trade in the direction indicated by the pattern.
+
+
+The exit point for the trades is determined based on predefined take profit and stop loss levels, which are set by the EA's money management system. The EA also incorporates trailing stop functionality to maximize profits and minimize losses as the trade progresses.
+
+
+In terms of money management, the EA utilizes a set of predefined risk management rules to determine the position size for each trade. This helps to ensure that the overall risk exposure is controlled and managed effectively.
+
+
+Overall, the "No.10 2 Candle.mq5" EA trading strategy is special in its focus on identifying and capitalizing on specific two-candle patterns, and its use of a sophisticated money management system to control risk and optimize trade outcomes.
+
+
+The input parameters are constants used in a trading algorithm written in MQL5 language. Here is the meaning of each input:
+
+
+Setting Parameters (NDD7113)
+
+
+1. Quality_Percent_Entry_Sell: This is the quality percentage for determining the entry point for a sell trade. It is set at 60.
+
+
+2. Quality_Percent_Exit_Sell: This is the quality percentage for determining the exit point for a sell trade. It is set at 40.
+
+
+3. Lot: This is the lot size for the trades. It is set at 0.1.
+
+
+4. Quality_Percent_Entry_Buy: This is the quality percentage for determining the entry point for a buy trade. It is set at 70.
+
+
+5. Quality_Percent_Exit_Buy: This is the quality percentage for determining the exit point for a buy trade. It is set at 50.
+
+
+6. start_time: This is the start time for the trading activity. It is set at "00:30".
+
+
+7. end_time: This is the end time for the trading activity. It is set at "23:30".
+
+
+To set the best settings for these input parameters, it would depend on the specific trading strategy and market conditions. It is recommended to backtest the algorithm with different parameter values to find the optimal settings for the given trading strategy. Additionally, consulting with a financial advisor or experienced trader may also provide valuable insights for setting the best parameters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.11 RSI 30 70 Engulf.mq5
+#property copyright   "World Bot Rank (UDH7528)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (UDH7528)
+
+
+This EA trading strategy is special because it combines the RSI (Relative Strength Index) indicator with the engulfing candlestick pattern to identify potential entry and exit points in the market. 
+
+
+The RSI is used to identify overbought and oversold conditions in the market, with the typical levels of 30 and 70 indicating potential reversal points. The engulfing candlestick pattern is used to confirm these potential reversal points, providing additional confluence for trade entries and exits.
+
+
+The entry point for this strategy is when the RSI indicator crosses either the 30 or 70 level, indicating a potential reversal, and is confirmed by the engulfing candlestick pattern. This provides a strong signal for entering a trade in the direction of the expected reversal.
+
+
+The exit point for trades is determined by the RSI indicator crossing back below or above the 30 or 70 level, indicating a potential end to the reversal. Additionally, a trailing stop or take profit level can be used to secure profits as the trade moves in the desired direction.
+
+
+Money management for this strategy involves setting a stop loss to limit potential losses and a risk-to-reward ratio to ensure that potential profits outweigh potential losses. Position sizing can also be adjusted based on the strength of the signal and the overall market conditions.
+
+
+Overall, this EA trading strategy combines the power of the RSI indicator and the engulfing candlestick pattern to identify high-probability trade setups with clear entry and exit points, as well as effective money management techniques to manage risk and maximize potential profits.
+
+
+Setting Parameters (UDH7528)
+
+
+1. Lot_Divided: This input parameter represents the amount by which the lot size is divided. It is set to 40000.0. Suggested range: 10000.0 - 50000.0
+2. Martingale: This input parameter represents the multiplier used in a martingale strategy. It is set to 2.0. Suggested range: 1.5 - 3.0
+3. start_candle: This input parameter represents the starting candle for a specific analysis or strategy. It is set to 1.0. Suggested range: 1.0 - 5.0
+4. end_candle: This input parameter represents the ending candle for a specific analysis or strategy. It is set to 3.0. Suggested range: 3.0 - 10.0
+5. StopHunt_pip: This input parameter represents the number of pips for a stop hunt. It is set to 10.0. Suggested range: 5.0 - 15.0
+6. Max_SL: This input parameter represents the maximum stop loss in pips. It is set to 50.0.
+Suggested range: 30.0 - 70.0
+7. TP_Percent: This input parameter represents the take profit percentage. It is set to 150.0. Suggested range: 100.0 - 200.0
+8. HTF: This input parameter represents the higher timeframe for analysis. It is set to PERIOD_H1. Suggested options: PERIOD_M30, PERIOD_H1, PERIOD_H4
+9. Quality_Cand: This input parameter represents the quality of candles for analysis. It is set to 20.0. Suggested range: 10.0 - 30.0
+10. Buffer_Price_pip: This input parameter represents the buffer price in pips. It is set to 1.0.
+Suggested range: 0.5 - 2.0
+
+
+These suggested ranges are based on general trading principles and may need to be adjusted based on specific trading strategies and market conditions.
+
+
+
+
+
+
+No.12 BBMA Time Filter Buy Sell.mq5
+#property copyright   "World Bot Rank (XMN6756)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XMN6756)
+
+
+This EA trading strategy is special because it utilizes the BBMA (Bollinger Bands Moving Average) indicator with a time filter to identify buy and sell signals. The BBMA indicator is a popular technical analysis tool that combines the Bollinger Bands and the Moving Average to identify potential trend reversals and continuation patterns.
+
+
+The EA works by monitoring the price action and the BBMA indicator to identify entry and exit points for trades. It uses the time filter to only execute trades during specific time periods when the market is most active and volatile, increasing the likelihood of successful trades.
+
+
+The entry point for buy signals is when the price crosses above the upper Bollinger Band and the Moving Average is trending upwards. For sell signals, the entry point is when the price crosses below the lower Bollinger Band and the Moving Average is trending downwards.
+
+
+The exit point for trades is determined by the BBMA indicator, with the EA closing the trade when the price crosses back within the Bollinger Bands or when the Moving Average changes direction.
+
+
+In terms of money management, the EA uses a set risk-reward ratio and stop-loss and take-profit levels to manage the trades. It also has built-in risk management features to control the position size and overall exposure to the market.
+
+
+Overall, this EA trading strategy combines the power of the BBMA indicator with a time filter to identify high-probability trade setups and manage the trades with effective money management techniques.
+
+
+Setting Parameters (XMN6756)
+
+
+The input parameters in the MQL5 language are as follows:
+
+
+1. Major: This is an enumeration type input parameter that represents the major timeframe for the trading strategy. The default value is PERIOD_H4, which corresponds to the H4 (4-hour) timeframe.
+2. fillter_wick: This is a double type input parameter that represents the maximum allowable size of the wick for a candlestick. The default value is 40.0.
+3. stop_hunt: This is a double type input parameter that represents the distance in pips for the stop hunt level. The default value is 200.0.
+4. Lot: This is a double type input parameter that represents the lot size for each trade. The default value is 0.05.
+5. TP: This is a double type input parameter that represents the take profit level in pips. The default value is 200.0.
+6. Martingale: This is a double type input parameter that represents the multiplier for the martingale strategy. The default value is 1.6.
+7. start_time: This is a string type input parameter that represents the start time for the trading activity. The default value is "15:00".
+8. end_time: This is a string type input parameter that represents the end time for the trading activity. The default value is "20:00".
+
+
+To set the best settings for these input parameters, it is important to consider the specific trading strategy, risk tolerance, and market conditions. It is recommended to backtest the strategy with different parameter values and analyze the results to determine the optimal settings. Additionally, consulting with a financial advisor or experienced trader may provide valuable insights for setting the best parameters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.13 1 EMA.mq5
+#property copyright   "World Bot Rank (KPQ5080)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (KPQ5080)
+
+
+This EA trading strategy is special because it focuses on using a single Exponential Moving Average (EMA) to make trading decisions. The EA works by analyzing the price action in relation to the EMA to determine entry and exit points for trades.
+
+
+The entry point for a trade is typically when the price crosses above or below the EMA, indicating a potential trend reversal or continuation. The EA may also use additional indicators or filters to confirm the entry signal.
+
+
+The exit point for a trade is usually determined by the price crossing back over the EMA or by using a predetermined take profit or stop loss level.
+
+
+In terms of money management, the EA may use a fixed lot size for each trade or employ a risk-based position sizing strategy. It may also incorporate trailing stops or other techniques to protect profits and minimize losses.
+
+
+Overall, this EA trading strategy is designed to capitalize on trends and momentum in the market using a simple yet effective EMA-based approach.
+
+
+Setting Parameters (KPQ5080)
+
+
+The input parameters in the MQL5 language are as follows:
+
+
+1. EMA: This is the period for the Exponential Moving Average indicator. It is set to 50.0.
+
+
+2. quality_can: This parameter represents the quality of the trade and is set to 50.0.
+
+
+3. Lot_Divided: This parameter is used to divide the lot size and is set to 20000.0.
+
+
+4. start_time: This is the start time for trading and is set to "6:00".
+
+
+5. end_time: This is the end time for trading and is set to "22:00".
+
+
+6. quality_can_Exit: This parameter represents the quality of the exit trade and is set to 60.0.
+
+
+7. Stophunt: This is the stop loss hunting level and is set to 25.0.
+
+
+8. Tp_percent: This is the take profit percentage and is set to 150.0.
+
+
+9. Martingale: This parameter represents the multiplier for the Martingale strategy and is set to 2.0.
+
+
+To set the best settings for these input parameters, it is important to consider the specific trading strategy, risk tolerance, and market conditions. It is recommended to backtest different combinations of these input parameters and analyze the results to determine the most optimal settings for the given trading strategy. Additionally, consulting with a financial advisor or experienced trader may provide valuable insights for setting the best parameters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.14 One Bull Can Reverse .mq5
+#property copyright   "World Bot Rank (JCH6425)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (JCH6425)
+
+
+The "No.14 One Bull Can Reverse" EA trading strategy is a specialized algorithm designed to identify and capitalize on market reversals caused by a single bullish trend. The strategy works by analyzing price action and technical indicators to identify potential reversal points, and then entering trades in the direction of the anticipated reversal.
+
+
+The entry point for trades is determined by the algorithm's analysis of price action and technical indicators, which signal a potential reversal caused by a single bullish trend. The EA will enter a trade when the conditions for a reversal are met, and it will typically place a stop-loss order to limit potential losses.
+
+
+The exit point for trades is determined by the algorithm's analysis of price action and technical indicators, which signal the end of the reversal and a potential return to the previous trend. The EA will exit a trade when the conditions for the end of the reversal are met, and it will typically take profits at this point.
+
+
+Money management for this EA trading strategy involves setting appropriate position sizes and risk management parameters to ensure that potential losses are limited and profits are maximized. This may involve using a fixed percentage of the trading account balance for each trade, or employing a dynamic position sizing strategy based on market conditions.
+
+
+Overall, the "No.14 One Bull Can Reverse" EA trading strategy is designed to take advantage of market reversals caused by a single bullish trend, and it uses a combination of technical analysis, price action, and money management techniques to achieve its trading objectives.
+
+
+Setting Parameters (JCH6425)
+
+
+The input parameters are as follows:
+1. body_can_pip: This is a constant representing the minimum size of the candle body in pips. The suggested range for this input could be between 500.0 and 1000.0.
+2. Stop_Hunt: This is a constant representing the distance in pips for stop hunting. The suggested range for this input could be between 300.0 and 700.0.
+3. wick_percent: This is an integer representing the percentage of the wick compared to the body of the candle. The suggested range for this input could be between 20 and 40.
+4. TP: This is a constant representing the take profit level in pips. The suggested range for this input could be between 100.0 and 150.0.
+5. Lot: This is a constant representing the lot size for trading. The suggested range for this input could be between 0.01 and 0.1.
+6. RSI_fillter: This is a constant representing the overbought level for the RSI indicator. The suggested range for this input could be between 60.0 and 80.0.
+
+
+These suggested ranges are just examples and may need to be adjusted based on the specific trading strategy and market conditions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.15 One Bull Can EU Once Hour.mq5
+#property copyright   "World Bot Rank (MDH6745)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (MDH6745)
+
+
+This EA trading strategy, "No.15 One Bull Can EU Once Hour.mq5," is designed to capitalize on short-term bullish movements in the EUR/USD currency pair. The strategy is unique in that it focuses on identifying a specific bullish signal and executing a trade once per hour.
+
+
+The entry point for this strategy is based on a bullish signal in the EUR/USD pair, which is identified using technical indicators or price action patterns. Once the signal is confirmed, the EA will enter a long position in the market.
+
+
+The exit point for the trade is determined by a predefined take-profit level, which is set to capture a certain amount of profit from the bullish movement. Additionally, a stop-loss level is also set to limit potential losses in case the trade moves against the expected direction.
+
+
+In terms of money management, this EA may incorporate a fixed lot size for each trade or utilize a dynamic position sizing strategy based on account equity or risk tolerance. Additionally, the EA may also employ trailing stop-loss orders to lock in profits as the trade moves in the desired direction.
+
+
+Overall, this EA trading strategy is specialized in its focus on capturing short-term bullish movements in the EUR/USD pair, with a specific entry point based on a bullish signal, predefined exit points, and a focus on effective money management techniques.
+
+
+Setting Parameters (MDH6745)
+
+
+1. body_can_pip: This input parameter likely refers to the minimum size of the candle body in pips. It is set to 20.0, so the suggestion range could be 10.0 to 30.0.
+2. Stop_Hunt: This input parameter likely refers to the distance in pips for a stop loss. It is set to 20.0, so the suggestion range could be 10.0 to 30.0.
+3. wick_percent: This input parameter likely refers to the percentage of the wick in relation to the candle body. It is set to 30, so the suggestion range could be 20 to 40.
+4. TP: This input parameter likely refers to the take profit level in pips. It is set to 130.0, so the suggestion range could be 100.0 to 150.0.
+5. Lot: This input parameter likely refers to the lot size for trading. It is set to 0.01, so the suggestion range could be 0.01 to 0.10.
+6. RSI_fillter_Sell: This input parameter likely refers to the overbought level for the RSI indicator for sell signals. It is set to 70.0, so the suggestion range could be 60.0 to 80.0.
+7. RSI_fillter_Buy: This input parameter likely refers to the oversold level for the RSI indicator for buy signals. It is set to 40.0, so the suggestion range could be 30.0 to 50.0.
+8. Martingale: This input parameter likely refers to the multiplier for a martingale strategy. It is set to 2.0, so the suggestion range could be 1.5 to 2.5.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.16 Two Can EU Once Hour Reduce.mq5
+#property copyright   "World Bot Rank (DQX1573)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (DQX1573)
+
+
+This EA trading strategy, "No.16 Two Can EU Once Hour Reduce.mq5," is designed to trade the EUR/USD currency pair. The special feature of this strategy is its focus on reducing trading frequency to once per hour, which can help to minimize overtrading and reduce the impact of market noise.
+
+
+The entry point for this strategy is based on a combination of technical indicators and price action analysis, which are used to identify potential trend reversals or continuation patterns. The exit point is determined by a combination of profit targets and stop-loss orders, which are dynamically adjusted based on market conditions.
+
+
+Money management is an important aspect of this strategy, with a focus on risk management and position sizing. The EA uses a set of predefined rules to determine the optimal position size based on account balance, risk tolerance, and market volatility.
+
+
+Overall, this EA trading strategy aims to provide a balanced approach to trading the EUR/USD pair, with a focus on reducing trading frequency, managing risk, and maximizing potential profits.
+
+
+Setting Parameters (DQX1573)
+
+
+1. body_can_pip: This input parameter represents the minimum size of the candle body in pips. It is set to 15.0 by default. To find the best setting, you can try a range of values such as 10.0 to 20.0 and observe the performance of the strategy.
+2. Stop_Hunt: This input parameter represents the distance in pips for the stop hunt. It is set to 5.0 by default. You can try a range of values such as 3.0 to 7.0 to determine the optimal setting.
+3. wick_percent_1: This input parameter represents the percentage of the candle's wick in relation to the body for the first condition. It is set to 20 by default. You can try a range of values such as 15 to 25 to find the best setting.
+4. wick_percent_2: This input parameter represents the percentage of the candle's wick in relation to the body for the second condition. It is set to 40 by default. You can try a range of values such as 35 to 45 to determine the optimal setting.
+5. TP: This input parameter represents the take profit level in pips. It is set to 200.0 by default. You can try a range of values such as 150.0 to 250.0 to find the best setting.
+6. Lot: This input parameter represents the lot size for trading. It is set to 0.01 by default. You can try a range of values such as 0.005 to 0.02 to determine the optimal setting.
+7. RSI_fillter_Sell: This input parameter represents the overbought level for the RSI indicator for sell signals. It is set to 70.0 by default. You can try a range of values such as 65.0 to 75.0 to find the best setting.
+8. RSI_fillter_Buy: This input parameter represents the oversold level for the RSI indicator for buy signals. It is set to 30.0 by default. You can try a range of values such as 25.0 to 35.0 to determine the optimal setting.
+9. Martingale: This input parameter represents the multiplier for the martingale strategy. It is set to 1.8 by default. You can try a range of values such as 1.5 to 2.0 to find the best setting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.17 Two Can XAUUSD Once Per bar.mq5
+#property copyright   "World Bot Rank (JKA2448)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (JKA2448)
+
+
+This EA trading strategy is special because it focuses on trading XAUUSD (Gold) and only makes one trade per bar. The entry point for the trade is based on a specific set of criteria that the EA is programmed to follow. The exit point for the trade is also determined by the EA based on its programmed rules and conditions.
+
+
+In terms of money management, the EA likely has specific parameters for position sizing, stop loss and take profit levels, and possibly even trailing stops. These parameters are designed to help manage risk and maximize potential profits.
+
+
+The EA likely uses technical indicators, price action patterns, or a combination of both to identify potential trade setups. It may also have built-in filters to avoid trading during certain market conditions or news events.
+
+
+Overall, the EA's trading strategy is designed to be systematic and rules-based, allowing it to execute trades based on predefined criteria without emotional interference. The goal is to generate consistent profits over time by following a disciplined approach to trading.
+
+
+Setting Parameters (JKA2448)
+
+
+1. body_can_pip: This input parameter likely refers to the minimum size of the candle body in pips. To set the best setting, you may consider a range of 100.0 to 500.0, depending on the volatility of the market.
+2. Stop_Hunt: This input parameter likely refers to the distance in pips for a stop loss. To set the best setting, you may consider a range of 100.0 to 300.0, depending on the volatility of the market.
+3. wick_percent_1: This input parameter likely refers to the percentage of the candle's wick in relation to the candle's total length. To set the best setting, you may consider a range of 10 to 30, depending on the strategy being used.
+4. wick_percent_2: This input parameter likely refers to another percentage of the candle's wick in relation to the candle's total length. To set the best setting, you may consider a range of 20 to 50, depending on the strategy being used.
+5. TP: This input parameter likely refers to the take profit level in pips. To set the best setting, you may consider a range of 100.0 to 300.0, depending on the volatility of the market.
+6. Lot: This input parameter likely refers to the lot size for trading. To set the best setting, you may consider a range of 0.01 to 0.1, depending on the account size and risk tolerance.
+7. RSI_fillter_Sell: This input parameter likely refers to the overbought level for the RSI indicator, used as a filter for sell signals. To set the best setting, you may consider a range of 60.0 to 80.0, depending on the strategy being used.
+8. RSI_fillter_Buy: This input parameter likely refers to the oversold level for the RSI indicator, used as a filter for buy signals. To set the best setting, you may consider a range of 20.0 to 40.0, depending on the strategy being used.
+9. Martingale: This input parameter likely refers to the multiplier for a martingale strategy. To set the best setting, you may consider a range of 1.5 to 2.5, depending on the risk tolerance and trading strategy.
+10. delay_candle: This input parameter likely refers to the number of candles to wait before taking a trade. To set the best setting, you may consider a range of 1 to 3, depending on the strategy being used.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.18 Three Candle XAUUSD Trend Following.mq5
+#property copyright   "World Bot Rank (QHS2348)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (QHS2348)
+
+
+This EA trading strategy is special because it is designed to follow the trend of XAUUSD using a specific pattern of three candles. The entry point for this strategy is based on the formation of the three candle pattern, which indicates a potential trend reversal or continuation. The exit point is determined based on predefined profit targets or stop loss levels.
+
+
+In terms of money management, this EA uses a set of rules to determine the position size and risk management strategy. This may include setting a maximum percentage of the account balance to risk on each trade, as well as adjusting the position size based on the volatility of the market.
+
+
+The EA may also incorporate other technical indicators or filters to confirm the validity of the three candle pattern and to avoid false signals. Additionally, it may have the ability to adjust its trading parameters based on market conditions or news events.
+
+
+Overall, this EA is designed to automate the process of trend following trading for XAUUSD using a specific candle pattern, while also incorporating risk management and potentially other technical indicators for confirmation.
+
+
+Setting Parameters (QHS2348)
+
+
+1. body_can_pip: This input parameter represents the minimum size of the candle body in pips. It is set to 400.0, which means that the strategy will only consider candles with a body size of at least 400 pips. Suggestion: Depending on the market and the specific strategy, you may want to adjust this parameter to a range that best fits the typical candle sizes for the assets you are trading. For example, you could try a range of 200-600 pips and observe the performance of the strategy.
+
+
+2. Stop_Hunt: This input parameter represents the distance in pips for the stop loss. It is set to 200.0, meaning that the stop loss will be placed 200 pips away from the entry point. Suggestion: The optimal stop loss distance can vary depending on the volatility of the market and the specific trading strategy. You may want to test a range of stop loss distances, such as 100-300 pips, to find the most suitable setting for your strategy.
+
+
+3. wick_percent_1 and wick_percent_2: These input parameters represent the percentage of the candle's wick relative to the total candle size. wick_percent_1 is set to 50, and wick_percent_2 is set to 70. Suggestion: The wick percentage can be used to filter out candles with large wicks, which may indicate potential price reversals. You can experiment with different ranges, such as 40-60 for wick_percent_1 and 60-80 for wick_percent_2, to see which values work best for identifying meaningful candlestick patterns.
+
+
+4. TP: This input parameter represents the take profit level in pips. It is set to 120.0, meaning that the strategy will aim to take profit at 120 pips. Suggestion: The optimal take profit level can depend on the market conditions and the specific trading strategy. You may want to test different take profit levels, such as 80-160 pips, to find the most effective setting for your strategy.
+
+
+5. Lot: This input parameter represents the initial lot size for the trades. It is set to 0.01, indicating a small position size. Suggestion: The appropriate lot size can vary based on the account size and risk tolerance. You may want to test different lot sizes, such as 0.01-0.05, to find the most suitable setting for your trading account.
+
+
+6. Martingale: This input parameter represents the multiplier for the lot size in case of a losing trade. It is set to 2.0, indicating a doubling of the lot size after a loss. Suggestion: The use of a Martingale strategy can significantly increase risk, so it should be used with caution. You may want to test different multiplier values, such as 1.5-2.5, to find a balance between potential profit and risk management.
+
+
+7. ema_trend: This input parameter represents the period for the Exponential Moving Average (EMA) used to identify the trend. It is set to 100.0, indicating a longer-term trend. Suggestion: The optimal EMA period can depend on the trading timeframe and the market conditions. You may want to test different EMA periods, such as 50-150, to find the most effective setting for identifying trends in your trading strategy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.19  ZigZag modify.mq5
+#property copyright   "World Bot Rank (WSX4563)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (WSX4563)
+
+
+This EA trading strategy is special because it utilizes a modified ZigZag indicator to identify potential entry and exit points in the market. The ZigZag indicator helps to filter out market noise and identify significant price movements, allowing the EA to make more informed trading decisions.
+
+
+The EA works by constantly monitoring the market and looking for opportunities to enter trades based on the modified ZigZag indicator. When a potential entry point is identified, the EA will open a trade in the direction of the trend.
+
+
+The exit point for trades is determined by the modified ZigZag indicator, which helps to identify potential reversal points in the market. When a reversal is detected, the EA will close the trade to lock in profits or minimize losses.
+
+
+In terms of money management, the EA uses a set of predefined rules to determine the position size and risk management for each trade. This helps to ensure that the EA trades responsibly and does not expose the account to excessive risk.
+
+
+Overall, this EA trading strategy is designed to take advantage of significant price movements in the market while minimizing risk through the use of the modified ZigZag indicator and strict money management rules.
+
+
+Setting Parameters (WSX4563)
+
+
+The input parameters are constants that are used to set the parameters for a trading strategy in MQL5 language. Here is the meaning of each input parameter:
+
+
+1. Buffer_Trend: This parameter likely represents a buffer or threshold for identifying a trend in the market. The value of 500.0 suggests a relatively large buffer for trend identification.
+2. StopHunt: This parameter likely represents a distance or level at which stop loss orders are placed to avoid being "hunted" by market manipulation. The value of 300.0 suggests a relatively large distance for stop loss orders.
+3. TP: This parameter likely represents the take profit level for trades. The value of 150.0 suggests a relatively moderate take profit level.
+4. Lot: This parameter likely represents the trading lot size for each trade. The value of 0.01 suggests a relatively small lot size.
+5. zz_start0, zz_end0, zz_start1, zz_end1, zz_start2, zz_end2: These parameters likely represent different ranges or zones for a specific indicator or trading rule. The values suggest different start and end points for three different zones.
+6. Martingale: This parameter likely represents a multiplier for the lot size in a martingale money management strategy. The value of 2.0 suggests a relatively aggressive martingale multiplier.
+
+
+To set the best settings for these input parameters, it would depend on the specific trading strategy, market conditions, and risk tolerance. It is recommended to backtest different combinations of these input parameters and possibly use optimization techniques to find the best settings for the given trading strategy. Additionally, it is important to consider the potential risks and drawdown associated with the chosen settings, especially when using parameters like Martingale.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.20 ZigZag modify + Price action.mq5
+#property copyright   "World Bot Rank (HKG8932)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (HKG8932)
+
+
+This EA trading strategy is special because it combines the ZigZag modify indicator with price action analysis to make trading decisions. The ZigZag modify indicator helps to identify significant price movements and potential trend reversals, while price action analysis helps to understand the behavior of market participants and make more informed trading decisions.
+
+
+The entry point for this EA trading strategy is based on the ZigZag modify indicator and price action analysis. When the ZigZag modify indicator shows a significant price movement or trend reversal, and price action analysis confirms the potential for a profitable trade, the EA will enter the market.
+
+
+The exit point for this EA trading strategy is determined by a combination of the ZigZag modify indicator and price action analysis. The EA will exit the market when the ZigZag modify indicator signals a potential trend reversal or when price action analysis indicates that the trade is no longer favorable.
+
+
+Money management for this EA trading strategy is crucial for long-term success. The EA will use a combination of risk management techniques, such as setting stop-loss and take-profit levels based on the current market conditions, to protect the trading account from excessive losses.
+
+
+Overall, this EA trading strategy is designed to take advantage of significant price movements and trend reversals by combining the ZigZag modify indicator with price action analysis. It aims to make informed trading decisions based on market dynamics and manage risk effectively to achieve consistent profitability.
+
+
+Setting Parameters (HKG8932)
+
+
+The input parameters are constants used in the MQL5 language for setting up a trading strategy. Here are the meanings of the input parameters:
+
+
+1. Buffer_Trend: A parameter related to trend analysis, possibly used for determining trend strength or duration.
+2. StopHunt: A parameter related to stop loss placement, possibly used for setting a distance from the entry point for stop loss orders.
+3. TP: Stands for Take Profit, a parameter used for setting the profit target for trades.
+4. Lot: A parameter representing the lot size for trading, used for determining the position size.
+5. zz_start0, zz_end0, zz_start1, zz_end1, zz_start2, zz_end2: These parameters seem to be related to specific zones or levels for a trading strategy, possibly used for entry or exit signals based on certain price levels.
+6. Martingale: A parameter related to the Martingale strategy, which is a money management technique that involves increasing the position size after a loss.
+7. wick_percent: This parameter is likely related to candlestick analysis, possibly used for setting a threshold for the length of wicks on candlesticks.
+
+
+To set the best settings for these input parameters, it would depend on the specific trading strategy and market conditions. It's important to backtest different combinations of these parameters and possibly use optimization techniques to find the best settings for the given trading strategy. Additionally, it's important to consider risk management and the overall trading plan when setting these parameters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.21 ZigZag modify + Engulfing.mq5
+#property copyright   "World Bot Rank (AGQ5672)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (AGQ5672)
+
+
+This EA trading strategy is special because it combines the ZigZag modify indicator with the Engulfing pattern to identify potential entry and exit points in the market. 
+
+
+The ZigZag modify indicator helps to identify significant price movements and potential trend reversals, while the Engulfing pattern is a candlestick pattern that indicates a potential reversal in the market.
+
+
+The entry point for this strategy is when the ZigZag modify indicator confirms a trend reversal and the Engulfing pattern forms, signaling a potential entry opportunity. The exit point is when the opposite signal is generated, indicating a potential reversal in the market.
+
+
+In terms of money management, this EA uses a set of predefined rules to manage risk and position sizing. This may include setting a maximum percentage of the account balance to risk on each trade, setting stop-loss and take-profit levels based on market conditions, and adjusting position sizes based on account equity and volatility.
+
+
+Overall, this EA trading strategy aims to capitalize on potential trend reversals identified by the ZigZag modify indicator and the Engulfing pattern, while also managing risk and position sizing to protect the account balance.
+
+
+Setting Parameters (AGQ5672)
+
+
+The input parameters are settings for a trading strategy. Here is the meaning of each input:
+
+
+1. Buffer_Trend: A parameter related to trend analysis, possibly used as a buffer for trend identification.
+2. StopHunt: A parameter related to setting a stop loss for avoiding stop hunting by market makers or other traders.
+3. TP: Stands for Take Profit, a parameter for setting the target profit level for trades.
+4. Lot: The lot size for trading, indicating the volume of the position to be opened.
+5. zz_start0, zz_end0, zz_start1, zz_end1, zz_start2, zz_end2: These parameters seem to be related to a specific indicator or pattern recognition, possibly for identifying specific market conditions or zones.
+6. Martingale: A parameter related to the Martingale money management strategy, possibly used for position sizing or risk management.
+7. wick_percent: A parameter related to candlestick analysis, possibly used for identifying the significance of wicks in candlestick patterns.
+8. Quality: A parameter related to the quality of trade setups or signals, possibly used as a filter for trade entry.
+
+
+9. min_body_pip: A parameter related to the minimum pip movement required for a candlestick body, possibly used for filtering trade opportunities based on candlestick patterns.
+
+
+To set the best settings for these input parameters, it would depend on the specific trading strategy, market conditions, and risk tolerance. It is recommended to backtest different combinations of these input parameters and possibly optimize them based on historical data to find the best settings for the trading strategy. Additionally, considering the current market conditions and adjusting the settings based on real-time market analysis can also be beneficial.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.22  ZigZag modify + Engulf Reverse Time fillter.mq5
+#property copyright   "World Bot Rank (TBX5102)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (TBX5102)
+
+
+This EA trading strategy is special because it combines the ZigZag modify indicator with the Engulf Reverse Time filter to make trading decisions. The ZigZag modify indicator helps to identify trend reversals and the Engulf Reverse Time filter helps to confirm the reversal before entering a trade.
+
+
+The EA works by monitoring the price action and waiting for the ZigZag modify indicator to signal a potential trend reversal. Once a potential reversal is identified, the EA uses the Engulf Reverse Time filter to confirm the reversal and enter a trade.
+
+
+The entry point for the trade is when the Engulf Reverse Time filter confirms the reversal and the EA opens a position in the direction of the new trend.
+
+
+The exit point for the trade is determined by the EA based on predefined criteria, such as a certain profit target or a stop loss level.
+
+
+Money management is also an important aspect of this EA trading strategy. The EA uses predefined risk management rules to determine the position size and the risk per trade.
+
+
+Overall, this EA trading strategy aims to capture trend reversals with the help of the ZigZag modify indicator and the Engulf Reverse Time filter, while also managing risk through proper money management techniques.
+
+
+Setting Parameters (TBX5102)
+
+
+The input parameters are settings for a trading algorithm. Here are the meanings of the input parameters and suggested ranges for setting the best values:
+
+
+1. Buffer_Trend: A buffer for trend identification. Suggested range: 100.0 - 300.0
+2. Buffer_Trend_Max: Maximum buffer for trend identification. Suggested range: 300.0 - 500.0
+3. StopHunt: Stop loss for trades. Suggested range: 100.0 - 300.0
+4. TP: Take profit for trades. Suggested range: 100.0 - 300.0
+5. Lot: Trading lot size. Suggested range: 0.01 - 0.1
+6. zz_start0, zz_end0, zz_start1, zz_end1, zz_start2, zz_end2: Zigzag indicator settings for different periods. Suggested range: 0.0 - 20.0, 21.0 - 35.0, 36.0 - 50.0
+7. Martingale: Martingale multiplier for trade sizing. Suggested range: 1.5 - 2.5
+8. wick_percent: Percentage of wick for candlestick pattern recognition. Suggested range: 3 - 7
+9. Quality: Quality threshold for trade signals. Suggested range: 5 - 15
+10. min_body_pip: Minimum pip movement for candlestick body. Suggested range: 100.0 - 300.0
+11. start_time, end_time: Trading session start and end times. Suggested range: "08:00" - "18:00"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.23  RSI + Filter Candle.mq5
+#property copyright   "World Bot Rank (AWN8248)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (AWN8248)
+
+
+This EA trading strategy is special because it combines the RSI indicator with a filter candle to make trading decisions. The RSI (Relative Strength Index) is a momentum oscillator that measures the speed and change of price movements, while the filter candle is used to confirm the direction of the trend.
+
+
+The EA works by monitoring the RSI indicator and the filter candle to identify potential entry and exit points in the market. When the RSI indicator reaches oversold or overbought levels and is confirmed by the filter candle, the EA will enter a trade. The entry point is based on the RSI and filter candle signals, and the EA will also consider other factors such as trend direction and market volatility.
+
+
+The exit point is determined based on predefined profit targets and stop-loss levels. The EA will close the trade when the price reaches the profit target or if the market moves against the trade and hits the stop-loss level.
+
+
+Money management is an important aspect of this trading strategy. The EA will calculate the position size based on the account balance, risk tolerance, and the distance to the stop-loss level. It will also consider the potential reward-to-risk ratio for each trade to ensure that the risk is managed effectively.
+
+
+Overall, this EA trading strategy uses a combination of the RSI indicator and filter candle to identify high-probability trading opportunities, and it incorporates effective money management principles to manage risk and maximize potential profits.
+
+
+Setting Parameters (AWN8248)
+
+
+The input parameters are as follows:
+
+
+1. Candle_Num: This input parameter is used to set the number of candles to loop check.
+
+
+2. filter_candle: This input parameter is used to set the number of fillter candles.
+
+
+3. percent_wick: This input parameter is used to set the percentage of the wick.
+
+
+4. Lot: This input parameter is used to set the lot size.
+
+
+5. near: This input parameter is used to set the distance for a trade to be considered "near".
+
+
+6. Martingale: This input parameter is used to set the martingale multiplier.
+
+
+7. TP: This input parameter is used to set the take profit amount.
+
+
+8. Quality: This input parameter is used to set the quality of the body candle for the day.
+
+
+9. HTF: This input parameter is used to set the higher timeframe.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.24 RSI + Filter Candle + Confirm.mq5
+#property copyright   "World Bot Rank (XCU1541)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XCU1541)
+
+
+To set the best settings for these input parameters, it is important to consider the specific trading strategy, risk tolerance, and market conditions. It is recommended to backtest different combinations of these input parameters and analyze the results to determine the best setting for the specific trading strategy. Additionally, seeking advice from experienced traders or financial advisors can also be helpful in determining the best settings for these input parameters.
+
+
+
+
+This EA trading strategy is special because it combines multiple indicators and filters to make trading decisions. The strategy uses the RSI (Relative Strength Index) indicator as the primary signal generator, along with a filter candle and confirmation indicator to validate the trading signals.
+
+
+The entry point for this strategy is based on the RSI indicator crossing certain threshold levels, which indicates overbought or oversold conditions in the market. The filter candle and confirmation indicator are used to confirm the validity of the RSI signal before entering a trade.
+
+
+The exit point for the trades is determined based on predefined take profit and stop loss levels, which are set according to the market conditions and the trading strategy's risk management rules.
+
+
+Money management is an essential part of this trading strategy, and it includes setting the position size based on the account balance and risk tolerance, as well as implementing trailing stops to protect profits and minimize losses.
+
+
+Overall, this EA trading strategy aims to provide a comprehensive approach to trading by combining multiple indicators and filters to generate high-probability trading signals while also implementing effective risk management techniques.
+
+
+Setting Parameters (XCU1541)
+
+
+The input parameters in the MQL5 language are used to set the values of variables that control the behavior of the trading algorithm. Here are the meanings of the input parameters and suggested ranges for setting the best values:
+
+
+1. Candle_Num: This parameter represents the number of candles to scan for the trading strategy. Suggested range: 3-10.
+2. filter_candle: This parameter is used to filter out certain candles based on a specific condition. Suggested range: 1.5-5.0.
+3. percent_wick: Represents the percentage of the wick in relation to the candle body. Suggested range: 10-30.
+4. Lot: The lot size for trading. Suggested range: 0.01-0.1.
+5. near: Distance from the current price to place pending orders. Suggested range: 500-1000.
+6. Martingale: The multiplier for the next trade in case of a loss. Suggested range: 1.5-2.0.
+7. TP: Take profit in pips. Suggested range: 20-50.
+8. Quality_LTF: Represents the quality of the low timeframe data. Suggested range: 60-80.
+9. Quality_HTF: Represents the quality of the high timeframe data. Suggested range: 40-60.
+10. start_time: The start time for trading. Suggested range: "05:00" - "07:00".
+11. end_time: The end time for trading. Suggested range: "20:00" - "22:00".
+12. HTF: The high timeframe for analysis. Suggested range: PERIOD_H4 - PERIOD_D1.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.25   RSI  + Confirm 2 Con Close.mq5
+#property copyright   "World Bot Rank (UCB1607)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (UCB1607)
+
+
+This EA trading strategy is special because it combines the RSI indicator with a confirmation of two consecutive closes to make trading decisions. The RSI (Relative Strength Index) is a momentum oscillator that measures the speed and change of price movements, while the confirmation of two consecutive closes helps to validate the trading signal.
+
+
+The EA works by monitoring the RSI indicator and waiting for it to reach overbought or oversold levels. When the RSI reaches these levels, the EA looks for confirmation of two consecutive closes in the same direction as the RSI signal. Once these conditions are met, the EA enters a trade.
+
+
+The entry point for the trade is when the RSI reaches overbought or oversold levels and there are two consecutive closes in the same direction as the RSI signal. This combination of signals helps to increase the probability of a successful trade.
+
+
+The exit point for the trade is determined by the EA based on predefined criteria, such as a certain level of profit or a reversal of the RSI signal.
+
+
+Money management is an important aspect of this EA trading strategy. The EA uses predefined risk management rules to determine the position size and stop loss level for each trade. This helps to control the risk and protect the trading account from large losses.
+
+
+Overall, this EA trading strategy combines the RSI indicator with a confirmation of two consecutive closes to make trading decisions. It uses predefined entry and exit points, as well as money management rules, to execute trades and manage risk effectively.
+
+
+Setting Parameters (UCB1607)
+
+
+1. Candle_Num: This input parameter represents the number of candles to scan for a particular pattern or condition. Suggested range: 3-10
+2. filter_candle: This input parameter represents the threshold for filtering out certain candles based on a specific condition. Suggested range: 1.0-5.0
+3. percent_wick: This input parameter represents the percentage of the wick in relation to the candle body. Suggested range: 10-20
+4. Lot: This input parameter represents the lot size for trading. Suggested range: 0.01-1.0
+
+
+5. near: This input parameter represents a distance or proximity threshold for a certain condition or action. Suggested range: 100.0-300.0
+6. Martingale: This input parameter represents the multiplier for a martingale strategy. Suggested range: 1.5-2.0
+7. TP: This input parameter represents the take profit level for trades. Suggested range: 20.0-40.0
+8. Quality_LTF: This input parameter represents the quality threshold for the low timeframe. Suggested range: 60-80
+9. Quality_HTF: This input parameter represents the quality threshold for the high timeframe. Suggested range: 40-60
+10. start_time: This input parameter represents the start time for a specific action or condition.
+Suggested range: "05:00" - "07:00"
+11. end_time: This input parameter represents the end time for a specific action or condition.
+Suggested range: "20:00" - "21:00"
+12. HTF: This input parameter represents the high timeframe for analysis. Suggested range: PERIOD_H4 - PERIOD_W1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.26  RSI  + Engulf Confirm 2 Con Close.mq5
+#property copyright   "World Bot Rank (PTG9843)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (PTG9843)
+
+
+This EA trading strategy is special because it combines the RSI (Relative Strength Index) indicator with the Engulfing pattern confirmation to make trading decisions. 
+
+
+The RSI is used to identify overbought and oversold conditions in the market, while the Engulfing pattern is used to confirm potential trend reversals. 
+
+
+The entry point for this strategy is when the RSI indicates an overbought or oversold condition, and the Engulfing pattern confirms a trend reversal. 
+
+
+The exit point is determined by the trader's preference, but it is recommended to use a trailing stop or take profit levels based on the market conditions. 
+
+
+Money management is an important aspect of this strategy, and it is recommended to use a risk management approach to determine the position size and stop loss levels. 
+
+
+Overall, this EA trading strategy aims to capitalize on potential trend reversals by combining the RSI and Engulfing pattern confirmation for entry and exit points, while also implementing sound money management principles.
+
+
+Setting Parameters (PTG9843)
+
+
+The input parameters in the MQL5 language are used to set the values for various settings in a trading algorithm. Here are the meanings of the input parameters and suggested range numbers for setting the best values:
+
+
+1. Candle_Num: This parameter represents the number of candles to scan for a trading signal. Suggested range: 3-10.
+2. filter_candle: This parameter is used to filter out certain candles based on a specific criteria. Suggested range: 1.0-5.0.
+3. percent_wick: This parameter represents the percentage of the wick in a candle. Suggested range: 10-20.
+4. Lot: This parameter represents the lot size for trading. Suggested range: 0.01-1.0.
+5. near: This parameter represents a distance or proximity value. Suggested range: 100.0-300.0.
+6. Martingale: This parameter is used in a trading strategy to determine the multiplier for the next trade after a loss. Suggested range: 1.5-2.0.
+7. TP: This parameter represents the take profit level in pips. Suggested range: 20.0-40.0.
+8. Quality_LTF: This parameter represents the quality of the low timeframe data. Suggested range: 40-60.
+9. Quality_HTF: This parameter represents the quality of the high timeframe data. Suggested range: 40-60.
+10. start_time: This parameter represents the start time for trading activities. Suggested range: "05:00" - "07:00".
+11. end_time: This parameter represents the end time for trading activities. Suggested range: "20:00" - "22:00".
+12. HTF: This parameter represents the high timeframe for trading analysis. Suggested range: PERIOD_H4 - PERIOD_D1.
+
+
+It's important to note that the suggested range numbers are just a starting point and the actual values should be determined based on the specific trading strategy and market conditions.
+
+
+
+
+No.27 MACD  + Engulf Confirm 2 Con Close.mq5
+#property copyright   "World Bot Rank (HST2430)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (HST2430)
+
+
+The No.27 MACD + Engulf Confirm 2 Con Close EA is a trading strategy that combines the MACD indicator with the Engulfing pattern to make trading decisions. 
+
+
+The entry point for this EA is when the MACD indicator generates a buy or sell signal, and the Engulfing pattern confirms the direction of the trade. The MACD indicator is used to identify the trend and momentum of the market, while the Engulfing pattern is used to confirm the strength of the trend.
+
+
+The exit point for this EA is when the MACD indicator generates an opposite signal, or when the price action indicates a reversal. This helps to capture profits and minimize losses.
+
+
+Money management is an important aspect of this EA, and it includes setting stop-loss and take-profit levels based on the market conditions and the risk tolerance of the trader. The EA also includes position sizing and risk management techniques to protect the trading account from excessive losses.
+
+
+Overall, this EA's special feature is its combination of two powerful technical indicators to make trading decisions, and its focus on risk management to protect the trading account.
+
+
+Setting Parameters (HST2430)
+
+
+The input parameters are as follows:
+
+
+1. Candle_Num: This input parameter represents the number of candles to scan.
+2. filter_candle: This input parameter is used to set the filter check candle value.
+3. percent_wick: This input parameter represents the percentage of the wick.
+4. Lot: This input parameter represents the lot size.
+5. near: This input parameter represents the proximity value.
+6. Martingale: This input parameter represents the martingale value.
+7. TP: This input parameter represents the take profit value.
+8. Quality_LTF: This input parameter represents the percentage quality of the low timeframe.
+9. Quality_HTF: This input parameter represents the percentage quality of the high timeframe.
+10. start_time: This input parameter represents the start time for trading.
+11. end_time: This input parameter represents the end time for trading.
+12. HTF: This input parameter represents the high timeframe.
+
+
+To set the best settings for these input parameters, it is important to consider the specific trading strategy, risk tolerance, and market conditions. It is recommended to backtest different combinations of these input parameters and analyze the results to determine the most optimal settings for the given trading strategy. Additionally, seeking advice from experienced traders or financial advisors can also be beneficial in determining the best settings for these input parameters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.28 RSI  + Engulf (Price Diff) Confirm 2 Con Close.mq5
+#property copyright   "World Bot Rank (EPG1097)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (EPG1097)
+
+
+The "No.28 RSI + Engulf (Price Diff) Confirm 2 Con Close" EA is a trading strategy that combines the Relative Strength Index (RSI) and Engulfing candlestick patterns to make trading decisions. 
+
+
+The EA works by monitoring the RSI indicator to identify overbought and oversold conditions in the market. When the RSI indicates a potential reversal, the EA looks for Engulfing candlestick patterns to confirm the reversal signal. 
+
+
+The entry point for the EA is when the RSI indicates an overbought or oversold condition and is confirmed by an Engulfing candlestick pattern. 
+
+
+The exit point for the EA is when the RSI indicates a reversal in the opposite direction or when the price reaches a predetermined target or stop loss level. 
+
+
+Money management for the EA includes setting appropriate risk-reward ratios, position sizing, and implementing stop loss and take profit levels to manage risk.
+
+
+Overall, the EA's special feature lies in its combination of RSI and Engulfing candlestick patterns to confirm trading signals, providing a more robust and reliable trading strategy.
+
+
+Setting Parameters (EPG1097)
+
+
+1. Candle_Num: This input parameter represents the number of candles to scan for the trading strategy. Suggestion: Range from 3 to 10 for optimal scanning of candles.
+2. filter_candle: This input parameter represents the filter check for candles. Suggestion: Range from 1.0 to 5.0 for effective filtering of candles.
+3. percent_wick: This input parameter represents the percentage of the wick in the candle. Suggestion: Range from 10 to 20 for a reasonable percentage of the wick.
+4. Lot: This input parameter represents the lot size for trading. Suggestion: Range from 0.01 to 0.1 for appropriate lot size.
+5. near: This input parameter represents the proximity value for trading. Suggestion: Range from 100.0 to 300.0 for optimal proximity value.
+6. Martingale: This input parameter represents the martingale factor for trading. Suggestion: Range from 1.5 to 2.0 for a reasonable martingale factor.
+7. TP: This input parameter represents the take profit value for trading. Suggestion: Range from 30.0 to 70.0 for an effective take profit value.
+8. Quality_LTF: This input parameter represents the percentage quality of the low timeframe. Suggestion: Range from 40 to 60 for a reasonable percentage quality.
+9. Quality_HTF: This input parameter represents the percentage quality of the high timeframe.
+Suggestion: Range from 40 to 60 for a reasonable percentage quality.
+10. start_time: This input parameter represents the start time for trading. Suggestion: Input the desired start time in the format "HH:MM".
+11. end_time: This input parameter represents the end time for trading. Suggestion: Input the desired end time in the format "HH:MM".
+12. HTF: This input parameter represents the high timeframe for trading. Suggestion: Choose the appropriate high timeframe based on trading strategy.
+13. min_fill_price_diff: This input parameter represents the minimum fill price difference in pips. Suggestion: Range from 100.0 to 300.0 for a reasonable minimum fill price difference.
+14. max_fill_price_diff: This input parameter represents the maximum fill price difference in pips. Suggestion: Range from 1000.0 to 2000.0 for a reasonable maximum fill price difference.
+
+
+
+
+
+
+
+
+No.29 MACD  + Engulf (Price Diff) Confirm 2 Con Close.mq5
+#property copyright   "World Bot Rank (PRT1224)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (PRT1224)
+
+
+This EA trading strategy is special because it combines the MACD and Engulf (Price Diff) indicators to confirm entry and exit points for trades. The MACD indicator is used to identify the trend direction and momentum, while the Engulf (Price Diff) indicator is used to confirm the strength of the trend.
+
+
+The entry point for trades is determined when the MACD indicator shows a crossover or divergence, and the Engulf (Price Diff) indicator confirms the strength of the trend. This combination helps to ensure that the entry point is based on both trend direction and momentum.
+
+
+The exit point for trades is determined based on the MACD and Engulf (Price Diff) indicators as well. When the indicators show a reversal or weakening of the trend, the EA will exit the trade to lock in profits or minimize losses.
+
+
+Money management is also an important aspect of this EA trading strategy. The EA will use a set of predefined rules to determine the position size, stop loss, and take profit levels for each trade. This helps to ensure that the risk is managed effectively and that the potential for profits is maximized.
+
+
+Overall, this EA trading strategy is designed to provide a comprehensive approach to trading by combining multiple indicators to confirm entry and exit points, and implementing effective money management techniques to manage risk and maximize profits.
+
+
+Setting Parameters (PRT1224)
+
+
+The input parameters are as follows:
+
+
+1. Candle_Num: This parameter represents the number of candles to scan.
+   Suggested range: 3-10
+2. filter_candle: This parameter represents the filter check candle.
+   Suggested range: 1.0-5.0
+3. percent_wick: This parameter represents the percentage of the wick.
+   Suggested range: 10-20
+4. Lot: This parameter represents the lot size.
+   Suggested range: 0.01-1.0
+5. near: This parameter represents the proximity value.
+   Suggested range: 100.0-300.0
+6. Martingale: This parameter represents the martingale factor.
+   Suggested range: 1.5-2.0
+7. TP: This parameter represents the take profit value.
+   Suggested range: 30.0-70.
+8. Quality_LTF: This parameter represents the percentage quality of the low timeframe.
+   Suggested range: 40-60
+
+
+9. Quality_HTF: This parameter represents the percentage quality of the high timeframe.
+   Suggested range: 40-60
+
+
+10. start_time: This parameter represents the start time for trading.
+    Suggested range: "05:00" - "07:00"
+
+
+11. end_time: This parameter represents the end time for trading.
+    Suggested range: "20:00" - "21:00"
+
+
+12. HTF: This parameter represents the high timeframe.
+    Suggested range: PERIOD_H4 - PERIOD_D1
+
+
+13. min_fill_price_diff: This parameter represents the minimum fill price difference in pips.
+    Suggested range: 100.0-300.0
+
+
+14. max_fill_price_diff: This parameter represents the maximum fill price difference in pips.
+    Suggested range: 1000.0-2000.0
+
+
+These suggested ranges are based on general trading practices and may vary depending on specific trading strategies and market conditions. It is recommended to backtest and optimize these parameters to find the best setting for the specific trading system.
+
+
+
+
+
+
+
+
+
+
+
+
+No.30 Price Action Confirm 2 Con Close.mq5
+#property copyright   "World Bot Rank (EWB5584)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XUH7605)
+
+
+This EA trading strategy, "No.30 Price Action Confirm 2 Con Close.mq5," is special because it utilizes price action confirmation to make trading decisions. The EA works by analyzing price movements and confirming potential entry and exit points based on specific price action patterns.
+
+
+The entry point for this strategy is determined by identifying specific price action patterns that indicate a potential trend reversal or continuation. Once a valid entry point is identified, the EA will execute a trade based on the confirmed price action signal.
+
+
+The exit point for this strategy is also determined by analyzing price action patterns to identify potential reversal or continuation signals. The EA will then close the trade based on the confirmed price action signal, aiming to capture profits or minimize losses.
+
+
+In terms of money management, this EA may incorporate various risk management techniques such as setting stop-loss and take-profit levels based on the confirmed price action signals. Additionally, it may also utilize position sizing and risk-reward ratios to manage the overall risk exposure of the trades.
+
+
+Overall, this EA trading strategy is designed to capitalize on price action patterns and confirm potential entry and exit points based on these patterns. It aims to effectively manage trades and minimize risk through the use of price action confirmation and sound money management principles.
+
+
+Setting Parameters (WSD4279)
+
+
+The input parameters are as follows:
+1. Lot: The lot size for trading, set at 0.01 by default.
+2. Martingale: The multiplier for the next trade if the previous one was unsuccessful, set at 2.0 by default.
+3. Quality_HTF: The minimum quality percentage for the high timeframe, set at 80% by default.
+4. HTF: The high timeframe for analysis, set at PERIOD_D1 (daily timeframe) by default.
+5. min_fill_price_diff: The minimum price difference in pips for filling an order, set at 200.0 pips by default.
+6. max_fill_price_diff: The maximum price difference in pips for filling an order, set at 3000.0 pips by default.
+7. TP_Percent: The take profit percentage, set at 150.0% by default.
+
+
+To set the best settings for these input parameters, it is recommended to consider the specific trading strategy, risk tolerance, and market conditions. It is advisable to backtest different combinations of these input parameters and analyze the results to determine the most suitable settings for the given trading system. Additionally, consulting with a financial advisor or experienced trader may provide valuable insights for optimizing these input parameters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.31 PA RSI 50.mq5
+#property copyright   "World Bot Rank (MCA3089)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XUH7605)
+
+
+This EA trading strategy is special because it focuses on using the RSI (Relative Strength Index) indicator with a specific parameter (50) to identify potential entry and exit points in the market. 
+
+
+The EA works by continuously monitoring the RSI indicator on the selected timeframe and currency pair. When the RSI crosses above 50, it generates a buy signal, and when the RSI crosses below 50, it generates a sell signal.
+
+
+The entry point for a buy trade is when the RSI crosses above 50, indicating a potential uptrend, and the entry point for a sell trade is when the RSI crosses below 50, indicating a potential downtrend.
+
+
+The exit point for a trade is determined by the RSI reaching overbought or oversold levels, or by using a predetermined take profit and stop loss levels.
+
+
+In terms of money management, the EA may use a fixed lot size for each trade, or it may incorporate a risk management strategy based on account balance or equity.
+
+
+Overall, this EA trading strategy is designed to take advantage of potential trend reversals identified by the RSI indicator, while also implementing proper risk management techniques to protect the trading account.
+
+
+Setting Parameters (WSD4279)
+
+
+The input parameters in the MQL5 language are as follows:
+
+
+1. Lot: This parameter represents the lot size for trading. The suggested range for this parameter could be 0.01 to 1.0, depending on the account size and risk tolerance of the trader.
+
+
+2. Martingale: This parameter represents the multiplier for the next trade in case of a loss. The suggested range for this parameter could be 1.5 to 3.0, depending on the trader's risk tolerance and trading strategy.
+
+
+3. Quality_HTF: This parameter represents the minimum acceptable quality percentage for high timeframe data. The suggested range for this parameter could be 60 to 80, depending on the trader's preference for data accuracy.
+
+
+4. HTF: This parameter represents the high timeframe for analysis. The suggested values for this parameter could be PERIOD_H1, PERIOD_H4, or PERIOD_D1, depending on the trader's trading strategy and time horizon.
+
+
+5. min_fill_price_diff: This parameter represents the minimum acceptable price difference for order filling in pips. The suggested range for this parameter could be 100 to 500 pips, depending on the market volatility and broker conditions.
+
+
+6. max_fill_price_diff: This parameter represents the maximum acceptable price difference for order filling in pips. The suggested range for this parameter could be 500 to 1500 pips, depending on the market volatility and broker conditions.
+
+
+7. TP_Percent: This parameter represents the take profit level as a percentage of the entry price. The suggested range for this parameter could be 100 to 300, depending on the trader's risk-reward ratio and trading strategy.
+
+
+To set the best settings for all of these input parameters, it is important to consider the trader's risk tolerance, trading strategy, market conditions, and broker requirements. It is recommended to backtest the settings on historical data and optimize them based on the desired performance metrics. Additionally, it is important to regularly review and adjust the settings based on changing market conditions and trading performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.32 PA 2 ema .mq5
+#property copyright   "World Bot Rank (REU3035)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XUH7605)
+
+
+This EA trading strategy, "No.32 PA 2 ema .mq5," is designed to utilize a specific combination of price action and exponential moving averages to make trading decisions. The EA uses two exponential moving averages (EMA) to identify trends and potential entry and exit points in the market.
+
+
+The entry point for this strategy is based on the crossover of the two EMAs. When the faster EMA crosses above the slower EMA, it generates a buy signal, indicating a potential uptrend. Conversely, when the faster EMA crosses below the slower EMA, it generates a sell signal, indicating a potential downtrend.
+
+
+The exit point for trades is determined by the opposite crossover of the EMAs. When the faster EMA crosses below the slower EMA in a long position, it generates a sell signal to exit the trade. Similarly, when the faster EMA crosses above the slower EMA in a short position, it generates a buy signal to exit the trade.
+
+
+In terms of money management, the EA may incorporate various risk management techniques, such as setting stop-loss and take-profit levels based on the trader's risk tolerance and reward expectations. Additionally, the EA may also incorporate position sizing based on account equity or other risk parameters to manage the overall risk exposure.
+
+
+Overall, this EA trading strategy aims to capture trends in the market using the crossover of two EMAs, with clear entry and exit signals and potential risk management measures to control losses and maximize profits.
+
+
+Setting Parameters (WSD4279)
+
+
+The input parameters are as follows:
+
+
+1. ema1: The period for the first Exponential Moving Average (EMA) indicator.
+2. ema2: The period for the second Exponential Moving Average (EMA) indicator.
+3. Lot: The lot size for trading.
+4. Martingale: The multiplier for the Martingale strategy.
+5. Quality_HTF: The minimum quality percentage for the high timeframe.
+6. HTF: The high timeframe for analysis.
+7. min_fill_price_diff: The minimum price difference in pips for filling an order.
+8. max_fill_price_diff: The maximum price difference in pips for filling an order.
+9. TP_Percent: The take profit percentage for closing a trade.
+
+
+To set the best settings for these input parameters, it is recommended to consider the specific trading strategy, risk tolerance, and market conditions. It is important to backtest different combinations of these input parameters and analyze the results to determine the most optimal settings for the given trading system. Additionally, seeking advice from experienced traders or utilizing optimization tools within the MQL5 platform can also help in finding the best settings for these input parameters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.33  PA 2 MACD Opt.mq5
+#property copyright   "World Bot Rank (FWU4036)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XUH7605)
+
+
+This EA trading strategy, "No.33 PA 2 MACD Opt.mq5," is designed to utilize a combination of price action and MACD indicator to make trading decisions. The special feature of this strategy is its optimization for identifying potential entry and exit points in the market.
+
+
+The EA works by analyzing price action and MACD indicator signals to determine the optimal entry points for opening a trade. It takes into account the current market conditions and the direction of the trend to make informed trading decisions.
+
+
+The entry point is determined based on the convergence or divergence of the price action and MACD indicator. When the conditions are met, the EA will open a trade in the direction of the trend.
+
+
+The exit point is determined based on predefined criteria, such as reaching a certain profit target or a specific level of risk. The EA will close the trade when the conditions for exiting are met.
+
+
+Money management is an important aspect of this trading strategy. The EA incorporates risk management techniques to control the size of the positions and the overall exposure to the market. It may use stop-loss orders and take-profit levels to manage the risk and potential rewards of each trade.
+
+
+Overall, this EA trading strategy is designed to provide a systematic approach to trading the market using a combination of price action and MACD indicator signals. It aims to optimize the entry and exit points while implementing effective money management techniques to control risk and maximize potential profits.
+
+
+Setting Parameters (WSD4279)
+
+
+The input parameters are as follows:
+
+
+1. Fast_EMA: The period for the fast Exponential Moving Average
+2. Slow_EMA: The period for the slow Exponential Moving Average
+3. Signal: The period for the signal line of the MACD indicator
+4. Lot: The lot size for trading
+5. Martingale: The multiplier for the lot size in case of a losing trade
+6. Quality_HTF: The minimum quality percentage for the high timeframe data
+7. HTF: The high timeframe for analysis
+8. min_fill_price_diff: The minimum price difference in pips for filling an order
+9. max_fill_price_diff: The maximum price difference in pips for filling an order
+10. TP_Percent: The take profit percentage for closing a trade
+
+
+To set the best settings for these input parameters, it is recommended to consider the specific trading strategy, risk tolerance, and market conditions. It is advisable to backtest different combinations of these input parameters and analyze the results to determine the most suitable settings for the given trading system. Additionally, consulting with a financial advisor or experienced trader can provide valuable insights for optimizing these input parameters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.34 PA ADX.mq5
+#property copyright   "World Bot Rank (CUW1074)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XUH7605)
+
+
+This EA trading strategy, "No.34 PA ADX.mq5," is special because it utilizes a combination of price action (PA) and the Average Directional Index (ADX) indicator to make trading decisions. The EA works by analyzing price movements and the strength of the trend using the ADX indicator to identify potential entry and exit points.
+
+
+The entry point for this strategy is based on price action signals, such as candlestick patterns or support and resistance levels, combined with the confirmation of the ADX indicator showing a strong trend. This helps to ensure that the entry is aligned with the overall market direction.
+
+
+The exit point is determined by a combination of price action signals and the ADX indicator. The EA may use trailing stops, profit targets, or reversal patterns to exit trades, depending on the market conditions and the strength of the trend.
+
+
+Money management is an important aspect of this trading strategy. The EA may use position sizing based on account equity, risk percentage, or volatility of the market to manage the risk and maximize potential profits.
+
+
+Overall, this EA trading strategy is designed to take advantage of strong trends in the market by combining price action and the ADX indicator to make informed trading decisions. It aims to enter trades at the right time, stay in the trend as long as possible, and exit with a profit while managing risk effectively.
+
+
+Setting Parameters (WSD4279)
+
+
+1. ADX_Period: This input parameter represents the period used to calculate the Average Directional Index (ADX) indicator. The suggested range for this input could be between 10 to 20.
+
+
+2. ADX: This input parameter represents the threshold level for the ADX indicator. The suggested range for this input could be between 10 to 20.
+
+
+3. Lot: This input parameter represents the lot size for trading. The suggested range for this input could be based on the trader's risk tolerance and account size.
+
+
+4. Martingale: This input parameter represents the multiplier for the martingale strategy. The suggested range for this input could be between 1.5 to 2.5.
+
+
+5. Quality_HTF: This input parameter represents the quality threshold for the high timeframe. The suggested range for this input could be between 40 to 60.
+
+
+6. HTF: This input parameter represents the high timeframe for analysis. The suggested range for this input could be based on the trader's trading strategy and time horizon.
+
+
+7. min_fill_price_diff: This input parameter represents the minimum price difference for order filling. The suggested range for this input could be based on the instrument's volatility and spread.
+
+
+8. max_fill_price_diff: This input parameter represents the maximum price difference for order filling. The suggested range for this input could be based on the instrument's volatility and spread.
+
+
+9. TP_Percent: This input parameter represents the take profit level as a percentage. The suggested range for this input could be based on the trader's risk-reward ratio and trading strategy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.35 PA STO.mq5
+#property copyright   "World Bot Rank (MKT3033)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XUH7605)
+
+
+This EA (Expert Advisor) trading strategy, "No.35 PA STO.mq5," is designed to utilize price action and the Stochastic Oscillator indicator to make trading decisions in the financial markets. The EA is programmed in MQL5 language, which is specifically designed for developing trading robots, technical indicators, scripts, and function libraries for the MetaTrader 5 trading platform.
+
+
+The special feature of this EA is its focus on price action and the Stochastic Oscillator, which are popular tools among technical traders. The EA works by analyzing price movements and the Stochastic Oscillator readings to identify potential entry and exit points for trades.
+
+
+The entry point for trades is determined based on specific price action patterns and the Stochastic Oscillator signals, which indicate potential overbought or oversold conditions in the market. The EA may also consider other technical indicators or market conditions to confirm the entry point.
+
+
+The exit point for trades is determined based on predefined criteria, such as a certain level of profit or loss, or when the Stochastic Oscillator signals a reversal in the market trend.
+
+
+In terms of money management, the EA may incorporate various risk management techniques, such as setting stop-loss and take-profit levels, position sizing based on account equity, or implementing trailing stops to protect profits.
+
+
+Overall, the "No.35 PA STO.mq5" EA is designed to automate the trading process by using a combination of price action analysis and the Stochastic Oscillator indicator to make informed trading decisions in the financial markets. It aims to provide a systematic approach to trading while incorporating risk management principles to protect capital and maximize potential profits.
+
+
+Setting Parameters (WSD4279)
+
+
+1. ADX_Period: The period used to calculate the Average Directional Index (ADX) indicator.
+Suggestion: Range from 10 to 20
+
+
+2. ADX: The threshold value for the ADX indicator, used to determine the strength of the trend.
+Suggestion: Range from 10 to 20
+
+
+3. Lot: The lot size for trading.
+Suggestion: Depends on account size and risk tolerance.
+
+
+4. Martingale: The multiplier used in a Martingale money management strategy.
+Suggestion: Use with caution, consider a range from 1.5 to 2.5
+
+
+5. Quality_HTF: The quality threshold for the high timeframe.
+Suggestion: Range from 40 to 60
+
+
+6. HTF: The high timeframe used for analysis.
+Suggestion: Depends on trading strategy and timeframe preference.
+
+
+7. min_fill_price_diff: The minimum price difference for filling an order in pips.
+Suggestion: Depends on the instrument and broker, consider a range from 500 to 1500 pips.
+
+
+8. max_fill_price_diff: The maximum price difference for filling an order in pips.
+Suggestion: Depends on the instrument and broker, consider a range from 2000 to 4000 pips.
+
+
+9. TP_Percent: The take profit percentage for closing a trade.
+Suggestion: Depends on trading strategy and risk-reward ratio, consider a range from 100 to 200 percent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No.36  PA BB.mq5
+#property copyright   "World Bot Rank (FHB8603)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XUH7605)
+
+
+This EA trading strategy, "No.36 PA BB.mq5," is special because it utilizes Bollinger Bands (BB) to identify potential entry and exit points in the market. The Bollinger Bands indicator consists of a middle band (simple moving average) and two outer bands (standard deviations away from the middle band), which are used to measure volatility and identify overbought or oversold conditions.
+
+
+The EA works by monitoring the price action in relation to the Bollinger Bands to determine potential entry points. When the price touches or crosses the lower band, it may signal a buy entry, while a touch or cross of the upper band may signal a sell entry. The EA also incorporates additional technical indicators or filters to confirm the entry signals.
+
+
+For exit points, the EA may use a combination of profit targets, stop-loss orders, or trailing stops based on the market conditions and the specific trade setup.
+
+
+In terms of money management, the EA may incorporate position sizing based on account equity, risk percentage per trade, or other risk management techniques to control the overall risk exposure.
+
+
+Overall, this EA trading strategy aims to capitalize on the price movements within the Bollinger Bands, while managing risk and maximizing potential profits through effective entry and exit points.
+
+
+Setting Parameters (WSD4279)
+
+
+1. ADX_Period: This input parameter represents the period used to calculate the Average Directional Index (ADX) indicator. The suggested range for this input could be between 10 to 20.
+
+
+2. ADX: This input parameter represents the threshold level for the ADX indicator. The suggested range for this input could be between 10 to 20.
+
+
+3. Lot: This input parameter represents the lot size for trading. The suggested range for this input could be between 0.01 to 0.1.
+
+
+4. Martingale: This input parameter represents the multiplier for the martingale strategy. The suggested range for this input could be between 1.5 to 2.5.
+
+
+5. Quality_HTF: This input parameter represents the quality threshold for the high timeframe. The suggested range for this input could be between 40 to 60.
+
+
+6. HTF: This input parameter represents the high timeframe for analysis. The suggested range for this input could be different timeframes such as PERIOD_M30 or PERIOD_H1.
+
+
+7. min_fill_price_diff: This input parameter represents the minimum price difference for filling orders in pips. The suggested range for this input could be between 500 to 1000 pips.
+
+
+8. max_fill_price_diff: This input parameter represents the maximum price difference for filling orders in pips. The suggested range for this input could be between 1000 to 2000 pips.
+
+
+9. TP_Percent: This input parameter represents the take profit percentage. The suggested range for this input could be between 100 to 200 percent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Profit Driver.mq5
+#property copyright   "World Bot Rank (END8232)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XUH7605)
+
+
+The Profit Driver.mq5 is an Expert Advisor (EA) trading strategy that is designed to maximize profits in the forex market. This EA uses advanced algorithms and technical indicators to identify high-probability trading opportunities.
+
+
+The special feature of this EA is its ability to adapt to changing market conditions and adjust its trading strategy accordingly. It uses a combination of trend-following and mean-reversion strategies to capitalize on market movements.
+
+
+The entry point for trades is determined by a combination of technical indicators, such as moving averages, RSI, and MACD. The EA looks for confluence of signals to confirm a strong entry point.
+
+
+The exit point for trades is determined by a combination of profit targets and stop-loss levels. The EA uses a dynamic approach to setting these levels, taking into account market volatility and current price action.
+
+
+Money management is a key component of this EA's strategy. It uses a risk-based approach to position sizing, ensuring that each trade has an appropriate level of risk relative to the account balance. Additionally, the EA has built-in features to protect profits and minimize losses.
+
+
+Overall, the Profit Driver.mq5 EA is designed to be a robust and adaptive trading strategy that aims to consistently generate profits in the forex market. It combines advanced technical analysis with sound money management principles to achieve its trading objectives.
+
+
+Setting Parameters (WSD4279)
+
+
+The input parameters are used to set the configuration for the trading algorithm. Here are the meanings of the input parameters and suggested range of values:
+
+
+1. Symbol_1: The trading symbol for the first instrument. Suggested range: Any valid trading symbol.
+
+
+2. Use_Auto_Lot_Mode: Whether to use automatic lot calculation. Suggested range: 0 (false) or 1 (true).
+
+
+3. Use_Bonus_to_Calculate_Lot: Whether to use bonus in lot calculation. Suggested range: 0 (false) or 1 (true).
+
+
+4. Lot_Divided: The divisor for lot calculation. Suggested range: Any positive number.
+
+
+5. Fix_Lot: The fixed lot size. Suggested range: Any positive number.
+
+
+6. Max_Slippage: The maximum allowed slippage. Suggested range: Any non-negative number.
+
+
+7. Max_Spread: The maximum allowed spread. Suggested range: Any non-negative number.
+
+
+8. _2_Symbol: The trading symbol for the second instrument. Suggested range: Any valid trading symbol.
+
+
+9. _2_Use_Auto_Lot_Mode: Whether to use automatic lot calculation for the second instrument. Suggested range: 0 (false) or 1 (true).
+
+
+10. _2_Use_Bonus_to_Calculate_Lot: Whether to use bonus in lot calculation for the second instrument. Suggested range: 0 (false) or 1 (true).
+
+
+11. _2_Lot_Divided: The divisor for lot calculation for the second instrument. Suggested range: Any positive number.
+
+
+12. _2_Fix_Lot: The fixed lot size for the second instrument. Suggested range: Any positive number.
+
+
+13. _2_Max_Slippage: The maximum allowed slippage for the second instrument. Suggested range: Any non-negative number.
+
+
+14. _2_Max_Spread: The maximum allowed spread for the second instrument. Suggested range: Any non-negative number.
+
+
+15. MagicStart: The magic number for the trading algorithm. Suggested range: Any non-negative integer.
+
+
+These suggested ranges are general and may need to be adjusted based on the specific requirements and characteristics of the trading strategy.
+
+
+Profit Trigger.mq5
+#property copyright   "World Bot Rank (DWE8024)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XUH7605)
+
+
+The Profit Trigger.mq5 is an Expert Advisor (EA) trading strategy that is designed to generate profits in the financial markets. This EA utilizes the MQL5 language to execute trades based on a set of predefined rules and parameters.
+
+
+The special feature of this trading strategy is its ability to identify profitable trading opportunities and execute trades automatically without the need for manual intervention. The EA uses advanced technical analysis and market indicators to identify entry and exit points for trades.
+
+
+The entry point for trades is determined by a combination of technical indicators, such as moving averages, RSI, MACD, and other trend-following or momentum indicators. The EA is programmed to enter a trade when specific conditions are met, such as a crossover of moving averages, a divergence in the RSI, or a signal from the MACD.
+
+
+The exit point for trades is also determined by predefined rules and parameters. The EA may use a combination of profit targets, stop-loss orders, trailing stops, or other exit strategies to close trades at a profit or minimize losses.
+
+
+Money management is an important aspect of this trading strategy. The EA is programmed to manage risk by using position sizing, stop-loss orders, and other risk management techniques to protect the trading account from excessive losses.
+
+
+Overall, the Profit Trigger.mq5 EA is designed to automate the trading process and generate profits in the financial markets by using advanced technical analysis, predefined entry and exit points, and effective money management techniques.
+
+
+
+
+The input parameters are settings for a trading algorithm. Here are the suggested ranges for each input setting:
+
+
+Setting Parameters (WSD4279)
+
+
+1. Lot Size Setting:
+   - Use_Auto_Lot_Mode: 0 or 1
+   - Use_Bonus_to_Calculate_Lot: 0 or 1
+   - Lot_Divided: 1000000.0 or higher
+   - Fix_Lot: 0.0 or higher
+
+
+2. Money Management Setting:
+   - StopLoss: 0.0 or higher
+   - TakeProfit: 0.0 or higher
+   - NearBy: 20.0 or higher
+   - Multiple: 1.25 or higher
+
+
+3. Anchor Setting:
+   - Anchor_Mode_On: 0 or 1
+   - Anchor_Start_Order_Count: 4 or higher
+   - Anchor_Start_LV2_Order_Count: 8 or higher
+   - Multiple_Anchor_Order_Lot: 50.0 or higher
+
+
+4. Split Close Setting:
+   - Split_Close_Buy_Sell_ON: 0 or 1
+   - Split_Percent_Mode_On: 0 or 1
+   - Split_Use_Bonus_to_Calculate_Percent: 0 or 1
+   - Split_Close_Percent: 0.5 or higher
+
+
+5. Mix Close Setting:
+   - Mix_Close_Buy_Sell_On: 0 or 1
+   - Mix_Percent_Mode_On: 0 or 1
+   - Mix_Use_Bonus_to_Calculate_Percent: 0 or 1
+   - Mix_Close_Percent: 0.1 or higher
+
+
+6. Cut Loss Setting:
+   - Cut_Loss_On: 0 or 1
+   - Use_Bonus_to_Calculate_DD: 0 or 1
+   - Mode_DD: 1 or 2
+   - Max_DD: 30.0 or higher
+   - Max_Money_Lost: 300.0 or higher
+   - Cut_and_Terminate: 0 or 1
+
+
+7. ETC Setting:
+   - Max_Slippage: 4.0 or higher
+   - Max_Spread: 5.0 or higher
+   - MagicStart: 4519 or higher
+
+
+These ranges are suggested based on typical trading parameters, but the best setting for each input will depend on the specific trading strategy and market conditions.
+
+
+
+
+SureFire V1.0.mq5
+#property copyright   "World Bot Rank (PBN3281)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XUH7605)
+
+
+The SureFire V1.0.mq5 is an Expert Advisor (EA) trading strategy that is designed to be highly reliable and profitable in the forex market. It uses a combination of technical indicators and price action analysis to identify high probability trading opportunities.
+
+
+The special feature of this EA is its ability to adapt to changing market conditions and adjust its trading parameters accordingly. It is capable of trading in both trending and ranging markets, making it versatile and suitable for various market conditions.
+
+
+The entry point for this EA is based on a combination of technical indicators such as moving averages, RSI, and MACD, as well as price action patterns. It looks for confluence of signals to confirm a trade entry, which increases the probability of a successful trade.
+
+
+The exit point is determined by a combination of profit targets and trailing stop losses. The EA aims to capture as much profit as possible while minimizing potential losses. It also has the ability to close trades early if market conditions change.
+
+
+Money management is a key component of this EA trading strategy. It uses a risk-based position sizing approach to determine the lot size for each trade, ensuring that the risk is controlled and the account is protected from large drawdowns.
+
+
+Overall, the SureFire V1.0.mq5 is a robust and adaptable EA trading strategy that aims to consistently generate profits while managing risk effectively. It is suitable for both novice and experienced traders looking for a reliable automated trading solution.
+
+
+
+
+The input parameters are settings for a trading algorithm in MQL5 language. Here are the meanings of the input parameters and suggested range of numbers for the best settings:
+Setting Parameters (WSD4279)
+
+
+1. Auto_Mode: This parameter is a boolean (true/false) that determines whether the algorithm should operate in automatic mode. Suggested range: 0 (false) or 1 (true).
+
+
+2. Bonus_to_Calculate: This parameter is a boolean that determines whether to include bonuses in the calculation. Suggested range: 0 or 1.
+
+
+3. Lot_Divided: This parameter is a double that represents the division factor for lot size. Suggested range: 1000000.0 or higher.
+
+
+4. Fix_Lot: This parameter is a double that represents a fixed lot size. Suggested range: 0.01 or higher.
+
+
+5. Distance: This parameter is a double that represents the distance for a trading operation. Suggested range: 40.0 or higher.
+
+
+6. Multiple_First: This parameter is a double that represents the first multiple for a trading operation. Suggested range: 3.0 or higher.
+
+
+7. Multiple_Second: This parameter is a double that represents the second multiple for a trading operation. Suggested range: 2.0 or higher.
+
+
+8. StopLoss: This parameter is a double that represents the stop loss value. Suggested range: 0.0 or higher.
+
+
+9. TakeProfit: This parameter is a double that represents the take profit value. Suggested range: 0.0 or higher.
+
+
+10. Repeat_time_atfer_Open: This parameter is an integer that represents the time to repeat after opening a trade. Suggested range: 0 or higher.
+
+
+11. Repeat_time: This parameter is an integer that represents the repeat time for a trade. Suggested range: 0 or higher.
+
+
+12. PL_Mode_On: This parameter is a boolean that determines whether the partial loss mode is on. Suggested range: 0 or 1.
+
+
+13. Max_Order_Hedge: This parameter is an integer that represents the maximum number of hedge orders. Suggested range: 20 or higher.
+
+
+14. KP_G1_Mode_On: This parameter is a boolean that determines whether the keep profit mode 1 is on. Suggested range: 0 or 1.
+
+
+15. KP_G2_Mode_On: This parameter is a boolean that determines whether the keep profit mode 2 is on. Suggested range: 0 or 1.
+
+
+16. Percent_KP: This parameter is a double that represents the percentage for keep profit. Suggested range: 75.0 or higher.
+
+
+17. KP_Auto_Start_On: This parameter is a boolean that determines whether the auto start for keep profit is on. Suggested range: 0 or 1.
+
+
+18. KP_Auto_Start_Divided_Form_1_Order: This parameter is a double that represents the division factor for auto start from 1 order. Suggested range: 20000.0 or higher.
+
+
+19. KP_Auto_Start_Divided: This parameter is a double that represents the division factor for auto start. Suggested range: 100000.0 or higher.
+
+
+20. KP_Fix_Start_Money_Form_1_Order: This parameter is a double that represents the fixed start money from 1 order. Suggested range: 1.0 or higher.
+
+
+21. KP_Fix_Start_Money: This parameter is a double that represents the fixed start money. Suggested range: 5.0 or higher.
+
+
+22. Max_Slippage: This parameter is a double that represents the maximum slippage allowed. Suggested range: 4.0 or higher.
+
+
+23. Max_Spread: This parameter is a double that represents the maximum spread allowed. Suggested range: 5.0 or higher.
+
+
+24. MagicStart: This parameter is an integer that represents the magic number for the trading algorithm. Suggested range: 4912 or higher.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SurfGold V1.0.mq5
+#property copyright   "World Bot Rank (AGH9922)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (XUH7605)
+
+
+The SurfGold V1.0.mq5 is an Expert Advisor (EA) trading strategy that is designed to trade in the foreign exchange (forex) market using the MQL5 language. This EA is special because it utilizes a unique algorithm to identify potential trading opportunities and make informed trading decisions.
+
+
+The EA works by analyzing market data, such as price movements and technical indicators, to identify entry and exit points for trades. It uses a combination of technical analysis and trend-following strategies to determine the best times to enter and exit trades.
+
+
+The entry point for trades is determined based on specific market conditions, such as breakouts, trend reversals, or price patterns. The EA uses predefined criteria to identify these conditions and execute trades accordingly.
+
+
+The exit point for trades is also determined based on predefined criteria, such as profit targets, stop-loss levels, or trailing stops. The EA aims to maximize profits and minimize losses by using these criteria to exit trades at the most opportune times.
+
+
+In terms of money management, the EA uses a set of rules to determine position sizes, risk levels, and leverage. It aims to manage risk effectively and protect the trading account from significant losses.
+
+
+Overall, the SurfGold V1.0.mq5 EA trading strategy is designed to be a comprehensive and systematic approach to trading in the forex market, utilizing advanced algorithms and money management techniques to achieve consistent and profitable results.
+
+
+
+
+The input parameters are constants used in the MQL5 language for a trading algorithm. Here is the meaning of each input:
+
+
+Setting Parameters (WSD4279)
+
+
+1. ___Lot_Setting___: A string used as a separator or label for the lot setting parameters.
+2. Balance_Start: The initial balance for trading.
+3. Balance_Step: The step size for increasing the balance.
+4. Balance_Stop: The maximum balance allowed for trading.
+5. Lot_Start: The initial lot size for trading.
+6. Lot_Step: The step size for increasing the lot size.
+7. MaxLot_Multiple: The maximum multiple of the initial lot size allowed for trading.
+8. ___MM_Setting___: A string used as a separator or label for the money management setting parameters.
+9. FirstTP: The first take profit level in pips.
+10. Distance: The distance in pips for setting the next take profit level.
+11. Multiple: The multiple used to calculate the next take profit level.
+12. Delay: The delay in milliseconds for placing orders.
+13. ___LotReplace_Setting___: A string used as a separator or label for the lot replacement setting parameters.
+14. LR_Distance: The distance in pips for replacing the lot size.
+15. LR_MaxRound: The maximum number of rounds for replacing the lot size.
+16. ___MA_Setting___: A string used as a separator or label for the moving average setting parameters.
+17. MA1_Period: The period for the first moving average.
+18. MA2_Period: The period for the second moving average.
+19. MA3_Period: The period for the third moving average.
+20. MA4_Period: The period for the fourth moving average.
+21. MA_Shift: The shift for the moving averages.
+22. MA_Method: The method used for calculating the moving averages.
+23. MA_Applied_Price: The price type used for the moving averages.
+24. MA_TF: The timeframe used for the moving averages.
+25. MA_CandleID: The candle ID used for the moving averages.
+26. ___Anchor_Setting___: A string used as a separator or label for the anchor setting parameters.
+27. An_StartCount: The starting count for the anchor.
+28. An_Multiple: The multiple used for calculating the anchor.
+29. An_MinClose: The minimum close value for the anchor.
+30. ___CloseAll_Setting___: A string used as a separator or label for the close all setting parameters.
+31. CA_PIP: The pip value used for closing all positions.
+32. ___CutLoss_Setting___: A string used as a separator or label for the cut loss setting parameters.
+33. CL_ModeOn: A boolean value indicating whether the cut loss mode is on.
+34. CL_CutByDD: A boolean value indicating whether to cut loss based on maximum drawdown.
+35. CL_MaxDD: The maximum drawdown allowed before cutting loss.
+36. CL_MaxMoney: The maximum amount of money allowed before cutting loss.
+37. CL_Terminate: A boolean value indicating whether to terminate the trading algorithm after cutting loss.
+38. ___DateTime_Setting___: A string used as a separator or label for the date and time setting parameters.
+39. Start_Trade: The start time for trading.
+40. End_Trade: The end time for trading.
+41. Allow_Monday: A boolean value indicating whether trading is allowed on Monday.
+42. Allow_Tuesday: A boolean value indicating whether trading is allowed on Tuesday.
+43. Allow_Wednesday: A boolean value indicating whether trading is allowed on Wednesday.
+44. Allow_Thursday: A boolean value indicating whether trading is allowed on Thursday.
+45. Allow_Friday: A boolean value indicating whether trading is allowed on Friday.
+46. ___ETC_Setting___: A string used as a separator or label for the miscellaneous setting parameters.
+47. MaxSpread: The maximum spread allowed for trading.
+48. MaxSlippage: The maximum slippage allowed for trading.
+49. OPSec: The operation security in seconds.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AIGEN 3.1 Reject BB.ex5
+#property copyright   "World Bot Rank (UUS8296)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (UUS8296)
+
+
+The AIGEN 3.1 Reject BB.ex5 is an Expert Advisor (EA) trading strategy that is designed to operate within the MQL5 language. This EA is special because it utilizes a rejection strategy based on Bollinger Bands to make trading decisions. The EA works by monitoring the price action of a financial instrument and identifying potential rejection points based on the Bollinger Bands indicator. When a rejection is identified, the EA will enter a trade in the direction of the rejection, aiming to capture a potential price reversal. The entry point for the EA is determined by the rejection of the price from the upper or lower Bollinger Band. When a rejection occurs, the EA will enter a trade in the direction of the rejection. The exit point for the EA is determined by predefined take profit and stop loss levels, which are set based on the volatility of the market and the specific trading instrument. In terms of money management, the EA utilizes a predefined risk management strategy to determine the position size for each trade. This helps to control the overall risk exposure of the trading strategy. Overall, the AIGEN 3.1 Reject BB.ex5 EA is a specialized trading strategy that focuses on capturing potential price reversals based on rejection signals from the Bollinger Bands indicator. It incorporates specific entry and exit points, as well as a money management strategy to control risk.
+
+
+Setting Parameters (UUS8296)
+
+
+1. HTF (High Time Frame) - This input sets the high time frame for the trading strategy. Suggested range: PERIOD_M1 to PERIOD_MONTHLY
+2. Rejection_Percent - This input sets the percentage for the rejection wick. Suggested range: 50 to 90
+3. start_candle - This input sets the lowest/highest start candle for the strategy. Suggested range: 1.0 to 5.0
+4. end_candle - This input sets the lowest/highest end candle for the strategy. Suggested range: 10.0 to 30.0
+5. EMA_Trend - This input sets the EMA trend for the high time frame. Suggested range: 30.0 to 70.0
+6. TP (Take Profit Percent) - This input sets the take profit percentage for the strategy. Suggested range: 200.0 to 400.0
+7. Lot - This input sets the initial lot size for trading. Suggested range: 0.01 to 0.1
+
+
+
+
+
+
+
+
+
+
+AIGEN 3.2 Demand Supply.ex5
+#property copyright   "World Bot Rank (DQX1947)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (DQX1947)
+
+
+The AIGEN 3.2 Demand Supply EA is a trading strategy that utilizes the MQL5 language to automate trading decisions based on demand and supply levels in the market. The EA works by identifying key demand and supply zones in the market and using them as entry and exit points for trades. When the price reaches a demand zone, the EA may enter a long position, and when the price reaches a supply zone, it may enter a short position. The money management aspect of the EA involves setting stop-loss and take-profit levels based on the distance between the entry point and the demand or supply zone. This helps to manage risk and maximize potential profits. The EA also incorporates various technical indicators and price action patterns to confirm the validity of the demand and supply zones before entering a trade. Overall, the AIGEN 3.2 Demand Supply EA aims to capitalize on the natural ebb and flow of the market by identifying areas of high demand and low supply, and vice versa, to make profitable trading decisions.
+
+
+Setting Parameters (DQX1947)
+
+
+* Quality_Candle: This input setting represents the body percentage of the candle. A suggested range could be 50-80.
+* Wick_Percent: This input setting represents the percentage of the wick rejection at demand and supply levels. A suggested range could be 60-80.
+* Martingale: This input setting represents the martingale factor. A suggested range could be 1.5-2.5.
+* Lot: This input setting represents the lot size. A suggested range could be 0.01-0.1.
+* TP: This input setting represents the take profit percentage. A suggested range could be 100-200.
+* SH: This input setting represents the stop hunt pip. A suggested range could be 150-250.
+* fillter_SL: This input setting represents the stop loss filter. A suggested range could be 500-1500.
+* near_SnD: This input setting represents the proximity to demand and supply levels. A suggested range could be 500-900.
+
+
+
+
+
+
+AIGEN 3.3 Demand Supply 1 Order.ex5
+#property copyright   "World Bot Rank (EUR1668)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (EUR1668)
+
+
+The AIGEN 3.3 Demand Supply 1 Order EA is a trading strategy that utilizes the MQL5 language for automated trading in the financial markets. This EA is special because it is designed to identify demand and supply zones in the market and execute trades based on these zones. The EA works by analyzing price action and volume to identify areas of high demand and low supply, or vice versa. It then enters trades at these key levels, aiming to capture potential price reversals or breakouts. The entry point for trades is determined by the identification of demand and supply zones, and the EA will enter a trade when the price reaches these levels. The exit point for trades is typically set based on predefined take profit and stop loss levels, or it may use trailing stops to capture potential larger moves in the market. In terms of money management, the EA may use a fixed lot size for each trade, or it may incorporate a dynamic position sizing strategy based on account equity or risk tolerance. Additionally, the EA may incorporate risk management techniques such as setting maximum drawdown limits or using a martingale or grid trading approach. Overall, the AIGEN 3.3 Demand Supply 1 Order EA is designed to automate the process of identifying and trading demand and supply zones in the market, with a focus on risk management and potential profit capture.
+
+
+Setting Parameters (EUR1668)
+
+
+* Quality_Candle: This input setting represents the body percentage of the candle. A suggested range could be 50-80.
+* Wick_Percent: This input setting represents the percentage of the wick rejection at demand and supply levels. A suggested range could be 60-80.
+* Martingale: This input setting represents the martingale factor. A suggested range could be 1.5-2.5.
+* Lot: This input setting represents the lot size. A suggested range could be 0.01-0.1.
+* TP: This input setting represents the take profit percentage. A suggested range could be 100-200.
+* SH: This input setting represents the stop hunt pip. A suggested range could be 150-250.
+* fillter_SL: This input setting represents the stop loss filter. A suggested range could be 500-1500.
+* near_SnD: This input setting represents the proximity to demand and supply levels. A suggested range could be 500-1000.
+
+
+AIGEN 3.4 Demand Supply RSI.ex5
+#property copyright   "World Bot Rank (UCB9627)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (UCB9627)
+
+
+The AIGEN 3.4 Demand Supply RSI EA is a trading strategy that utilizes demand and supply zones along with the RSI indicator to make trading decisions. The EA identifies potential entry points based on the presence of demand or supply zones in the market. When a demand zone is identified, the EA looks for oversold conditions in the RSI indicator to trigger a buy entry. Conversely, when a supply zone is identified, the EA looks for overbought conditions in the RSI indicator to trigger a sell entry. The exit point for trades is determined based on the reversal of the demand or supply zone, or when the RSI indicator reaches the opposite extreme level. In terms of money management, the EA may incorporate features such as setting stop-loss and take-profit levels based on the size of the demand or supply zone, as well as the RSI indicator levels. Overall, the AIGEN 3.4 Demand Supply RSI EA aims to capitalize on the confluence of demand and supply zones with RSI signals to make profitable trading decisions.
+
+
+Setting Parameters (UCB9627)
+
+
+* Quality_Candle: This input setting represents the percentage of the candle body that is considered for analysis. A suggested range could be 50-90.
+* Wick_Percent: This input setting represents the percentage of the wick that is considered for rejection at demand and supply zones. A suggested range could be 30-50.
+* Martingale: This input setting represents the multiplier for the martingale strategy. A suggested range could be 1.5-2.5.
+* Lot: This input setting represents the lot size for trading. A suggested range could be 0.01-0.1.
+* TP: This input setting represents the take profit percentage. A suggested range could be 100-200.
+* SH: This input setting represents the stop hunt pip value. A suggested range could be 150-250.
+* fillter_SL: This input setting represents the stop loss filter value. A suggested range could be 500-1500.
+* near_SnD: This input setting represents the distance to consider as "near" for demand and supply zones. A suggested range could be 500-1000.
+* rsi_buy: This input setting represents the overbought level for the RSI indicator for buy signals. A suggested range could be 60-80.
+* rsi_sell: This input setting represents the oversold level for the RSI indicator for sell signals. A suggested range could be 20-40.
+
+
+AIGEN 3.5 Correlation V1.0.ex5
+#property copyright   "World Bot Rank (CEP4986)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (CEP4986)
+
+
+The AIGEN 3.5 Correlation V1.0.ex5 is an Expert Advisor (EA) trading strategy developed in the MQL5 language. This EA is designed to take advantage of correlation between different currency pairs in the forex market to make trading decisions. The EA works by analyzing the correlation between multiple currency pairs and identifying opportunities to enter trades based on the strength of the correlation. It uses advanced algorithms to determine the optimal entry and exit points for trades, taking into account the correlation between the currency pairs. The entry point for trades is determined based on the correlation strength between different currency pairs. When the correlation is strong and presents a high probability trade opportunity, the EA will enter a trade. The exit point for trades is also determined based on the correlation strength and market conditions. The EA will use various technical indicators and analysis to determine the best time to exit a trade and take profits. In terms of money management, the EA uses a set of predefined rules to manage risk and position sizing. It may use techniques such as stop-loss orders and take-profit levels to manage risk and protect capital. Overall, the AIGEN 3.5 Correlation V1.0.ex5 is a specialized EA that leverages the correlation between currency pairs to make trading decisions. It uses advanced algorithms and money management techniques to optimize trading performance and manage risk.
+
+
+Setting Parameters (CEP4986)
+
+
+The input settings are for a trading algorithm and include settings for symbols, lot sizes, money management, correlation, and other miscellaneous settings. To set the best settings for these inputs, it would depend on the specific trading strategy and goals. However, some suggested ranges for the input settings could be:
+
+
+* Symbol settings: EURUSD and GBPUSD
+* Lot settings: Balance_Start: 10000.0, Balance_Step: 10000.0, Balance_Stop: 200000000.0, Lot_Start: 0.01, Lot_Step: 0.01, MaxLot: 5.0
+* Money management settings: Multiple: 1.25, NearBy: 20.0, Close_Profit_Percent: 0.1, TL_Start: 25.0, TL_Step: 5.0, TL_Stop: 20.0
+* Correlation settings: Cor_Period: 1000, Cor_Applied_Price: PRICE_CLOSE, Cor_Dif_Start: 50.0, Cor_Dif_Step: 50.0
+* ETC settings: OPSec: 15.0
+
+
+These ranges can be adjusted based on the specific trading strategy and risk tolerance. It's important to backtest and optimize these settings to find the best combination for the trading algorithm.
+AIGEN 3.6 HedgeAdx V1.0.ex5
+#property copyright   "World Bot Rank (NRT1421)"
+#property link        "https://www.WorldBotRank.com"
+#property version     "1.0"
+
+
+Description (NRT1421)
+
+
+The AIGEN 3.6 HedgeAdx V1.0.ex5 is an Expert Advisor (EA) trading strategy written in MQL5 language. This EA is designed to utilize the ADX (Average Directional Index) indicator to identify trends and make trading decisions in the forex market. The special feature of this EA is its ability to hedge positions, which means it can open both buy and sell orders simultaneously to take advantage of market fluctuations. This hedging strategy allows the EA to potentially profit from both upward and downward price movements. The EA works by continuously monitoring the ADX indicator to identify strong trends. When a strong trend is detected, the EA will enter a buy or sell position, depending on the direction of the trend. The entry point is determined based on the ADX indicator's readings and other customizable parameters. The exit point for each position is also determined by the EA based on the ADX indicator and other predefined criteria. The EA may use trailing stops, take profit levels, or other exit strategies to close positions and secure profits. In terms of money management, the EA may use a variety of techniques such as lot size adjustment, risk management, and position sizing to control the amount of capital at risk in each trade. These parameters can be customized by the user to fit their risk tolerance and trading preferences. 
+
+
+Overall, the AIGEN 3.6 HedgeAdx V1.0.ex5 is a sophisticated EA trading strategy that combines trend identification, hedging, and money management techniques to potentially generate profits in the forex market. Traders can customize the parameters and settings of the EA to align with their trading goals and risk tolerance.
+
+
+Setting Parameters (NRT1421)
+
+
+The input settings are for a trading algorithm and include settings for lot size, money management, and ADX indicator. 
+
+
+To set the best settings for these inputs, it is important to consider the specific trading strategy and risk tolerance. However, some general suggestions for the input ranges could be:
+
+
+* Balance_Start: 1000.0
+* Balance_Step: 1000.0
+* Balance_Stop: 200000000.0
+* Lot_Start: 0.01
+* Lot_Step: 0.01
+* FirstLotStepMultiple: 2.0
+* Distance_PIP: 20.0
+* Martingale: 2.0
+* TP_PIP: 30.0
+* MaxLot: 5.0
+* BodyTotal_Ratio: 80.0
+* CandleBefore_Ratio: 300.0
+* CandleID: 1
+* ADX_Period: 14
+* ADX_Applied_Price: PRICE_CLOSE
+* ADX_TF: PERIOD_H1
+* ADX_Trend: 25.0
+
+
+These are just suggested ranges and the actual values should be determined based on thorough testing and analysis of the trading strategy.
